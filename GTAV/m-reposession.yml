@@ -163,3 +163,588 @@ dirs:
     replace:
     - kind: ass
       range: 03.967-04.541
+  - path: AXAB_01
+    replace:
+    - kind: fuck
+      range: 00.228-00.633
+    - kind: n-word
+      range: 01.081-01.382
+  - path: AYAA_01
+  - path: AYAB_01
+    replace:
+    - kind: shit
+      range: 00.374-00.793
+    - kind: n-word
+      range: 01.342-01.687
+  - path: AZAA_01
+  - path: AZAA_02
+  - path: AZAA_03
+  - path: BAAA_01
+  - path: BAAB_01
+    replace:
+    - kind: bitch
+      range: 02.253-02.612
+  - path: BBAA_01
+  - path: BBAA_02
+  - path: BFAA_01
+    replace:
+    - kind: shit
+      range: 00.000-00.402
+  - path: BHAA_01
+    replace:
+    - kind: mother-fuckers
+      range: 01.933-03.000
+  - path: BIAA_01
+    replace:
+    - kind: mother-fucker
+      range: 00.923-01.389
+  - path: BIAB_01
+  - path: BJAA_01
+    replace:
+    - kind: bitch
+      range: 02.043-02.585
+  - path: BKAA_01
+    replace:
+    - kind: shit
+      range: 00.782-01.252
+  - path: BKAB_01
+    replace:
+    - kind: cock
+      range: 02.056-02.283
+    - kind: bitch
+      range: 02.995-03.443
+  - path: BKAC_01
+    replace:
+    - kind: damn
+      range: 01.183-01.530
+  - path: BJAB_01
+    replace:
+    - kind: shit
+      range: 00.785-01.235
+  - path: BNAA_01
+    replace:
+    - kind: mother-fucker
+      range: 00.578-01.229
+  - path: BNAB_01
+  - path: BNAC_01
+    replace:
+    - kind: shit
+      range: 01.405-01.674
+  - path: BOAA_01
+    replace:
+    - kind: mother-fucker
+      range: 00.000-00.404
+  - path: BOAB_01
+    replace:
+    - kind: n-word
+      range: 02.820-03.288
+  - path: BOAC_01
+    replace:
+    - kind: shit
+      range: 00.191-00.575
+  - path: BPAA_01
+  - path: BPAB_01
+    replace:
+    - kind: fucking
+      range: 00.772-01.140
+  - path: BQAA_01
+  - path: BQAB_01
+    replace:
+    - kind: mother-fucker
+      range: 02.876-03.638
+  - path: BQAC_01
+    replace:
+    - kind: shit
+      range: 01.591-01.939
+  - path: BRAA_01
+    replace:
+    - kind: mother-fucker
+      range: 00.464-01.194
+  - path: BRAA_02
+  - path: BRAA_03
+  - path: BRAA_04
+  - path: BRAA_05
+    replace:
+    - kind: shit
+      range: 00.637-00.892
+    - kind: mother-fucker
+      range: 01.840-02.655
+  - path: BRAA_06
+    replace:
+    - kind: bitch
+      range: 00.936-01.402
+  - path: BSAA_01
+    replace:
+    - kind: shit
+      range: 00.189-00.409
+  - path: BSAA_02
+  - path: BSAA_03
+    replace:
+    - kind: shit
+      range: 00.489-01.238
+  - path: BUAA_01
+    replace:
+    - kind: bitches
+      range: 00.503-01.024
+  - path: BUAA_02
+    replace:
+    - kind: mother-fucker
+      range: 01.573-02.492
+  - path: BUAA_03
+    replace:
+    - kind: n-word
+      range: 00.787-01.271
+  - path: BUAA_04
+    replace:
+    - kind: ass
+      range: 01.066-01.234
+  - path: BUAA_05
+  - path: BUAA_06
+  - path: BUAA_07
+    replace:
+    - kind: mother-fucker
+      range: 00.641-01.426
+  - path: BUAA_08
+  - path: BVAA_01
+  - path: BVAA_02
+    replace:
+    - kind: shit
+      range: 00.974-01.197
+  - path: BVAA_03
+    replace:
+    - kind: n-word
+      range: 01.512-01.875
+  - path: BVAA_04
+    replace:
+    - kind: bitches
+      range: 00.326-00.669
+  - path: BWAA_01
+  - path: BWAB_01
+  - path: BWAC_01
+    replace:
+    - kind: shit
+      range: 00.000-00.478
+  - path: BXAA_01
+  - path: BXAB_01
+  - path: BXAC_01
+    replace:
+    - kind: shit
+      range: 00.000-00.250
+    - kind: fuck
+      range: 00.838-00.997
+    - kind: shit
+      range: 01.533-01.887
+  - path: BYAA_01
+    replace:
+    - kind: bitches
+      range: 01.064-01.595
+  - path: BYAB_01
+  - path: CCAA_01
+  - path: CCAA_02
+  - path: CCAA_03
+  - path: CDAA_01
+  - path: CDAA_02
+  - path: CEAA_01
+    replace:
+    - kind: shit
+      range: 00.775-01.047
+  - path: CEAB_01
+  - path: CFAA_01
+  - path: CFAB_01
+  - path: CFAC_01
+    replace:
+    - kind: shit
+      range: 00.430-01.648
+  - path: CHAA_01
+  - path: CHAA_02
+    replace:
+    - kind: fuck
+      range: 00.959-01.156
+  - path: CHAA_03
+  - path: CJAA_01
+    replace:
+    - kind: shit
+      range: 00.896-01.181
+  # NB: SPANISH
+  #- path: CJAA_02
+  #- path: CKAA_01
+  #- path: CLAA_01
+  #- path: CLAB_01
+  #- path: CMAA_01
+  #- path: CMAB_01
+  #- path: CMAC_01
+  #- path: CMAD_01
+  - path: CNAA_01
+  - path: COAA_01
+  - path: COAB_01
+  - path: COAC_01
+  - path: CPAA_01
+    replace:
+    - kind: fucking
+      range: 01.999-02.275
+  - path: CPAB_01
+    replace:
+    - kind: n-word
+      range: 00.946-01.233
+  - path: CQAA_01
+  - path: CQAB_01
+  - path: CRAA_01
+  - path: CRAB_01
+    replace:
+    - kind: mother-fuckers
+      range: 02.481-03.096
+  - path: CSAA_01
+    replace:
+    - kind: fucked
+      range: 01.113-01.494
+  - path: CSAB_01
+    replace:
+    - kind: mother-fucker
+      range: 00.809-01.440
+    - kind: bitch
+      range: 01.729-01.964
+  - path: CSAC_01
+  - path: CSAD_01
+    replace:
+    - kind: bitch
+      range: 00.689-01.210
+  - path: CTAA_01
+  - path: CTAB_01
+    replace:
+    - kind: mother-fucker
+      range: 01.957-02.500
+    - kind: suck-it
+      range: 04.247-04.713
+    - kind: dick
+      range: 04.819-05.078
+  - path: CTAB1_01
+    replace:
+    - kind: n-word
+      range: 00.000-00.224
+    - kind: mother-fucker
+      range: 02.207-02.737
+  - path: CTAB2_01
+    replace:
+    - kind: fuckers
+      range: 01.512-01.676
+    - kind: suck-it
+      range: 01.751-02.199
+    - kind: n-word
+      range: 02.607-02.929
+  - path: CTAC_01
+    replace:
+    - kind: bullshit
+      range: 03.351-03.931
+  - path: CTAD_01
+    replace:
+    - kind: mother-fucking
+      range: 01.979-02.701
+  - path: CUAA_01
+    replace:
+    - kind: shit
+      range: 05.249-05.617
+  - path: CUAB_01
+    replace:
+    - kind: fuck
+      range: 00.197-00.484
+    - kind: mother-fucker
+      range: 02.274-02.986
+  - path: CUAC_01
+    replace:
+    - kind: shit
+      range: 00.373-00.673
+  - path: CUAD_01
+    replace:
+    - kind: n-word
+      range: 05.901-06.123
+  - path: CUAD1_01
+  - path: CUAD2_01
+  - path: CUAE_01
+    replace:
+    - kind: fuck
+      range: 00.295-00.633
+  - path: CUAF_01
+    replace:
+    - kind: n-word
+      range: 00.404-00.620
+  - path: CUAF1_01
+  - path: CUAF2_01
+  - path: CUAG_01
+  - path: CUAH_01
+  - path: CUAI_01
+  - path: CUAJ_01
+  - path: CUAK_01
+  - path: CUAL_01
+    replace:
+    - kind: damn
+      range: 00.140-00.456
+    - kind: n-word
+      range: 01.170-01.469
+  - path: CUAL1_01
+  - path: CUAL2_01
+    replace:
+    - kind: shit
+      range: 01.328-01.616
+  - path: CUAM_01
+    replace:
+    - kind: mother-fuckers
+      range: 00.637-01.251
+  - path: CUAN_01
+    replace:
+    - kind: mother-fucker
+      range: 02.281-03.484
+  - path: CUAO_01
+    replace:
+    - kind: n-word
+      range: 05.415-05.720
+  - path: CWAA_01
+  - path: CWAB_01
+  - path: CWAC_01
+  - path: CXAA_01
+    replace:
+    - kind: mother-fuckers
+      range: 00.994-01.694
+  - path: CXAA_02
+    replace:
+    - kind: shit
+      range: 01.277-01.574
+  - path: CXAC_01
+  - path: CYAA_01
+    replace:
+    - kind: n-word
+      range: 00.890-01.173
+  - path: CYAB_01
+  - path: CZAA_01
+    replace:
+    - kind: n-word
+      range: 00.759-01.125
+  - path: CZAB_01
+  - path: DAAA_01
+    replace:
+    - kind: n-word
+      range: 00.273-00.713
+  - path: DAAB_01
+    replace:
+    - kind: bitch
+      range: 00.653-01.050
+    - kind: mother-fucking
+      range: 02.860-03.333
+  - path: DAAC_01
+    replace:
+    - kind: fuck
+      range: 01.695-02.008
+    - kind: shit
+      range: 02.008-02.363
+  - path: DAAD_01
+    replace:
+    - kind: bitch
+      range: 00.918-01.233
+  - path: DBAA_01
+  - path: DBAB_01
+  - path: DBAC_01
+  - path: DCAA_01
+  - path: DCAB_01
+    replace:
+    - kind: bitch-ass
+      range: 02.010-02.710
+  - path: DCAC_01
+    replace:
+    - kind: n-word
+      range: 00.938-01.204
+  - path: DCAD_01
+    replace:
+    - kind: fucking
+      range: 00.294-00.634
+    - kind: mother-fucker
+      range: 01.078-01.830
+  - path: DEAA_01
+  - path: DEAB_01
+    replace:
+    - kind: n-word
+      range: 00.459-00.736
+  - path: DFAA_01
+  - path: DFAB1_01
+  - path: DFAB2_01
+  - path: DFAC_01
+  - path: DFAD_01
+  - path: DFAE_01
+    replace:
+    - kind: n-word
+      range: 00.000-00.366
+    - kind: fuck
+      range: 00.366-00.575
+    - kind: bullshit
+      range: 02.003-02.407
+    - kind: shit
+      range: 02.921-03.304
+  - path: DFAF_01
+    replace:
+    - kind: bitch-ass
+      range: 01.994-02.548
+    - kind: ass
+      range: 03.260-03.642
+    - kind: n-word
+      range: 03.642-03.972
+  - path: DFAG_01
+  - path: DFAH_01
+  - path: DGAA_01
+    replace:
+    - kind: n-word
+      range: 00.715-01.147
+  - path: DGAA_02
+  - path: DGAA_03
+  - path: DGAA_04
+  - path: DHAA_01
+  - path: DHAA_02
+  - path: DHAA_03
+    replace:
+    - kind: mother-fucker
+      range: 02.024-02.715
+  - path: DIAA_01
+    replace:
+    - kind: n-word
+      range: 00.852-01.112
+  - path: DIAA_02
+    replace:
+    - kind: n-word
+      range: 00.860-01.113
+  - path: DIAA_03
+    replace:
+    - kind: shit
+      range: 01.918-02.185
+  - path: DIAA_04
+    replace:
+    - kind: mother-fuckers
+      range: 01.274-02.098
+  - path: DJAA_01
+    replace:
+    - kind: shit
+      range: 00.000-00.506
+  - path: DJAA_02
+    replace:
+    - kind: mother-fuckers
+      range: 00.385-00.919
+  - path: DKAA_01
+    replace:
+    - kind: shit
+      range: 00.354-00.598
+  - path: DLAA_01
+  - path: DLAA_02
+    replace:
+    - kind: mother-fuckers
+      range: 00.000-00.470
+  - path: DMAA_01
+    replace:
+    - kind: shit
+      range: 00.000-00.422
+  - path: DMAA_02
+  - path: DNAA_01
+  - path: DNAA_02
+  - path: DNAA_03
+  - path: DOAA_01
+  - path: DOAA_02
+  - path: DOAA_03
+    replace:
+    - kind: ass
+      range: 00.762-01.166
+  - path: DOAA_04
+  - path: DOAA_05
+  - path: DOAA_06
+    replace:
+    - kind: ass
+      range: 00.949-01.521
+  - path: DOAA_07
+    replace:
+    - kind: fuck
+      range: 00.244-00.527
+  - path: DOAA_08
+  - path: DPAA_01
+  - path: DPAA_02
+    replace:
+    - kind: n-word
+      range: 00.695-00.976
+  - path: DPAA_03
+  - path: DQAA_01
+  - path: DQAA_02
+    replace:
+    - kind: mother-fuckers
+      range: 00.324-00.725
+  - path: DRAA_01
+  - path: DRAA_02
+    replace:
+    - kind: ass
+      range: 01.278-01.561
+    - kind: n-word
+      range: 01.773-02.279
+  - path: DRAA_03
+    replace:
+    - kind: n-word
+      range: 02.086-02.579
+  - path: DRAA_04
+  - path: DTAA_01
+  - path: DTAA_02
+    replace:
+    - kind: n-word
+      range: 00.368-00.727
+  - path: DUAA_01
+    replace:
+    - kind: n-word
+      range: 02.192-02.714
+  - path: DUAA_02
+    replace:
+    - kind: n-word
+      range: 00.300-00.770
+  - path: DWAA_01
+    replace:
+    - kind: shit
+      range: 00.775-01.050
+  - path: DWAA_02
+  - path: EFAA_01
+    replace:
+    - kind: ass
+      range: 00.616-00.922
+  - path: ELAA_01
+  - path: EMAA_01
+  - path: EMAB_01
+  - path: EOAA_01
+    replace:
+    - kind: ass
+      range: 01.585-01.872
+  - path: EOAA_02
+  - path: ERAA_01
+  - path: ERAB_01
+    replace:
+    - kind: shit
+      range: 00.664-01.022
+    - kind: mother-fuckers
+      range: 04.058-04.778
+  - path: ERAC_01
+  - path: ESAA_01
+  - path: ETAA_01
+  - path: ETAB_01
+    replace:
+    - kind: fuck
+      range: 02.261-02.842
+  - path: EUAA_01
+    replace:
+    - kind: shit
+      range: 01.046-01.252
+  - path: EUAB_01
+    replace:
+    - kind: fucking
+      range: 04.135-04.367
+  - path: EUAC_01
+  - path: EVAA_01
+  - path: EVAB_01
+    replace:
+    - kind: fucked
+      range: 04.767-05.121
+  - path: EWAA_01
+  - path: EWAB_01
+    replace:
+    - kind: ass
+      range: 00.904-01.182
+    - kind: ass
+      range: 02.828-03.091
+    - kind: fuck
+      range: 04.233-04.703
