@@ -1,0 +1,96 @@
+# Mission: Prologue
+
+dirs:
+- path: SS_NP/pro
+- path: PROLOGUE/pro_ig_1_sync_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x127AC748"
+    replace:
+    - kind: fuck
+      range: 18.053-18.302
+- path: PROLOGUE/pro_mcs_1_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x00E9E7B7"
+- path: PROLOGUE/pro_mcs_2_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x0A0B8E48"
+  - path: "0x14CFDA15"
+  - path: "0x18AC4631"
+- path: PROLOGUE/pro_mcs_3_pt1_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x0963A618"
+  - path: "0x1749FC1E"
+  - path: "0x1183642A"
+- path: PROLOGUE/pro_mcs_5_seq_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x0E2E26D9"
+  - path: "0x1AF6A7D9"
+  - path: "0x1F19C6C3"
+    replace:
+    - kind: fuck
+      range: 12.094-12.349
+    - kind: fuck
+      range: 16.014-16.133
+    - kind: bitches
+      range: 16.658-16.967
+    - kind: fuck
+      range: 27.230-27.467
+    - kind: fuck
+      range: 30.214-30.598
+    - kind: fuck
+      range: 37.446-37.698
+    - kind: dick
+      range: 41.064-41.384
+    - kind: fuck
+      range: 44.381-44.673
+    - kind: fuck
+      range: 47.585-47.799
+  - path: "0x030F5BA4"
+  - path: "0x059FA63E"
+- path: PROLOGUE/pro_mcs_6_seq_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x0AB34148"
+    replace:
+    - kind: fuck
+      range: 17.502-17.944
+    - kind: fucking
+      range: 26.856-27.309
+    - kind: fuck
+      range: 36.251-36.527
+    - kind: fuck
+      range: 37.503-38.155
+    - kind: fuck
+      range: 38.371-38.603
+    - kind: fuck
+      range: 38.976-39.208
+    - kind: fucking
+      range: 44.076-44.476
+    - kind: fucking
+      range: 45.892-46.179
+    - kind: fuck
+      range: 50.132-50.339
+    - kind: fuck
+      range: 52.393-52.628
+    - kind: fucking
+      range: 01:01.746-01:01.746
+  - path: "0x1B966857"
+  - path: "0x1ED21064"
+  - path: "0x12D76E19"
+  - path: "0x013AB1F3"
+- path: CUTSCENE_MASTERED_ONLY/pro_mcs_7_seq_mastered_only
+  file_extension: wav
+  files:
+  - path: "0x0B642CFF"
+    replace:
+    - kind: fucking
+      range: 15.790-16.143
+    - kind: fucking
+      range: 17.701-18.114
+  - path: "0x1C0F5E05"
+  - path: "0x1CA9349A"

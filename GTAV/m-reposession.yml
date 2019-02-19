@@ -1,0 +1,164 @@
+# Mission: Repossession
+
+dirs:
+- path: SS_AC/ar2
+  file_prefix: AR2_
+  file_extension: wav
+  files:
+  - path: AAAA_01
+  - path: AAAA_02
+  - path: ABAA_01
+    replace:
+    - kind: fuck
+      range: 00.876-01.199
+    - kind: shit
+      range: 04.632-05.001
+  - path: ABAB_01
+  - path: ABAC_01
+    replace:
+    - kind: fuck
+      range: 00.000-00.379
+    - kind: bullshit
+      range: 02.249-02.687
+  - path: ABAD_01
+    replace:
+    - kind: shit
+      range: 00.854-01.333
+    - kind: fucker
+      range: 04.121-04.448
+  - path: ABAE_01
+  - path: ABAF_01
+  - path: ACAA_01
+  - path: ACAA_02
+  - path: ACAA_03
+  - path: ACAB_01
+    replace:
+    - kind: n-word
+      range: 00.767-01.159
+  - path: ACAC_01
+    replace:
+    - kind: n-word
+      range: 03.385-03.848
+  - path: ACAF_01
+    replace:
+    - kind: fuck
+      range: 03.719-03.849
+    - kind: fucker
+      range: 04.943-05.263
+  - path: ACAG_01
+    replace:
+    - kind: n-word
+      range: 01.192-01.583
+  - path: ADAA_01
+  - path: ADAB_01
+    replace:
+    - kind: asshole
+      range: 01.811-02.539
+  - path: AFAA_01
+    replace:
+    - kind: shit
+      range: 00.000-00.484
+  - path: AFAA_02
+    replace:
+    - kind: shit
+      range: 00.000-00.565
+  - path: AGAB_01
+    replace:
+    - kind: pussy
+      range: 00.526-00.833
+    - kind: shit
+      range: 02.248-02.646
+  - path: AGAC_01
+    replace:
+    - kind: ass
+      range: 03.263-03.778
+  - path: AGAE_01
+    replace:
+    - kind: ass
+      range: 02.637-02.946
+  - path: AGAF_01
+    replace:
+    - kind: shit
+      range: 00.000-00.428
+  - path: AIAA_01
+    replace:
+    - kind: mother-fucking
+      range: 00.723-01.231
+  - path: AIAB_01
+    replace:
+    - kind: bitches
+      range: 02.967-03.353
+    - kind: dick
+      range: 04.517-04.841
+  - path: AJAA_01
+    replace:
+    - kind: shit
+      range: 01.377-01.639
+  - path: AJAA_02
+    replace:
+    - kind: mother-fucker
+      range: 01.885-02.435
+  - path: AJAA_03
+    replace:
+    - kind: ass
+      range: 01.396-01.639
+  - path: ALAA_01
+  - path: ALAB_01
+    replace:
+    - kind: shit
+      range: 01.708-02.332
+  - path: ANAA_01
+  - path: ANAA_02
+  - path: AOAA_01
+  - path: AOAA_02
+  - path: APAA_01
+  - path: APAA_02
+  - path: AQAA_01
+  - path: AQAA_02
+  - path: AQAB_01
+    replace:
+    - kind: mother-fucker
+      range: 00.287-00.869
+  - path: ARAA_01
+    replace:
+    - kind: n-word
+      range: 00.776-01.166
+    - kind: ass
+      range: 01.640-02.068
+  - path: ARAB_01
+    replace:
+    - kind: n-word
+      range: 00.466-00.725
+    - kind: n-word
+      range: 01.119-01.492
+  - path: ASAA_01
+  - path: ASAA_02
+  - path: ATAA_01
+  - path: ATAA_02
+    replace:
+    - kind: shit
+      range: 00.867-01.101
+  - path: AEAA_01
+  - path: AEAA_02
+  - path: AFAA_03
+  - path: AGAA_01
+  - path: AGAD_01
+  - path: AGAG_01
+  - path: AGAH_01
+  - path: AHAA_01
+  - path: AKAA_01
+  - path: AKAB_01
+  - path: AUAA_01
+  - path: AUAA_02
+  - path: AVAA_01
+  - path: AVAB_01
+    replace:
+    - kind: ass
+      range: 03.242-03.908
+  - path: AWAA_01
+  - path: AWAA_02
+  - path: AWAA_03
+  - path: AXAA_01
+    replace:
+    - kind: ass
+      range: 03.967-04.541
