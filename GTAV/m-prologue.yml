@@ -1,32 +1,29 @@
 # Mission: Prologue
 
+file_extension: wav
+
 dirs:
 - path: SS_NP/pro
 - path: PROLOGUE/pro_ig_1_sync_mastered_only
-  file_extension: wav
   files:
   - path: "0x127AC748"
     replace:
     - kind: fuck
       range: 18.053-18.302
 - path: PROLOGUE/pro_mcs_1_mastered_only
-  file_extension: wav
   files:
   - path: "0x00E9E7B7"
 - path: PROLOGUE/pro_mcs_2_mastered_only
-  file_extension: wav
   files:
   - path: "0x0A0B8E48"
   - path: "0x14CFDA15"
   - path: "0x18AC4631"
 - path: PROLOGUE/pro_mcs_3_pt1_mastered_only
-  file_extension: wav
   files:
   - path: "0x0963A618"
   - path: "0x1749FC1E"
   - path: "0x1183642A"
 - path: PROLOGUE/pro_mcs_5_seq_mastered_only
-  file_extension: wav
   files:
   - path: "0x0E2E26D9"
   - path: "0x1AF6A7D9"
@@ -53,7 +50,6 @@ dirs:
   - path: "0x030F5BA4"
   - path: "0x059FA63E"
 - path: PROLOGUE/pro_mcs_6_seq_mastered_only
-  file_extension: wav
   files:
   - path: "0x0AB34148"
     replace:
@@ -84,7 +80,6 @@ dirs:
   - path: "0x12D76E19"
   - path: "0x013AB1F3"
 - path: CUTSCENE_MASTERED_ONLY/pro_mcs_7_seq_mastered_only
-  file_extension: wav
   files:
   - path: "0x0B642CFF"
     replace:

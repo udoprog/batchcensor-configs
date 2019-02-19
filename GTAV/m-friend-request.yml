@@ -1,0 +1,7 @@
+# Mission: Marriage Counceling
+
+file_extension: wav
+
+dirs:
+- path: SS_GM/les1a
+- path: SS_GM/les1b

@@ -1,9 +1,10 @@
 # Mission: Repossession
 
+file_extension: wav
+
 dirs:
 - path: SS_AC/ar2
   file_prefix: AR2_
-  file_extension: wav
   files:
   - path: AAAA_01
   - path: AAAA_02
