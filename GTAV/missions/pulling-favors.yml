@@ -1,3 +1,221 @@
 # Mission: Pulling Favors
 
-dirs: []
+file_extension: wav
+
+dirs:
+- path: SS_ST/tow
+  file_prefix: TOW_
+  files:
+# Tonya asking you to leave.
+  - path: AAAA_01
+    transcript: "Tonya: I though you said you was busy man."
+  - path: AAAA_02
+    transcript: "Tonya: You hate saying goodbye, don't you Franklin Clinton?"
+  - path: AAAA_03
+    transcript: "Tonya: You can't keep your eyes off me can't you?"
+  - path: AAAA_04
+    transcript: "Tonya: Control yourself boy, you've got the Tonya fever."
+  - path: AAAA_05
+    transcript: "Tonya: You still sniffing around? You like a dog in heat."
+
+  - path: ABAA_01
+    transcript: "Tonya: Please Franklin. For old times sake."
+  - path: ABAA_02
+    transcript: "Tonya: Go on, you don't need me. I trained you up good."
+  - path: ABAA_03
+    transcript: "Tonya: Car ain't gonna tow itself sugar."
+  - path: ABAA_04
+    transcript: "Tonya: JB's shift started. You don't get there soon he gonna be cut."
+  - path: ABAA_05
+    transcript: "Tonya: You gonna help your cousin out or not?"
+
+  - path: ACAA_01
+    transcript: "Tonya: Now. Where is that fool?"
+
+  - path: ADAA_01
+    transcript: "Tonya: Giiirl. Don't even get me started."
+  - path: ADAB_01
+    transcript: "Tonya: JB again, can't get his shit together. I don't know why I don't kick that man to the curb."
+    replace:
+    - kind: shit
+      range: 02.041-02.286
+  - path: ADAC_01
+    transcript: "Tonya: Useless don't even do it justice. Hm."
+  - path: ADAD_01
+    transcript: "Tonya: A whisker with you anyways. You still with that fly guy from Carson Avenue?"
+  - path: ADAE_01
+    transcript: "Tonya: Dandrea? Are you for real? You mean Lahandra's ex-sister?"
+  - path: ADAF_01
+    transcript: "Tonya: That girl is beat up from the feet up. *, what is it with these homies?"
+    replace:
+    - kind: damn
+      range: 02.364-03.203
+  - path: ADAG_01
+    transcript: "Tonya: You give them stack. And all they want is burger shack."
+  - path: ADAH_01
+    transcript: "Tonya: You said it. Never know when they've got a good thing going until it's too late."
+  - path: ADAI_01
+    transcript: "Tonya: It's all good. I'll holler at you later."
+
+  - path: AEAA_01
+    transcript: "Tonya: It's all good. I'll holler at you later."
+  - path: AEAA_02
+    transcript: "Tonya: Last time baby. I swear it."
+  - path: AEAA_03
+    transcript: "Tonya: Go on Franklin. It will take you no time now you've got the skills."
+  - path: AEAA_04
+  - path: AEAA_05
+
+  - path: AFAA_01
+  - path: AFAA_02
+
+  - path: AGAA_01
+    transcript: "You son of a *."
+    replace:
+    - kind: bitch
+      range: 00.616-01.240
+  - path: AGAA_02
+    transcript: "What's your problem?"
+  - path: AGAA_03
+    transcript: "Are you out of your mind?"
+
+  - path: AJAA_01
+    transcript: "You haven't seen that last of me. I will hunt you down."
+
+  - path: AXAA_01
+    transcript: "10-4. We've got an SUV in a handicap spot without a sticker at the Lucky Plucker in Little Seoul."
+  - path: AXAB_01
+    transcript: "Tonya: You know I don't copy. I'm an original. Heh. Yeah we've got you. JB's still sick."
+  - path: AXAC_01
+    transcript: "Tonya: Dispatch. What you got?"
+  - path: AXAD_01
+    transcript: "Franklin: Man you sure you need me? Cause you look like you know what you're doing."
+  - path: AXAE_01
+    transcript: "Tonya: One: I can't drive. And two: This aint work for a lady."
+  - path: AXAF_01
+    transcript: "Franklin: Ah, you really fighting the feminist cause there aint you Tonya."
+  - path: AXAG_01
+    transcript: "Tonya: Like your aunt you mean? I saw her fake jogging the other day."
+  - path: AXAH_01
+    transcript: "Tonya: She into some wacked out nonsense. That * is crazy."
+    replace:
+    - kind: bitch
+      range: 02.289-02.721
+  - path: AXAI_01
+    transcript: "Franklin: Yeah, that we can agree on."
+  - path: AXAJ_01
+    transcript: "Tonya: And I got qualifications honey."
+  - path: AXAK_01
+    transcript: "Franklin: Like * you do."
+    replace:
+    - kind: hell
+      range: 00.203-00.582
+  - path: AXAL_01
+    transcript: "Tonya: I've got a certificate in cosmology. You've never seen my nails."
+  - path: AXAM_01
+    transcript: "Franklin: What, you're going into space now?"
+  - path: AXAN_01
+    transcript: "Tonya: You've always did think you were so clever. Remember Davis High?"
+  - path: AXAO_01
+    transcript: "Franklin: Hehe, and you got your meth on the corner in Davis."
+  - path: AXAP_01
+    transcript: "Tonya: You didn't learn * at that school."
+    replace:
+    - kind: shit
+      range: 00.520-00.930
+  - path: AXAQ_01
+    transcript: "Dispatch: Do you copy?"
+
+  - path: CFAA_01
+    transcript: "Dispatch: This is dispatch, come in. We have an accident on Vespucci Boulevard, over."
+  - path: CFAB_01
+    transcript: "Franklin: We got it."
+  - path: CFAC_01
+    transcript: "Dispatch: Copy that vehicle 29. Driver's badly injured. Bombox on the scene."
+  - path: CFAD_01
+    transcript: "Tonya: 10-7. 10-4. Tonya don't talk numbers baby."
+  - path: CFAE_01
+    transcript: "Dispatch: Uh... 10-1. You're breaking up. Over and out."
+  - path: CFAF_01
+    transcript: "Franklin: Main aint this like the fifth time? Aint there any other fools out there you can guilt trip into working for no pay?"
+  - path: CFAG_01
+    transcript: "Tonya: You in the groove now Franklin. And you and JB was homies before you had hair on your *."
+    replace:
+    - kind: balls
+      range: 05.312-05.869
+  - path: CFAH_01
+    transcript: "Franklin: Yeah, so you keep telling me."
+  - path: CFAI_01
+    transcript: "Tonya: I still remember that time your grandpa caught you and JB slinging cigarettes."
+  - path: CFAJ_01
+    transcript: "Franklin: Yeah man, *. That was a good hussle while it lasted."
+    replace:
+    - kind: shit
+      range: 01.568-01.905
+  - path: CFAK_01
+    transcript: "Tonya: You still kicking it with that * talker Lamar?"
+    replace:
+    - kind: shit
+      range: 01.120-01.431
+  - path: CFAL_01
+    transcript: "Franklin: Oh yeah *, I'm stuck with that fool forever."
+    replace:
+    - kind: shit
+      range: 00.542-00.814
+  - path: CFAM_01
+    transcript: "Tonya: We didn't have much. But we did it right on Forum Drive."
+  - path: CFAN_01
+    transcript: "Tonya: Unless you're talking 420 then we have a date."
+  - path: CFAO_01
+    transcript: "Tonya: Chased you all over south LS."
+  - path: CFAP_01
+    transcript: "Dispatch: Car needs moving to the nearest auto shop. 10-7."
+
+  - path: CQAA_01
+    transcript: "Tonya: Hey Frankling. Why don't you come over here and let me take care of that lonely *."
+    replace:
+    - kind: ass
+      range: 03.358-04.306
+
+  - path: EAAA_01
+    transcript: "Franklin: Hey look. Let's make this quick. I've got * to do."
+    replace:
+    - kind: shit
+      range: 01.671-01.953
+  - path: EAAB_01
+    transcript: "Tonya: * you need to slow it down. Tanisha was right."
+    replace:
+    - kind: n-word
+      range: 00.000-00.298
+
+# Conversation en-route to impound on first mission.
+  - path: EAAA_01
+    transcript: "Franklin: All right, *. Where are we going?"
+    replace:
+    - kind: shit
+      range: 00.417-00.779
+  - path: EAAB_01
+    transcript: "Tonya: Trucks at the David's Sheriff Impound."
+  - path: EAAC_01
+    transcript: "Franklin: Aww man. How did I get dragged into this?"
+  - path: EAAD_01
+    transcript: "Tonya: We both know you've always been sweet on me. Hm, *. Franklin Clinton."
+    replace:
+    - kind: shit
+      range: 02.715-03.143
+  - path: EAAE_01
+    transcript: "Franklin: *, your * must be high or something."
+    replace:
+    - kind: shit
+      range: 00.000-00.521
+    - kind: ass
+      range: 00.773-00.953
+  - path: EAAF_01
+    transcript: "Tonya: I told you. I don't do that * no more."
+    replace:
+    - kind: shit
+      range: 01.615-01.881
+  - path: EAAG_01
+    transcript: "Tonya: I mean I baby dose now and again just for the taste. But I'm doing good boo. Your eyes don't lie."
+  - path: EAAH_01
+    transcript: "Franklin: Whatever you say girl. Come on."
