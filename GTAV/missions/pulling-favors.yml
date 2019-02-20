@@ -189,33 +189,84 @@ dirs:
       range: 00.000-00.298
 
 # Conversation en-route to impound on first mission.
-  - path: EAAA_01
+  - path: EEAA_01
     transcript: "Franklin: All right, *. Where are we going?"
     replace:
     - kind: shit
       range: 00.417-00.779
-  - path: EAAB_01
+  - path: EEAB_01
     transcript: "Tonya: Trucks at the David's Sheriff Impound."
-  - path: EAAC_01
+  - path: EEAC_01
     transcript: "Franklin: Aww man. How did I get dragged into this?"
-  - path: EAAD_01
+  - path: EEAD_01
     transcript: "Tonya: We both know you've always been sweet on me. Hm, *. Franklin Clinton."
     replace:
     - kind: shit
       range: 02.715-03.143
-  - path: EAAE_01
+  - path: EEAE_01
     transcript: "Franklin: *, your * must be high or something."
     replace:
     - kind: shit
       range: 00.000-00.521
     - kind: ass
       range: 00.773-00.953
-  - path: EAAF_01
+  - path: EEAF_01
     transcript: "Tonya: I told you. I don't do that * no more."
     replace:
     - kind: shit
       range: 01.615-01.881
-  - path: EAAG_01
+  - path: EEAG_01
     transcript: "Tonya: I mean I baby dose now and again just for the taste. But I'm doing good boo. Your eyes don't lie."
-  - path: EAAH_01
+  - path: EEAH_01
     transcript: "Franklin: Whatever you say girl. Come on."
+
+  - path: EFAA_01
+    transcript: "Tonya: This is it."
+
+  - path: EGAA_01
+    transcript: "Tonya: There's JB's truck. Let's go bring the cha-ching homie."
+
+# Tonya impatient to go.
+  - path: EHAA_01
+    transcript: "Tonya: Driver seat got your name on it Franklin."
+  - path: EHAA_02
+    transcript: "Tonya: Are we getting this party started or not?"
+  - path: EHAA_03
+    transcript: "Tonya: What are you waiting for? Get in there."
+  - path: EHAA_04
+    transcript: "Tonya: Just a truck sugar. Aint nothing to be scared of."
+
+# First mission dialog
+  - path: EIAA_01
+    transcript: "Dispatch: Vehicle 29 come in, this is Dispatch. We've got an abandoned car at San Andreas Avenue."
+  - path: EIAB_01
+    transcript: "Tonya: Yo we on that like ugly on ya mama."
+  - path: EIAC_01
+    transcript: "Dispatch: 10-9, come again. I didn't catch that."
+  - path: EIAD_01
+    transcript: "Tonya: It's Tonya fool. And my boy Franklin. We're filling in for JB."
+  - path: EIAE_01
+    transcript: "Dispatch: Eh. Hi Tonya. Car's a junker. Been there for days. 10-7. I'm gone."
+  - path: EIAF_01
+    transcript: "Tonya: A bucket. This one should be easy."
+  - path: EIAG_01
+    transcript: "Franklin: *, not easy enough for JB to drag himself out of whatever crack house he laying in."
+    replace:
+    - kind: shit
+      range: 00.000-00.379
+  - path: EIAH_01
+    transcript: "Tonya: His loss. Your gain sugar."
+  - path: EIAI_01
+    transcript: "Franklin: Except I aint gaining *, sugar."
+    replace:
+    - kind: shit
+      range: 01.143-01.635
+  - path: EIAJ_01
+    transcript: "Tonya: Move that seat back and you know I'll make it right for you."
+  - path: EIAK_01
+    transcript: "Franklin: That aint what I'm saying. * Tonya. What the * happened to you?"
+    replace:
+    - kind: damn
+      range: 01.329-01.797
+    - kind: fuck
+      range: 03.012-03.337
