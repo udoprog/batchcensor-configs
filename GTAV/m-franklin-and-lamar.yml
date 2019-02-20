@@ -4,3 +4,904 @@ file_extension: wav
 
 dirs:
 - path: SS_AC/arm1
+  file_prefix: ARM1_
+  files:
+# Franklin getting home.
+  - path: AAAA_01
+    replace:
+    - kind: shit
+      range: 00.339-00.775
+
+# Simeon annoyed at Franklin for sticking around.
+  - path: ACAA_01
+  - path: ACAA_02
+  - path: ACAA_03
+  - path: ACAA_04
+
+# Simeon annoyed.
+  - path: ADAA_01
+  - path: ADAA_02
+  - path: ADAA_03
+
+# Franklin racing with Lamar
+  - path: AEAA_01
+  - path: AEAB_01
+    replace:
+    - kind: n-word
+      range: 00.492-00.860
+    - kind: ass
+      range: 02.279-02.789
+  - path: AEAC_01
+  - path: AEAD_01
+    replace:
+    - kind: shit
+      range: 00.361-00.985
+
+# Franklin racing with Lamar
+  - path: AFAA_01
+    replace:
+    - kind: bitch
+      range: 01.406-01.959
+  - path: AFAB_01
+    replace:
+    - kind: n-word
+      range: 01.263-01.721
+
+# Callout when police arrives.
+  - path: AGAA_01
+    replace:
+    - kind: shit
+      range: 00.184-00.549
+  - path: AGAB_01
+  - path: AGAC_01
+    replace:
+    - kind: shit
+      range: 01.114-01.423
+  - path: AGAD_01
+    replace:
+    - kind: ass
+      range: 01.054-01.586
+
+# Stealing the cars.
+  - path: AHAA_01
+    replace:
+    - kind: shit
+      range: 00.179-00.615
+  - path: AHAB_01
+  - path: AHAC_01
+  - path: AHAD_01
+    replace:
+    - kind: n-word
+      range: 00.389-00.705
+  - path: AHAE_01
+    replace:
+    - kind: n-word
+      range: 00.715-01.204
+
+# Franklin passing Lamar
+  - path: AIAA_01
+  - path: AIAA_02
+
+# Lamar commenting on damage on cars.
+  - path: AKAA_01
+    replace:
+    - kind: damn
+      range: 00.000-01.074
+    - kind: mother-fuckers
+      range: 03.973-04.824
+  - path: AKAB_01
+  - path: AKAC_01
+    replace:
+    - kind: fuck
+      range: 01.509-01.720
+    - kind: bitch-ass
+      range: 01.945-02.591
+    - kind: mother-fucker
+      range: 03.867-04.318
+
+# Lamar commenting on damage on cars.
+  - path: ALAA_01
+  - path: ALAB_01
+    replace:
+    - kind: mother-fucker
+      range: 01.218-02.087
+  - path: ALAC_01
+
+# Lamar complaining about Franklin taking time choosing cars.
+  - path: AMAA_01
+    replace:
+    - kind: mother-fucker
+      range: 01.572-02.263
+  - path: AMAB_01
+
+# After stealing the cars driving home.
+  - path: ANAA_01
+  - path: ANAB_01
+
+# Franklin telling lamar it's not gonna happen with Denise.
+  - path: AOAA_01
+  - path: AOAB_01
+  - path: AOAC_01
+    replace:
+    - kind: fuck
+      range: 00.000-00.388
+  - path: AOAD_01
+    replace:
+    - kind: fuck
+      range: 00.576-00.808
+  - path: AOAE_01
+    replace:
+    - kind: n-word
+      range: 00.496-00.742
+    - kind: fuck
+      range: 03.587-03.845
+    - kind: n-word
+      range: 04.146-04.497
+
+# Franklin telling Lamar he's not coming to his house.
+  - path: AQAA_01
+  - path: AQAB_01
+    replace:
+    - kind: fucking
+      range: 01.965-02.238
+  - path: AQAC_01
+    replace:
+    - kind: n-word
+      range: 01.858-02.402
+  - path: AQAD_01
+    replace:
+    - kind: fuck
+      range: 00.754-00.937
+    - kind: fucking
+      range: 03.360-03.656
+
+# Franklin passing Lamar.
+  - path: ASAA_01
+    replace:
+    - kind: n-word
+      range: 02.669-03.116
+
+# Entering the Union Depository.
+  - path: AUAA_01
+  - path: AUAB_01
+    replace:
+    - kind: mother-fucker
+      range: 00.477-01.078
+
+# When the race starts.
+  - path: AVAA_01
+    replace:
+    - kind: bitch-ass
+      range: 03.640-04.351
+
+# Franklin commenting on filming.
+  - path: AXAA_01
+    replace:
+    - kind: shit
+      range: 01.045-01.367
+
+  - path: BCAA_01
+    transcript: "Lamar: Let's show these movie people how we roll."
+
+  - path: BDAA_01
+    transcript: "Lamar: Down this dirty mother fucker."
+    replace:
+    - kind: mother-fucker
+      range: 00.784-01.451
+
+# Lamar voice lines telling Franklin to move.
+  - path: BFAA_01
+    transcript: "Lamar: It ain't this complicated."
+  - path: BFAA_02
+    transcript: "Lamar: Come on homie."
+  - path: BFAA_03
+    transcript: "Lamar: I'm about to take away your privileges."
+  - path: BFAA_04
+    transcript: "Lamar: Making decisions it's business 101."
+  - path: BFAA_05
+    transcript: "Lamar: Come on, which one of these * do you want?"
+    replace:
+    - kind: mother-fuckers
+      range: 00.973-01.470
+  - path: BFAA_06
+    transcript: "Lamar: You gonna call this or what?"
+
+# Lamar voice lines when ahead in the race.
+  - path: BGAA_01
+    transcript: "Lamar: Keep up homie."
+  - path: BGAA_02
+    transcript: "Lamar: This meant to be your shit."
+    replace:
+    - kind: shit
+      range: 00.975-01.440
+  - path: BGAA_03
+    transcript: "Lamar: Remember this is Yetarian's car."
+  - path: BGAA_04
+    transcript: "Lamar: Come on Frank!"
+  - path: BGAA_05
+    transcript: "Lamar: You ain't even testing me."
+  - path: BGAA_06
+    transcript: "Lamar: I'm schooling your ass boy."
+    replace:
+    - kind: ass
+      range: 00.815-01.187
+  - path: BGAA_07
+    transcript: "Lamar: Keep busing low."
+
+# Lamar voice lines "to the left"
+  - path: BHAA_01
+  - path: BHAA_02
+  - path: BHAA_03
+  - path: BHAA_04
+
+# Lamar voice lines "to the right"
+  - path: BIAA_01
+  - path: BIAA_02
+  - path: BIAA_03
+  - path: BIAA_04
+
+# Lamar voice lines "you lost?"
+  - path: BJAA_01
+  - path: BJAA_02
+  - path: BJAA_03
+    replace:
+    - kind: damn
+      range: 00.000-00.346
+  - path: BJAA_04
+
+# Franklin responding to being behind.
+  - path: BKAA_01
+  - path: BKAA_02
+    transcript: "Franklin: Engine trouble mother-fucker yeah."
+    replace:
+    - kind: mother-fucker
+      range: 00.666-01.338
+  - path: BKAA_03
+    transcript: "Franklin: Learn how to use a stick asshole."
+    replace:
+    - kind: asshole
+      range: 01.080-01.906
+
+# Franklin happy voice lines "whaaat I hear you".
+  - path: BLAA_01
+    transcript: "Franklin: Ok."
+  - path: BLAA_02
+    transcript: "Franklin: Yeah, whatever you say."
+  - path: BLAA_03
+    transcript: "Franklin: What I hear you."
+  - path: BLAA_04
+    transcript: "Franklin: Aiight."
+  - path: BLAA_05
+    transcript: "Franklin: Fine."
+  - path: BLAA_06
+    transcript: "Franklin: Ahaaa."
+  - path: BLAA_07
+    transcript: "Franklin: Yeah that's cool."
+  - path: BLAA_08
+    transcript: "Franklin: Shit, cool homie."
+    replace:
+    - kind: shit
+      range: 00.000-00.425
+
+# Franklin annoyed voice lines "yeah yeah yeah".
+  - path: BMAA_01
+    transcript: "Franklin: Yeah, Yeah, Yeah."
+  - path: BMAA_02
+    transcript: "Franklin: Ay, screw you too homie."
+    replace:
+    - kind: screw-you
+      range: 00.328-00.766
+  - path: BMAA_03
+    transcript: "Franklin: Whatever homie."
+  - path: BMAA_04
+    transcript: "Franklin: If you wanna chomp them things."
+  - path: BMAA_05
+    transcript: "Franklin: Hey I come at you from the shoulders homie."
+  - path: BMAA_06
+    transcript: "Franklin: Whatever you say."
+  - path: BMAA_07
+    transcript: "Franklin: Please homie."
+
+# Franklin racing needing room.
+  - path: BOAA_01
+  - path: BOAB_01
+    replace:
+    - kind: fat-ass
+      range: 02.250-03.088
+
+# Lamar commenting on them not receiving the tickets.
+  - path: BQAA_01
+  - path: BQAB_01
+
+# Franklin saying they should test out the rides.
+  - path: BSAA_01
+  - path: BSAB_01
+
+# Lamar talking about how expensive the cars are.
+  - path: BTAA_01
+  - path: BTAB_01
+    replace:
+    - kind: n-word
+      range: 00.000-00.402
+
+# Failing not having done anything yet.
+  - path: BUAA_01
+    replace:
+    - kind: fuck
+      range: 00.428-00.754
+    - kind: shit
+      range: 02.032-02.319
+  - path: BUAB_01
+
+  - path: BVAA_01
+    transcript: "Franklin: It's a haulty now fool."
+  - path: BVAB_01
+    transcript: "Lamar: shit it was like that when we found it."
+    replace:
+    - kind: shit
+      range: 00.000-00.372
+  - path: BVAC_01
+    transcript: "Franklin: Dog I ain't losing no sleep over Simeon's end."
+
+  - path: BWAA_01
+    transcript: "Franklin: Fuck man, that's my ride."
+    replace:
+    - kind: fuck
+      range: 00.000-00.629
+  - path: BWAB_01
+    transcript: "Lamar: You should have gotten that shit on credit brother."
+    replace:
+    - kind: shit
+      range: 00.721-00.940
+
+  - path: BXAA_01
+    transcript: "Franklin: Fuck dawg."
+    replace:
+    - kind: fuck
+      range: 00.000-00.553
+  - path: BXAB_01
+    transcript: "Lamar: Man it's still early, don't give yourself an aneurysm over that *. Holler at me."
+    replace:
+    - kind: shit
+      range: 02.905-03.343
+
+  - path: BYAA_01
+    transcript: "Franklin: What's cracking homie?"
+  - path: BYAB_01
+    transcript: "Lamar (Over phone): Man don't homie me, leaving a * like a stray dog or somethin'"
+    replace:
+    - kind: bitch
+      range: 02.718-02.993
+  - path: BYAC_01
+    transcript: "Franklin: Man something came up dawg. I'll chirp you later on aight?"
+
+  - path: BZAA_01
+    transcript: "Franklin: Where the * did you go?"
+    replace:
+    - kind: fuck
+      range: 00.213-00.472
+  - path: BZAB_01
+    transcript: "Lamar: Where the * did you go?"
+    replace:
+    - kind: fuck
+      range: 00.242-00.499
+  - path: BZAC_01
+    transcript: "Franklin: Man * you *."
+    replace:
+    - kind: fuck
+      range: 00.173-00.532
+    - kind: n-word
+      range: 00.816-01.225
+
+  - path: CAAA_01
+    transcript: "Franklin: Lamar!"
+  - path: CAAB_01
+    transcript: "Lamar: Man you getting to be a liability in your old age man."
+  - path: CAAC_01
+    transcript: "Franklin: Hey coming from you homie, that's CEO rich."
+  - path: CAAD_01
+    transcript: "Lamar: Illuminati rich *."
+    replace:
+    - kind: n-word
+      range: 01.225-01.654
+
+# Lamar annoyed when driving.
+  - path: CBAA_01
+    transcript: "Lamar: That's coming out of our pay check."
+  - path: CBAA_02
+    transcript: "Lamar: Man stop rubbing on me man, it's creeping me out."
+  - path: CBAA_03
+    transcript: "Lamar: I'm about to take this * the wrong way."
+    replace:
+    - kind: shit
+      range: 00.907-01.158
+  - path: CBAA_04
+    transcript: "Lamar: I'm a tell your boy Simeon about this *"
+    replace:
+    - kind: shit
+      range: 00.907-01.158
+  - path: CBAA_05
+    transcript: "Lamar: Hey yo frank oooh"
+
+# Conversation between Frankling and Lamar going home.
+  - path: CCAA_01
+    transcript: "Lamar: This is chump change, how I'm gonna knock a bad * sexy * if I ain't got a fat piazaki?"
+    replace:
+    - kind: grown-ass
+      range: 02.325-02.855
+    - kind: bitch
+      range: 03.236-03.565
+  - path: CCAB_01
+    transcript: "Franklin: Who're you trying to impress?"
+  - path: CCAC_01
+    transcript: "Lamar: You're auntie Denise, with all that *, * she got *."
+    replace:
+    - kind: ass
+      range: 02.119-02.742
+    - kind: n-word
+      range: 02.742-03.072
+    - kind: ass
+      range: 03.562-04.041
+  - path: CCAD_01
+    transcript: "Franklin: She grown, yeah. She grown into a * *."
+    replace:
+    - kind: fucking
+      range: 02.295-02.660
+    - kind: idiot
+      range: 02.660-03.110
+  - path: CCAE_01
+    transcript: "Lamar: Na, she's sexy."
+  - path: CCAF_01
+    transcript: "Franklin: Sexy? She more like obsessed with sex *."
+    replace:
+    - kind: n-word
+      range: 03.086-03.549
+  - path: CCAG_01
+    transcript: "Lamar: Nah man for the *, that's exactly how I like my women."
+    replace:
+    - kind: penis
+      range: 01.320-01.606
+  - path: CCAH_01
+    transcript: "Franklin: * she ain't going near your raggedy-* thing. * ain't no rubber strong enough to protect someone from what the * you've got."
+    replace:
+    - kind: n-word
+      range: 00.000-00.244
+    - kind: ass
+      range: 01.627-01.917
+    - kind: n-word
+      range: 02.491-02.683
+    - kind: fuck
+      range: 05.196-05.499
+  - path: CCAI_01
+    transcript: "Lamar: Don't fight the inevitable cup."
+  - path: CCAJ_01
+    transcript: "Franklin: Man shut the * up."
+    replace:
+    - kind: fuck
+      range: 00.559-00.890
+
+# Lamar telling you to turn left.
+  - path: CEAA_01
+    transcript: "Lamar: We're going left, into this parking lot."
+  - path: CEAA_02
+    transcript: "Lamar: Left, through the parking lot."
+
+  - path: CFAE_01
+    transcript: "Franklin: * what she done is explore that sexuality all over the house that grandpa left us."
+    replace:
+    - kind: n-word
+      range: 00.000-00.253
+  - path: CFAF_01
+    transcript: "Franklin: Chased out every woman I ever brought back with scented candles, and talks of her feminine essence."
+
+  - path: CHAA_01
+    transcript: "Lamar: Hey who the * is this slow-* *?"
+    replace:
+    - kind: fuck
+      range: 00.361-00.616
+    - kind: ass
+      range: 01.165-01.441
+    - kind: mother-fucker
+      range: 01.441-02.194
+  - path: CHAA_02
+    transcript: "Lamar: This punk driving his fat lazy * all day long?"
+    replace:
+    - kind: ass
+      range: 01.346-01.634
+
+# Franklin commenting about the cool car.
+  - path: CIAA_01
+    transcript: "Franklin: Man this * got robo-roof and everything *!"
+    replace:
+    - kind: mother-fucker
+      range: 00.443-00.886
+    - kind: n-word
+      range: 02.688-03.296
+  - path: CIAB_01
+    transcript: "Lamar: He should have paid the *, haha!"
+    replace:
+    - kind: n-word
+      range: 00.857-01.536
+  - path: CIAC_01
+    transcript: "Franklin: Man you gotta grind to keep that *. Now it's back on us."
+    replace:
+    - kind: shit
+      range: 01.310-01.771
+  - path: CIAD_01
+    transcript: "Lamar: * ya, I wanna see what it do. Ey hit me on the speaker phone low."
+    replace:
+    - kind: hell
+      range: 00.000-00.307
+  - path: CIAE_01
+    transcript: "Franklin: Oh it's like that. For sure homie."
+
+# Conversation when first seeing the cars.
+  - path: CJAA_01
+    transcript: "Lamar: Like that. Bobby big-* on the * huh?"
+    replace:
+    - kind: dick
+      range: 01.739-01.926
+    - kind: n-word
+      range: 02.287-02.555
+  - path: CJAB_01
+    transcript: "Franklin: * for real homie."
+    replace:
+    - kind: shit
+      range: 00.000-00.373
+
+# Random conversation at film studio.
+  - path: CKAA_01
+    transcript: "When do we get OT?"
+  - path: CKAB_01
+    transcript: "I don't know, I think the car picked us up at five so we should get time and a half soon."
+  - path: CKAC_01
+    transcript: "These costumes it's like cruel and unusual punishment."
+  - path: CKAD_01
+    transcript: "There should be special dispensation for this. I'm about to pass out."
+
+# Reaction to driving through the studio.
+  - path: CLAA_01
+    transcript: "What the *?"
+    replace:
+    - kind: fuck
+      range: 00.352-00.861
+  - path: CLAB_01
+    transcript: "Someone call the guild."
+  - path: CLAC_01
+    transcript: "These working conditions *."
+    replace:
+    - kind: suck
+      range: 01.307-01.916
+
+  - path: CMAA_01
+    transcript: "Who do they?"
+  - path: CMAB_01
+    transcript: "Was that someone quote un-quote famous?"
+
+# Franklin passing Lamar.
+  - path: CQAA_01
+    transcript: "Lamar: How the * you get in front of me?"
+    replace:
+    - kind: fuck
+      range: 00.300-00.629
+  - path: CQAB_01
+    transcript: "Franklin: You're slow * should be asking 'why didn't I get here sooner?'"
+    replace:
+    - kind: ass
+      range: 00.716-01.094
+
+# Franklin passing Lamar B.
+  - path: CRAA_01
+    transcript: "Lamar: Now how the * did you get up front?"
+    replace:
+    - kind: fuck
+      range: 00.320-00.605
+  - path: CRAB_01
+    transcript: "Franklin: I've been faster than you're lanky-* since kindergarden."
+    replace:
+    - kind: ass
+      range: 01.582-01.880
+
+# Franklin passing Lamar C.
+  - path: CSAA_01
+    transcript: "Lamar: That you in front you fat *?"
+    replace:
+    - kind: mother-fucker
+      range: 01.402-02.222
+  - path: CSAB_01
+    transcript: "Franklin: Who else you lanky *?"
+    replace:
+    - kind: biatch
+      range: 01.072-01.650
+
+# Reacting to cars being stolen.
+  - path: CUAA_01
+    transcript: "I've got deposits down on that (?)"
+  - path: CUAA_02
+    transcript: "Those are my premium rides, come on!"
+
+# Mumbling random conversation.
+  - path: CWAA_01
+    transcript: "Actually I'm into my wife and I lost a lot of time and I'm vegas tripping til last week."
+  - path: CWAB_01
+    transcript: "Oh, I didn't even realize that you did that so thank you for telling me."
+  - path: CWAC_01
+    transcript: "Perhaps I am that guy. Blow it up."
+  - path: CWAD_01
+    transcript: "Let's go keep it up. Keep it up."
+
+# Random conversation B.
+  - path: CXAA_01
+    transcript: "I've lost all my money. I'm in love with a stripper, and I'm pretty sure I have a disease."
+  - path: CXAB_01
+    transcript: "You always had a disease. It's called love. Boom."
+  - path: CXAC_01
+    transcript: "He makes it happen."
+
+# When Franklin and Lamar creeps up on the cars.
+  - path: DBAA_01
+    transcript: "Lamar (whispering): Come one. Pushy, come on."
+  - path: DBAB_01
+    transcript: "Lamar (whispering): Shit."
+    replace:
+    - kind: shit
+      range: 00.000-00.833
+  - path: DBAC_01
+    transcript: "Lamar: *, this * must got the baby *."
+    replace:
+    - kind: damn
+      range: 00.000-00.556
+    - kind: n-word
+      range: 01.163-01.429
+    - kind: dick
+      range: 02.271-02.620
+  - path: DBAD_01
+    transcript: "Franklin: Yeah, and all this * payed for with bad credit."
+    replace:
+    - kind: shit
+      range: 01.637-01.931
+  - path: DBAE_01
+    transcript: "Lamar: Ho-ho. Come to daddy. Which one you want *?"
+    replace:
+    - kind: n-word
+      range: 04.410-04.944
+  - path: DBAF_01
+    transcript: "Franklin: * I don't know, they both look hard."
+    replace:
+    - kind: shit
+      range: 00.000-00.475
+
+# Random conversation while driving.
+  - path: DCAA_01
+    transcript: "Lamar: You little * * do like them little cars."
+    replace:
+    - kind: dick
+      range: 00.449-00.663
+    - kind: n-word
+      range: 00.663-01.014
+  - path: DCAB_01
+    transcript: "Franklin: * I heard the talk homie. You big everywhere except where it counts."
+    replace:
+    - kind: shit
+      range: 00.000-00.673
+  - path: DCAC_01
+    transcript: "Lamar: Fool knock it off. How about we let Tanisha decide that?"
+  - path: DCAD_01
+    transcript: "Franklin: She definitely not dumb enough to * with your *."
+    replace:
+    - kind: fuck
+      range: 01.372-01.609
+    - kind: ass
+      range: 02.004-02.394
+
+# Random conversation while driving B.
+  - path: DDAA_01
+    transcript: "Lamar: * dawg, how much we getting for these repos? I'm gonna be one reluctant * giving this up."
+    replace:
+    - kind: damn
+      range: 00.000-00.455
+    - kind: mother-fucker
+      range: 03.507-04.144
+  - path: DDAB_01
+    transcript: "Franklin: Man there's enough bad credit going around homie. It's like there's an endless supply in this * * country."
+    replace:
+    - kind: fucked-up
+      range: 04.673-05.104
+    - kind: ass
+      range: 05.104-05.415
+
+# Excited screams from Lamar.
+  - path: DEAA_01
+    transcript: "Lamar: Wooooo!"
+  - path: DEAA_02
+    transcript: "Lamar: Oh shit!"
+    replace:
+    - kind: shit
+      range: 00.666-01.204
+  - path: DEAA_03
+    transcript: "Lamar: Oooooh!"
+
+# Excited screams from Franklin.
+  - path: DFAA_01
+    transcript: "Franklin: Night night."
+  - path: DFAA_02
+    transcript: "Franklin: Wow homie."
+  - path: DFAA_03
+    transcript: "Franklin: Yeah homie. Come-on."
+
+# Lamar wondering where Franklin is.
+  - path: DGAA_01
+    transcript: "Lamar: I can't even see your *. Where you at boy?"
+    replace:
+    - kind: ass
+      range: 01.025-01.348
+  - path: DGAA_02
+    transcript: "Lamar: I don't see your * behind me boy. Where you at?"
+    replace:
+    - kind: fat-ass
+      range: 00.646-01.147
+  - path: DGAA_03
+    transcript: "Lamar: What's happening to it homie. We doing this * or what?"
+    replace:
+    - kind: shit
+      range: 01.731-01.960
+  - path: DGAA_04
+    transcript: "Lamar: I can only wait for so long *, where your * at?"
+    replace:
+    - kind: mother-fucker
+      range: 01.476-01.993
+    - kind: ass
+      range: 02.385-02.739
+  - path: DGAA_05
+    transcript: "Lamar: Hey come on man. Where you go?"
+
+# Lamar promoting Hao's races.
+  - path: DHAA_01
+    transcript: "Lamar: Hao was saying you should try some of that street racing *. Let some of the other homies  whop your *."
+    replace:
+    - kind: shit
+      range: 02.288-02.691
+    - kind: ass
+      range: 04.459-05.018
+  - path: DHAB_01
+    transcript: "Franklin: Man you ain't beaten me yet *."
+    replace:
+    - kind: asshole
+      range: 01.136-01.912
+
+# Lamar promoting Hao's races B.
+  - path: DIAA_01
+    transcript: "Lamar: If you're such a * beast, you need to try some of that street racing Hao's been hooking up."
+    replace:
+    - kind: mother-fucking
+      range: 00.721-01.398
+  - path: DIAB_01
+    transcript: "Franklin: Maybe, but whooping other fools don't give me that satisfaction."
+
+# Franklin screaming (crashing etc...)
+  - path: DJAA_01
+    transcript: "Franklin: Aww, *!"
+    replace:
+    - kind: shit
+      range: 00.558-01.283
+  - path: DJAA_02
+    transcript: "Franklin: Get off the road!"
+  - path: DJAA_03
+    transcript: "Franklin: Man, *."
+    replace:
+    - kind: shit
+      range: 00.449-01.059
+  - path: DJAA_04
+    transcript: "Franklin: Hey, watch out!"
+  - path: DJAA_05
+    transcript: "Franklin: Hey, be careful!"
+  - path: DJAA_06
+    transcript: "Franklin: Hey, look out for yourself dawg."
+
+  - path: DKAA_01
+    transcript: "Lamar: Up here through the Studio. Let's show these movie people how we do."
+  - path: DLAA_01
+    transcript: "Lamar: Hey, hey. Down this alley here."
+  - path: DMAA_01
+    transcript: "Lamar: Left here, we going through the parking lot."
+
+# Lamar going through the Union Depository.
+  - path: DNAA_01
+    transcript: "Lamar: We busting the union depository *."
+    replace:
+    - kind: mother-fucker
+      range: 01.838-02.602
+  - path: DNAB_01
+    transcript: "Franklin: That super bank? * you an *."
+    replace:
+    - kind: mother-fucker
+      range: 01.189-01.679
+    - kind: idiot
+      range: 01.994-02.520
+
+# Franklin telling Lamar to be careful.
+  - path: DOAA_01
+    transcript: "Franklin: Hey remember we gotta be careful with these rides homey. Simeon aint about to drive my peg in."
+  - path: DOAB_01
+    transcript: "Lamar: Homie. Man. If you need some bread I could hook you up with JB's tow truck."
+  - path: DOAC_01
+    transcript: "Lamar: It ain't got glamor but there's some money to be made."
+  - path: DOAD_01
+    transcript: "Franklin: So him and Tanya can smoke crack in peace? Homie I'm good."
+
+# Franklin prompting Denise.
+  - path: DPAA_01
+    transcript: "Franklin: Hey Denise."
+  - path: DPAB_01
+    transcript: "Frankling: Auntie D. You here with your old *?"
+    replace:
+    - kind: ass
+      range: 02.913-03.397
+
+# Conversation between Simeon and Jimmy when entering.
+  - path: DRAA_01
+    transcript: "Jimmy: I don't get you bro."
+  - path: DRAB_01
+    transcript: "Simeon: You are a racist and I don't like you. I will not sell you this car. I will not."
+  - path: DRAC_01
+    transcript: "Simeon: You make my skin crawl you neo-nazi."
+  - path: DRAD_01
+    transcript: "Simeon: You think you can rob me? You come in here and you try to rob me? You look at me like I am *."
+    replace:
+    - kind: shit
+      range: 05.389-05.900
+  - path: DRAE_01
+    transcript: "Jimmy: You're mistaken man."
+  - path: DRAS_01
+    transcript: "Simeon: Eh, you are all the same."
+  - path: DRAT_01
+    transcript: "Simeon: You're disgusting."
+  - path: DRAU_01
+    transcript: "Lamar: This is the best part man."
+  - path: DRAV_01
+    transcript: "Simeon: OK boys I will talk to you soon. We have a lot of oppurtunities now. Haha."
+  - path: DRAW_01
+    transcript: "Simeon: So."
+
+# Franklin noises when home and sleepy.
+  - path: DVAA_01
+    transcript: "Franklin: *yawning*"
+  - path: DVAB_01
+    transcript: "Franklin: *smacking*"
+
+# Simeon trying to sell the car to Jimmy.
+  - path: DWAA_01
+    transcript: "Simeon: So Jimmy, are you sure you are man enough? Take the wheel and show me."
+  - path: DWAB_01
+    transcript: "Jimmy: Um, sure. OK."
+
+  - path: DXAA_01
+    transcript: "Simeon: No no. It's too much for you. You need a compact."
+  - path: DXAB_01
+    transcript: "Jimmy: Wow. No way man. Compact? I'm a high roller. SUV guy."
+
+  - path: DYAA_01
+    transcript: "Jimmy: I just need time to think."
+  - path: DYAB_01
+    transcript: "Simeon: This is the problem. Only the weak use their brains. The strong use their *."
+    replace:
+    - kind: balls
+      range: 04.793-05.983
+
+  - path: DZAA_01
+    transcript: "Simeon: You're a time waster. I should charge you for my time. How much I say per month? Double it!"
+  - path: DZAB_01
+    transcript: "Jimmy: Wow wow. Hey. I want it OK. I just don't have much collateral."
+
+  - path: EAAA_01
+    transcript: "Simeon: We take a cash deposit and your word you can meet the weekly payments."
+  - path: EAAB_01
+    transcript: "Jimmy: Wow wow. Hey. I want it OK. I just don't have much collateral."
+
+  - path: EBAA_01
+    transcript: "Simeon: Weekly, monthly, it doesn't matter. You are not a serious customer."
+  - path: EBAB_01
+    transcript: "Jimmy: Wow wow wow. I'm serious bro. Deadly. Church bro. Just show me where to sign."
+
+  - path: ECAA_01
+    transcript: "Simeon: Excellent. Now, listen to the quality of the stereo."
