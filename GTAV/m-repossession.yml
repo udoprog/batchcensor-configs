@@ -2,12 +2,46 @@
 
 file_extension: wav
 
+# NB: re-used for all channels
+ending_cutscene: &ending_cutscene
+  - kind: fucking
+    range: 17.673-17.962
+  - kind: n-word
+    range: 18.936-19.399
+  - kind: mother-fucking
+    range: 24.031-24.635
+  - kind: ass
+    range: 24.635-25.030
+  - kind: asshole
+    range: 28.800-29.469
+  - kind: n-word
+    range: 29.469-29.812
+  - kind: n-word
+    range: 31.156-31.367
+  - kind: mother-fucker
+    range: 31.932-32.505
+  - kind: fucking
+    range: 37.069-37.436
+  - kind: fucking
+    range: 38.114-38.404
+
 dirs:
+# Cutscene at end of mission.
+- path: CUTSCENE_MASTERED_ONLY/armenian_2_mcs_6_mastered_only
+  files:
+  - path: "0x0F80F3B5"
+    replace: *ending_cutscene
+  - path: "0x1FBBD500"
+    replace: *ending_cutscene
+  - path: "0x05779516"
+    replace: *ending_cutscene
+# Mission-specific dialog.
 - path: SS_AC/ar2
   file_prefix: AR2_
   files:
   - path: AAAA_01
   - path: AAAA_02
+
   - path: ABAA_01
     replace:
     - kind: fuck
@@ -29,9 +63,11 @@ dirs:
       range: 04.121-04.448
   - path: ABAE_01
   - path: ABAF_01
+
   - path: ACAA_01
   - path: ACAA_02
   - path: ACAA_03
+
   - path: ACAB_01
     replace:
     - kind: n-word
@@ -50,11 +86,13 @@ dirs:
     replace:
     - kind: n-word
       range: 01.192-01.583
+
   - path: ADAA_01
   - path: ADAB_01
     replace:
     - kind: asshole
       range: 01.811-02.539
+
   - path: AFAA_01
     replace:
     - kind: shit
@@ -63,6 +101,7 @@ dirs:
     replace:
     - kind: shit
       range: 00.000-00.565
+
   - path: AGAB_01
     replace:
     - kind: pussy
@@ -103,6 +142,10 @@ dirs:
     replace:
     - kind: ass
       range: 01.396-01.639
+    - kind: mother-fucking
+      range: 02.396-02.973
+    - kind: ass
+      range: 02.973-3.439
   - path: ALAA_01
   - path: ALAB_01
     replace:
@@ -441,8 +484,12 @@ dirs:
     replace:
     - kind: mother-fucking
       range: 01.979-02.701
+
+  # Conversation about killing Simeon after having a "falling out"
   - path: CUAA_01
     replace:
+    - kind: ass
+      range: 04.004-04.296
     - kind: shit
       range: 05.249-05.617
   - path: CUAB_01
@@ -499,6 +546,7 @@ dirs:
     replace:
     - kind: n-word
       range: 05.415-05.720
+
   - path: CWAA_01
   - path: CWAB_01
   - path: CWAC_01
