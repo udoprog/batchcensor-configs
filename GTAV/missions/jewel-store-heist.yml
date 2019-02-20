@@ -1,0 +1,11 @@
+# Mission: Father/Son
+
+file_extension: wav
+
+dirs:
+- path: SS_GM/jh
+- path: SS_GM/jhf
+- path: SS_GM/jhp1a
+- path: SS_GM/jhp1b
+- path: SS_GM/jhp2a
+- path: SS_GM/jhs1

@@ -8,75 +8,102 @@ dirs:
   files:
 # Franklin getting home.
   - path: AAAA_01
+    transcript: "Franklin: Man * it's good to be home."
     replace:
     - kind: shit
       range: 00.339-00.775
 
 # Simeon annoyed at Franklin for sticking around.
   - path: ACAA_01
+    transcript: "Simeon: I am with a customer Franklin."
   - path: ACAA_02
+    transcript: "Simeon: Franklin you are not in sales, please leave us."
   - path: ACAA_03
+    transcript: "Simeon: You are distracting me Franklin, please go."
   - path: ACAA_04
+    transcript: "Simeon: Lamar is waiting for you."
 
 # Simeon annoyed.
   - path: ADAA_01
+    transcript: "Simeon: What are you doing?"
   - path: ADAA_02
+    transcript: "Simeon: Are you trying to sabotage this sale?"
   - path: ADAA_03
+    transcript: "Simeon: Do you want me to dock your wages?"
 
 # Franklin racing with Lamar
   - path: AEAA_01
+    transcript: "Franklin: What you going to slow up the road for dawg? Move over so the traffic can flow through."
   - path: AEAB_01
+    transcript: "Lamar: Whatever *, I'll let some flow through your *."
     replace:
     - kind: n-word
       range: 00.492-00.860
     - kind: ass
       range: 02.279-02.789
   - path: AEAC_01
+    transcript: "Franklin: Dawg, I aint too sure that joke works dawg."
   - path: AEAD_01
+    transcript: "Lamar: Aww *."
     replace:
     - kind: shit
       range: 00.361-00.985
 
 # Franklin racing with Lamar
   - path: AFAA_01
+    transcript: "Lamar: Haha, finally *. When are you gonna learn how to move some?"
     replace:
     - kind: bitch
       range: 01.406-01.959
   - path: AFAB_01
+    transcript: "Franklin: I'll show you how to move some *."
     replace:
     - kind: n-word
       range: 01.263-01.721
 
 # Callout when police arrives.
   - path: AGAA_01
+    transcript: "Lamar: Oh *, the one time!"
     replace:
     - kind: shit
       range: 00.184-00.549
   - path: AGAB_01
+    transcript: "Franklin: Be cool fool, we've got the paperwork."
   - path: AGAC_01
+    transcript: "Lamar: Whatever you explain that *. I see you at the dealership!"
     replace:
     - kind: shit
       range: 01.114-01.423
   - path: AGAD_01
+    transcript: "Franklin: Explain that * my *!"
     replace:
+    - kind: shit
+      range: 00.563-00.860
     - kind: ass
       range: 01.054-01.586
 
 # Stealing the cars.
   - path: AHAA_01
+    transcript: "Lamar: Oh * it's hot in this *."
     replace:
     - kind: shit
       range: 00.179-00.615
+    - kind: bitch
+      range: 01.248-01.722
   - path: AHAB_01
+    transcript: "Lamar: Ah you ballin' hard with the drop top huh?"
   - path: AHAC_01
+    transcript: "Franklin: I might just be."
   - path: AHAD_01
+    transcript: "Lamar: Whatever *, it aint gonna make you go no faster. Hit me on the speakerphone I'm moving."
     replace:
     - kind: n-word
       range: 00.389-00.705
   - path: AHAE_01
+    transcript: "Franklin: Ah it's like that *."
     replace:
     - kind: n-word
-      range: 00.715-01.204
+      range: 00.785-01.164
 
 # Franklin passing Lamar
   - path: AIAA_01
@@ -423,7 +450,7 @@ dirs:
   - path: CBAA_05
     transcript: "Lamar: Hey yo frank oooh"
 
-# Conversation between Frankling and Lamar going home.
+# Conversation between Franklin and Lamar going home.
   - path: CCAA_01
     transcript: "Lamar: This is chump change, how I'm gonna knock a bad * sexy * if I ain't got a fat piazaki?"
     replace:
@@ -833,7 +860,7 @@ dirs:
   - path: DPAA_01
     transcript: "Franklin: Hey Denise."
   - path: DPAB_01
-    transcript: "Frankling: Auntie D. You here with your old *?"
+    transcript: "Franklin: Auntie D. You here with your old *?"
     replace:
     - kind: ass
       range: 02.913-03.397
