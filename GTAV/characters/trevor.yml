@@ -1,0 +1,10 @@
+# Trevor Voice Lines.
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/trevor_1_normal
+- path: S_MISC/trevor_2_normal
+- path: S_MISC/trevor_3_normal
+- path: S_MISC/trevor_angry
+- path: S_MISC/trevor_drunk

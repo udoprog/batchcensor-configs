@@ -1,0 +1,10 @@
+# Michael Voice Lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/michael_1_normal
+- path: S_MISC/michael_2_normal
+- path: S_MISC/michael_3_normal
+- path: S_MISC/michael_angry
+- path: S_MISC/michael_drunk

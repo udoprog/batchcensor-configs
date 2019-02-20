@@ -1,0 +1,10 @@
+# Franklin Voice Lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/franklin_1_normal
+- path: S_MISC/franklin_2_normal
+- path: S_MISC/franklin_3_normal
+- path: S_MISC/franklin_angry
+- path: S_MISC/franklin_drunk
