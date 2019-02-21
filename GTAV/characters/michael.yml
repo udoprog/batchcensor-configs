@@ -4,6 +4,603 @@ file_extension: wav
 
 dirs:
 - path: S_MISC/michael_1_normal
+  files:
+  - path: ACTIVITY_LEAVING_01
+  - path: ACTIVITY_LEAVING_02
+  - path: AIMED_AT_BY_PLAYER_01
+  - path: AIMED_AT_BY_PLAYER_02
+  - path: AIMED_AT_BY_PLAYER_03
+  - path: ARRESTED_01
+  - path: ARRESTED_02
+  - path: ARRESTED_03
+    replace:
+    - kind: fucking
+      range: 01.338-01.727
+  - path: BASEJUMP_ABOUT_TO_JUMP_01
+  - path: BASEJUMP_ABOUT_TO_JUMP_02
+    replace:
+    - kind: shit
+      range: 00.706-01.684
+  - path: BASEJUMP_ABOUT_TO_JUMP_03
+  - path: BASEJUMP_ABOUT_TO_JUMP_04
+  - path: BASEJUMP_ABOUT_TO_JUMP_05
+  - path: BASEJUMP_FAIL_01
+  - path: BASEJUMP_FAIL_02
+  - path: BASEJUMP_FAIL_03
+  - path: BASEJUMP_FAIL_04
+  - path: BASEJUMP_SUCCESS_01
+  - path: BASEJUMP_SUCCESS_02
+  - path: BASEJUMP_SUCCESS_03
+    replace:
+    - kind: damn
+      range: 02.040-02.582
+  - path: BASEJUMP_SUCCESS_04
+  - path: BLIND_RAGE_01
+    transcript: "* all of you!"
+    replace:
+    - kind: fuck
+      range: 00.000-00.317
+  - path: BLIND_RAGE_02
+    transcript: "You're all * dead!"
+    replace:
+    - kind: fucking
+      range: 00.730-01.292
+  - path: BLIND_RAGE_03
+    transcript: "You have a * clue who you're * with?"
+    replace:
+    - kind: fucking
+      range: 00.539-00.932
+    - kind: fucking
+      range: 01.590-01.927
+  - path: BLIND_RAGE_04
+    transcript: "Yeah! Yeah!? * Yeah!"
+    replace:
+    - kind: fucking
+      range: 01.771-02.277
+  - path: BLIND_RAGE_05
+    transcript: "Come on! Come on *, come on!"
+    replace:
+    - kind: mother-fuckers
+      range: 01.682-02.403
+  - path: BLIND_RAGE_06
+    transcript: "* you!"
+    replace:
+    - kind: fuck
+      range: 00.000-00.949
+  - path: BLIND_RAGE_07
+    transcript: "Come on! Let's end this *!"
+    replace:
+    - kind: shit
+      range: 02.092-02.654
+  - path: BLIND_RAGE_08
+    transcript: "Kill me then!"
+  - path: BLIND_RAGE_09
+    transcript: "You *!"
+    replace:
+    - kind: mother-fuckers
+      range: 01.064-02.849
+  - path: BOOTY_FLIRT_RESP_01
+  - path: BOOTY_FLIRT_RESP_02
+  - path: BOOTY_FLIRT_RESP_03
+  - path: BOOTY_FLIRT_RESP_04
+  - path: BOOTY_FLIRT_RESP_05
+  - path: BUDDY_SEES_FRANKLIN_DEATH_01
+    replace:
+    - kind: shit
+      range: 00.000-00.448
+  - path: BUDDY_SEES_FRANKLIN_DEATH_02
+  - path: BUDDY_SEES_FRANKLIN_DEATH_03
+    replace:
+    - kind: fucking
+      range: 00.577-01.019
+  - path: BUDDY_SEES_FRANKLIN_DEATH_04
+  - path: BUDDY_SEES_TREVOR_DEATH_01
+    replace:
+    - kind: fuck
+      range: 00.629-01.266
+  - path: BUDDY_SEES_TREVOR_DEATH_02
+    replace:
+    - kind: shit
+      range: 00.000-00.437
+  - path: BUDDY_SEES_TREVOR_DEATH_03
+    replace:
+    - kind: fuck
+      range: 01.778-02.342
+  - path: BUDDY_SEES_TREVOR_DEATH_04
+  - path: BUMP_01
+  - path: BUMP_02
+  - path: BUMP_03
+  - path: BUMP_04
+    replace:
+    - kind: fucking
+      range: 00.294-00.622
+  - path: CANT_LOSE_ENEMY_01
+  - path: CANT_LOSE_ENEMY_02
+  - path: CANT_LOSE_ENEMY_03
+  - path: CANT_LOSE_ENEMY_04
+    replace:
+    - kind: hell
+      range: 00.683-00.866
+  - path: CANT_LOSE_ENEMY_05
+    replace:
+    - kind: ass
+      range: 01.028-01.813
+  - path: CAR_HIT_PED_01
+  - path: CAR_HIT_PED_02
+  - path: CAR_HIT_PED_03
+  - path: CAR_HIT_PED_04
+    replace:
+    - kind: fucking
+      range: 01.179-01.729
+  - path: CAR_HIT_PED_05
+    replace:
+    - kind: shit
+      range: 00.175-00.598
+  - path: CAR_HIT_PED_DRIVEN_01
+  - path: CAR_HIT_PED_DRIVEN_02
+  - path: CAR_HIT_PED_DRIVEN_03
+  - path: CAR_HIT_PED_DRIVEN_04
+  - path: CAR_HIT_PED_DRIVEN_05
+  - path: CHASED_BY_POLICE_01
+  - path: CHASED_BY_POLICE_02
+  - path: CHASED_BY_POLICE_03
+  - path: CHASED_BY_POLICE_04
+  - path: CHASED_BY_POLICE_05
+    replace:
+    - kind: bullshit
+      range: 01.160-01.837
+  - path: CHASED_BY_POLICE_06
+  - path: CHASED_BY_POLICE_07
+    replace:
+    - kind: fucking
+      range: 00.560-00.904
+  - path: CHASED_BY_POLICE_08
+  - path: CRASH_CAR_01
+    transcript: "*!"
+    replace:
+    - kind: damn
+      range: 00.000-00.583
+  - path: CRASH_CAR_02
+    transcript: "You fool!"
+  - path: CRASH_CAR_03
+    transcript: "You * dick!"
+    replace:
+    - kind: fucking
+      range: 00.883-01.790
+  - path: CRASH_CAR_04
+    replace:
+    - kind: fucks-sake
+      range: 00.516-01.696
+  - path: CRASH_CAR_05
+  - path: CRASH_CAR_06
+  - path: CRASH_CAR_07
+    replace:
+    - kind: prick
+      range: 01.325-01.787
+  - path: CRASH_CAR_08
+    replace:
+    - kind: piece-of-shit
+      range: 01.190-02.107
+  - path: CRASH_CAR_09
+  - path: CRASH_CAR_10
+    replace:
+    - kind: screwed
+      range: 01.209-01.429
+  - path: CRASH_CAR_11
+  - path: CRASH_CAR_12
+  - path: CRASH_CAR_13
+  - path: CRASH_CAR_14
+  - path: CRASH_CAR_BASS_01
+    transcript: "*!"
+    replace:
+    - kind: damn
+      range: 00.000-00.583
+  - path: CRASH_CAR_BASS_02
+  - path: CRASH_CAR_BASS_03
+    transcript: "You * dick!"
+    replace:
+    - kind: fucking
+      range: 00.914-01.854
+  - path: CRASH_CAR_BASS_04
+    replace:
+    - kind: fucks-sake
+      range: 00.726-01.696
+  - path: CRASH_CAR_BASS_05
+    replace:
+    - kind: fucks-sake
+      range: 00.000-00.500
+  - path: CRASH_CAR_DRIVEN_01
+  - path: CRASH_CAR_DRIVEN_02
+  - path: CRASH_CAR_DRIVEN_03
+  - path: CRASH_CAR_DRIVEN_04
+  - path: CRASH_CAR_DRIVEN_05
+  - path: CRASH_GENERIC_01
+  - path: CRASH_GENERIC_02
+  - path: CRASH_GENERIC_03
+    replace:
+    - kind: fuck
+      range: 00.464-00.811
+  - path: CRASH_GENERIC_04
+    replace:
+    - kind: fucking
+      range: 00.572-00.885
+    - kind: idiot
+      range: 00.885-01.533
+  - path: CRASH_GENERIC_05
+    replace:
+    - kind: moron
+      range: 00.205-01.140
+  - path: CRASH_GENERIC_06
+    replace:
+    - kind: fuck
+      range: 00.456-00.684
+  - path: CRASH_GENERIC_07
+    replace:
+    - kind: shit
+      range: 00.255-00.865
+  - path: CRASH_GENERIC_08
+  - path: CRASH_GENERIC_DRIVEN_01
+    replace:
+    - kind: fucking
+      range: 00.000-00.483
+    - kind: idiot
+      range: 00.483-01.139
+  - path: CRASH_GENERIC_DRIVEN_02
+  - path: CRASH_GENERIC_DRIVEN_03
+  - path: CRASH_GENERIC_DRIVEN_04
+    replace:
+    - kind: fuck
+      range: 01.117-01.396
+  - path: CRASH_GENERIC_DRIVEN_05
+  - path: CRASH_GENERIC_INTERRUPT_01
+    replace:
+    - kind: crap
+      range: 00.000-00.598
+  - path: CRASH_GENERIC_INTERRUPT_02
+    replace:
+    - kind: shit
+      range: 00.000-00.698
+  - path: CRASH_GENERIC_INTERRUPT_03
+  - path: CRASH_GENERIC_INTERRUPT_04
+  - path: CRASH_GENERIC_INTERRUPT_05
+  - path: CULT_TALK_01
+  - path: CULT_TALK_02
+  - path: CULT_TALK_03
+    transcript: "Trees talk. But they're not very interesting."
+  - path: CULT_TALK_04
+    transcript: "Will these trees just shut up?"
+  - path: CULT_TALK_05
+  - path: CULT_TALK_06
+  - path: CULT_TALK_07
+  - path: CULT_TALK_08
+  - path: CULT_TALK_09
+  - path: CULT_TALK_10
+  - path: DART_PLAYING_POORLY_01
+    replace:
+    - kind: suck
+      range: 01.144-01.695
+  - path: DART_PLAYING_POORLY_02
+    replace:
+    - kind: suck
+      range: 01.009-01.443
+  - path: DART_PLAYING_POORLY_03
+    replace:
+    - kind: suck
+      range: 00.000-00.427
+  - path: DART_PLAYING_POORLY_04
+  - path: DART_PLAYING_POORLY_05
+    replace:
+    - kind: shit
+      range: 01.324-01.793
+#  - path: DARTS_140_01
+#  - path: DARTS_140_02
+#  - path: DARTS_180_01
+#  - path: DARTS_180_02
+#  - path: DARTS_1_DART_AWAY_01
+#  - path: DARTS_1_DART_AWAY_02
+#  - path: DARTS_1_DART_AWAY_03
+#  - path: DARTS_BOAST_01
+#  - path: DARTS_BOAST_02
+#  - path: DARTS_BOAST_03
+#  - path: DARTS_BOAST_04
+#  - path: DARTS_BOAST_05
+#  - path: DARTS_BOAST_06
+#  - path: DARTS_BORED_01
+#  - path: DARTS_BORED_02
+#  - path: DARTS_BORED_03
+#  - path: DARTS_BULLSEYE_01
+#  - path: DARTS_BULLSEYE_02
+#  - path: DARTS_BULLSEYE_03
+#  - path: DARTS_BUST_01
+#  - path: DARTS_BUST_02
+#  - path: DARTS_BUST_03
+#  - path: DARTS_CHAT_WITH_FRANKLIN_01
+#  - path: DARTS_CHAT_WITH_FRANKLIN_02
+#  - path: DARTS_CHAT_WITH_FRANKLIN_03
+#  - path: DARTS_CHAT_WITH_FRANKLIN_04
+#  - path: DARTS_CHAT_WITH_FRANKLIN_05
+#  - path: DARTS_CHAT_WITH_FRANKLIN_06
+#  - path: DARTS_CHAT_WITH_TREVOR_01
+#  - path: DARTS_CHAT_WITH_TREVOR_02
+#  - path: DARTS_CHAT_WITH_TREVOR_03
+#  - path: DARTS_CHAT_WITH_TREVOR_04
+#  - path: DARTS_CHAT_WITH_TREVOR_05
+#  - path: DARTS_CHAT_WITH_TREVOR_06
+#  - path: DARTS_HAPPY_01
+#  - path: DARTS_HAPPY_02
+#  - path: DARTS_HAPPY_03
+#  - path: DARTS_INVITE_01
+#  - path: DARTS_INVITE_02
+#  - path: DARTS_INVITE_03
+#  - path: DARTS_LOSE_01
+#  - path: DARTS_LOSE_02
+#  - path: DARTS_LOSE_03
+#  - path: DARTS_LOSING_BADLY_01
+#  - path: DARTS_LOSING_BADLY_02
+#  - path: DARTS_LOSING_BADLY_03
+#  - path: DARTS_LOSING_BADLY_04
+#  - path: DARTS_LOSING_BADLY_05
+#  - path: DARTS_LOSING_BADLY_06
+#  - path: DARTS_MISS_BOARD_01
+#  - path: DARTS_MISS_BOARD_02
+#  - path: DARTS_MISS_BOARD_03
+#  - path: DARTS_MISS_BOARD_04
+#  - path: DARTS_PLAYING_WELL_01
+#  - path: DARTS_PLAYING_WELL_02
+#  - path: DARTS_PLAYING_WELL_03
+#  - path: DARTS_PLAYING_WELL_04
+#  - path: DARTS_PLAYING_WELL_05
+#  - path: DARTS_REQUEST_GAME_01
+#  - path: DARTS_REQUEST_GAME_02
+#  - path: DARTS_WIN_01
+#  - path: DARTS_WIN_02
+#  - path: DARTS_WIN_03
+#  - path: DRAW_GUN_01
+#  - path: DRAW_GUN_02
+#  - path: DRAW_GUN_03
+#  - path: DRAW_GUN_04
+#  - path: DRAW_GUN_05
+#  - path: DRAW_GUN_06
+#  - path: DRAW_GUN_07
+#  - path: DRAW_GUN_08
+#  - path: DRINK_BAD_01
+#  - path: DRINK_BAD_02
+#  - path: DRINK_BAD_03
+#  - path: DRINK_GOOD_01
+#  - path: DRINK_GOOD_02
+#  - path: DRINK_GOOD_03
+#  - path: DRIVEN_FAST_01
+#  - path: DRIVEN_FAST_02
+#  - path: DRIVEN_FAST_03
+#  - path: DRIVEN_FAST_04
+#  - path: DRIVEN_SLOW_01
+#  - path: DRIVEN_SLOW_02
+#  - path: DRIVEN_SLOW_03
+#  - path: ENEMY_NOT_SPOTTED_01
+#  - path: ENEMY_NOT_SPOTTED_02
+#  - path: ENEMY_NOT_SPOTTED_03
+#  - path: ENEMY_SPOTTED_01
+#  - path: ENEMY_SPOTTED_02
+#  - path: ENEMY_SPOTTED_03
+#  - path: ENEMY_SPOTTED_BEHIND_01
+#  - path: ENEMY_SPOTTED_BEHIND_02
+#  - path: ENEMY_SPOTTED_BEHIND_03
+#  - path: ENEMY_SPOTTED_DOWN_01
+#  - path: ENEMY_SPOTTED_DOWN_02
+#  - path: ENEMY_SPOTTED_DOWN_03
+#  - path: ENEMY_SPOTTED_FRONT_01
+#  - path: ENEMY_SPOTTED_FRONT_02
+#  - path: ENEMY_SPOTTED_FRONT_03
+#  - path: ENEMY_SPOTTED_LEFT_01
+#  - path: ENEMY_SPOTTED_LEFT_02
+#  - path: ENEMY_SPOTTED_LEFT_03
+#  - path: ENEMY_SPOTTED_RIGHT_01
+#  - path: ENEMY_SPOTTED_RIGHT_02
+#  - path: ENEMY_SPOTTED_RIGHT_03
+#  - path: ENEMY_SPOTTED_UP_01
+#  - path: ENEMY_SPOTTED_UP_02
+#  - path: ENEMY_SPOTTED_UP_03
+#  - path: EPSILON_SITE_VISIT_BACKOUT_01
+#  - path: EPSILON_SITE_VISIT_BACKOUT_02
+#  - path: EPSILON_SITE_VISIT_BACKOUT_03
+#  - path: EPSILON_SITE_VISIT_BACKOUT_04
+#  - path: EXTREME_GRIEFING_01
+#  - path: EXTREME_GRIEFING_02
+#  - path: EXTREME_GRIEFING_03
+#  - path: EXTREME_GRIEFING_04
+#  - path: FIGHT_01
+#  - path: FIGHT_02
+#  - path: FIGHT_03
+#  - path: FIGHT_04
+#  - path: FIGHT_05
+#  - path: FIGHT_ENCOURAGE_01
+#  - path: FIGHT_ENCOURAGE_02
+#  - path: FIGHT_ENCOURAGE_03
+#  - path: FLYING_LOW_SKILL_01
+#  - path: FLYING_LOW_SKILL_02
+#  - path: FLYING_LOW_SKILL_03
+#  - path: FRIEND_FOLLOWED_BY_PLAYER_01
+#  - path: FRIEND_FOLLOWED_BY_PLAYER_02
+#  - path: FRIEND_FOLLOWED_BY_PLAYER_03
+#  - path: FRIEND_LOOKS_STUPID_01
+#  - path: FRIEND_LOOKS_STUPID_02
+#  - path: FRIEND_LOOKS_STUPID_03
+#  - path: FRIEND_LOOKS_STUPID_04
+#  - path: GAME_BAD_OTHER_01
+#  - path: GAME_BAD_OTHER_02
+#  - path: GAME_BAD_OTHER_03
+#  - path: GAME_BAD_OTHER_04
+#  - path: GAME_BAD_OTHER_05
+#  - path: GAME_BAD_SELF_01
+#  - path: GAME_BAD_SELF_02
+#  - path: GAME_BAD_SELF_03
+#  - path: GAME_BAD_SELF_04
+#  - path: GAME_BAD_SELF_05
+#  - path: GAME_GOOD_OTHER_01
+#  - path: GAME_GOOD_OTHER_02
+#  - path: GAME_GOOD_OTHER_03
+#  - path: GAME_GOOD_OTHER_04
+#  - path: GAME_GOOD_OTHER_05
+#  - path: GAME_GOOD_SELF_01
+#  - path: GAME_GOOD_SELF_02
+#  - path: GAME_GOOD_SELF_03
+#  - path: GAME_GOOD_SELF_04
+#  - path: GAME_GOOD_SELF_05
+#  - path: GAME_HECKLE_01
+#  - path: GAME_HECKLE_02
+#  - path: GAME_HECKLE_03
+#  - path: GAME_HECKLE_04
+#  - path: GAME_HECKLE_05
+#  - path: GAME_HECKLE_06
+#  - path: GAME_HECKLE_07
+#  - path: GAME_HECKLE_08
+#  - path: GAME_HECKLE_09
+#  - path: GAME_HECKLE_10
+#  - path: GAME_LOSE_SELF_01
+#  - path: GAME_LOSE_SELF_02
+#  - path: GAME_LOSE_SELF_03
+#  - path: GAME_QUIT_01
+#  - path: GAME_QUIT_02
+#  - path: GAME_QUIT_03
+#  - path: GAME_QUIT_04
+#  - path: GAME_QUIT_05
+#  - path: GAME_QUIT_EARLY_01
+#  - path: GAME_QUIT_EARLY_02
+#  - path: GAME_QUIT_EARLY_03
+#  - path: GAME_WAS_FUN_01
+#  - path: GAME_WAS_FUN_02
+#  - path: GAME_WAS_FUN_03
+#  - path: GAME_WIN_SELF_01
+#  - path: GAME_WIN_SELF_02
+#  - path: GAME_WIN_SELF_03
+#  - path: GASMASK_CHOKE_01
+#  - path: GASMASK_CHOKE_02
+#  - path: GASMASK_CHOKE_03
+#  - path: GASMASK_CHOKE_04
+#  - path: GASMASK_CHOKE_05
+#  - path: GENERIC_BUY_01
+#  - path: GENERIC_BUY_02
+#  - path: GENERIC_BUY_03
+#  - path: GENERIC_BUY_REPEAT_01
+#  - path: GENERIC_BUY_REPEAT_02
+#  - path: GENERIC_BUY_REPEAT_03
+#  - path: GENERIC_BYE_01
+#  - path: GENERIC_BYE_02
+#  - path: GENERIC_BYE_03
+#  - path: GENERIC_CURSE_HIGH_01
+#  - path: GENERIC_CURSE_HIGH_02
+#  - path: GENERIC_CURSE_HIGH_03
+#  - path: GENERIC_CURSE_HIGH_04
+#  - path: GENERIC_CURSE_HIGH_05
+#  - path: GENERIC_CURSE_HIGH_06
+#  - path: GENERIC_CURSE_HIGH_07
+#  - path: GENERIC_CURSE_HIGH_08
+#  - path: GENERIC_CURSE_HIGH_09
+#  - path: GENERIC_CURSE_HIGH_10
+#  - path: GENERIC_CURSE_HIGH_11
+#  - path: GENERIC_CURSE_MED_01
+#  - path: GENERIC_CURSE_MED_02
+#  - path: GENERIC_CURSE_MED_03
+#  - path: GENERIC_CURSE_MED_04
+#  - path: GENERIC_CURSE_MED_05
+#  - path: GENERIC_CURSE_MED_06
+#  - path: GENERIC_CURSE_MED_07
+#  - path: GENERIC_CURSE_MED_08
+#  - path: GENERIC_CURSE_MED_09
+#  - path: GENERIC_CURSE_MED_10
+#  - path: GENERIC_DRINK_01
+#  - path: GENERIC_DRINK_02
+#  - path: GENERIC_DRINK_03
+#  - path: GENERIC_EAT_01
+#  - path: GENERIC_EAT_02
+#  - path: GENERIC_EAT_03
+#  - path: GENERIC_EAT_04
+#  - path: GENERIC_EAT_05
+#  - path: GENERIC_EAT_06
+#  - path: GENERIC_FRIGHTENED_HIGH_01
+#  - path: GENERIC_FRIGHTENED_HIGH_02
+#  - path: GENERIC_FRIGHTENED_HIGH_03
+#  - path: GENERIC_FRIGHTENED_HIGH_04
+#  - path: GENERIC_FRIGHTENED_HIGH_05
+#  - path: GENERIC_FRIGHTENED_MED_01
+#  - path: GENERIC_FRIGHTENED_MED_02
+#  - path: GENERIC_FRIGHTENED_MED_03
+#  - path: GENERIC_FRIGHTENED_MED_04
+#  - path: GENERIC_FRIGHTENED_MED_05
+#  - path: GENERIC_FRUSTRATED_HIGH_01
+#  - path: GENERIC_FRUSTRATED_HIGH_02
+#  - path: GENERIC_FRUSTRATED_HIGH_03
+#  - path: GENERIC_FRUSTRATED_HIGH_04
+#  - path: GENERIC_FRUSTRATED_HIGH_05
+#  - path: GENERIC_FRUSTRATED_HIGH_06
+#  - path: GENERIC_FRUSTRATED_HIGH_07
+#  - path: GENERIC_FRUSTRATED_HIGH_08
+#  - path: GENERIC_FRUSTRATED_HIGH_09
+#  - path: GENERIC_FRUSTRATED_HIGH_10
+#  - path: GENERIC_FRUSTRATED_MED_01
+#  - path: GENERIC_FRUSTRATED_MED_02
+#  - path: GENERIC_FRUSTRATED_MED_03
+#  - path: GENERIC_FRUSTRATED_MED_04
+#  - path: GENERIC_FRUSTRATED_MED_05
+#  - path: GENERIC_FRUSTRATED_MED_06
+#  - path: GENERIC_FRUSTRATED_MED_07
+#  - path: GENERIC_FRUSTRATED_MED_08
+#  - path: GENERIC_FRUSTRATED_MED_09
+#  - path: GENERIC_FRUSTRATED_MED_10
+#  - path: GENERIC_FUCK_YOU_01
+#  - path: GENERIC_FUCK_YOU_02
+#  - path: GENERIC_FUCK_YOU_03
+#  - path: GENERIC_FUCK_YOU_04
+#  - path: GENERIC_FUCK_YOU_05
+#  - path: GENERIC_HI_01
+#  - path: GENERIC_HI_02
+#  - path: GENERIC_HI_03
+#  - path: GENERIC_HI_04
+#  - path: GENERIC_HI_05
+#  - path: GENERIC_HI_FEMALE_01
+#  - path: GENERIC_HI_FEMALE_02
+#  - path: GENERIC_HI_FEMALE_03
+#  - path: GENERIC_HI_FEMALE_04
+#  - path: GENERIC_HI_FEMALE_05
+#  - path: GENERIC_HI_MALE_01
+#  - path: GENERIC_HI_MALE_02
+#  - path: GENERIC_HI_MALE_03
+#  - path: GENERIC_HI_MALE_04
+#  - path: GENERIC_HI_MALE_05
+#  - path: GENERIC_INSULT_FEMALE_01
+#  - path: GENERIC_INSULT_FEMALE_02
+#  - path: GENERIC_INSULT_FEMALE_03
+#  - path: GENERIC_INSULT_FEMALE_04
+#  - path: GENERIC_INSULT_FEMALE_05
+#  - path: GENERIC_INSULT_HIGH_01
+#  - path: GENERIC_INSULT_HIGH_02
+#  - path: GENERIC_INSULT_HIGH_03
+#  - path: GENERIC_INSULT_HIGH_04
+#  - path: GENERIC_INSULT_HIGH_05
+#  - path: GENERIC_INSULT_HIGH_06
+#  - path: GENERIC_INSULT_HIGH_07
+#  - path: GENERIC_INSULT_HIGH_08
+#  - path: GENERIC_INSULT_HIGH_09
+#  - path: GENERIC_INSULT_HIGH_10
+#  - path: GENERIC_INSULT_MALE_01
+#  - path: GENERIC_INSULT_MALE_02
+#  - path: GENERIC_INSULT_MALE_03
+#  - path: GENERIC_INSULT_MALE_04
+#  - path: GENERIC_INSULT_MED_01
+#  - path: GENERIC_INSULT_MED_02
+#  - path: GENERIC_INSULT_MED_03
+#  - path: GENERIC_INSULT_MED_04
+#  - path: GENERIC_INSULT_MED_05
+#  - path: GENERIC_INSULT_MED_06
+#  - path: GENERIC_INSULT_MED_07
+#  - path: GENERIC_INSULT_MED_08
+#  - path: GENERIC_INSULT_MED_09
+#  - path: GENERIC_INSULT_MED_10
+#  - path: GENERIC_INSULT_OLD_01
+#  - path: GENERIC_INSULT_OLD_02
+#  - path: GENERIC_INSULT_OLD_03
+#  - path: GENERIC_INSULT_OLD_04
+#  - path: GENERIC_INSULT_OLD_05
 - path: S_MISC/michael_2_normal
 - path: S_MISC/michael_3_normal
 - path: S_MISC/michael_angry

@@ -522,3 +522,22 @@ dirs:
     replace:
     - kind: asses
       range: 01.405-01.770
+
+- path: CUTSCENE_MASTERED_ONLY/fra_0_mcs_5_p1_mastered_only
+  files:
+  - path: "0x08D2ECD0"
+    replace: &dropping_lamar
+    - kind: mother-fucker
+      range: 14.694-15.672
+    - kind: mother-fucker
+      range: 15.916-16.812
+    - kind: ass
+      range: 20.862-21.168
+    - kind: mother-fucking
+      range: 23.111-23.710
+    - kind: fuck
+      range: 28.363-28.544
+  - path: "0x156708FE"
+    replace: *dropping_lamar
+  - path: "0x0903714C"
+    replace: *dropping_lamar
