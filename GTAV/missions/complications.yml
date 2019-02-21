@@ -4,3 +4,413 @@ file_extension: wav
 
 dirs:
 - path: SS_AC/arm3
+  file_prefix: ARM3_AA
+  files:
+  - path: AA_01
+    transcript: "Gardener: *spanish*."
+  - path: AA_02
+    transcript: "Gardener: *spanish*."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AC
+  files:
+  - path: AA_01
+    transcript: "Stacy: Oh my god. Seriously. My brother is such a *."
+    replace:
+    - kind: homo
+      range: 03.008-03.431
+  - path: AB_01
+    transcript: "Stacy: I think he has a medical problem. Like, more medical problems that the ones he's already been diagnosed with."
+  - path: AC_01
+    transcript: "Stacy: Mental ones. Seriously. Penises are not meant to be that small."
+  - path: AD_01
+    transcript: "Stacy: I * know right, I've seen enough of them. It's probably because he's so fat."
+    replace:
+    - kind: fucking
+      range: 00.288-00.626
+  - path: AE_01
+    transcript: "Stacy: I still love him though. Sort of."
+  - path: AF_01
+    transcript: "Stacy: Well, the other day I walked in on him. And he was * over pictures of my friends."
+    replace:
+    - kind: jerking-off
+      range: 02.936-04.051
+  - path: AG_01
+    transcript: "Stacy: Haha, no not you, haha. The hot ones. Lauren and Lisa."
+  - path: AH_01
+    transcript: "Stacy: No I didn't mean it like that. You're beautiful."
+  - path: AI_01
+    transcript: "Stacy: And interesting it's just that guys don't. They just don't get you."
+  - path: AJ_01
+    transcript: "Stacy: Hello? Hello? *"
+    replace:
+    - kind: fuck
+      range: 04.206-04.900
+  - path: AK_01
+    transcript: "Stacy: Whatever. *."
+    replace:
+    - kind: bitch
+      range: 01.456-01.993
+  - path: AL_01
+    transcript: "Stacy: hehe."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AD
+  files:
+  - path: AB_01
+    transcript: "Coach: Yeah loosen them up. There you go. And follow through. Perfect."
+  - path: AC_01
+    transcript: "Coach: You're a real pro Mrs. Desanta. A real pro."
+  - path: AD_01
+    transcript: "Amanda: I think I'm getting it."
+  - path: AE_01
+    transcript: "Amanda: U-huh. Ok."
+  - path: AF_01
+    transcript: "Amanda: Yeah I could get used to this."
+  - path: AG_01
+    transcript: "Coach: Excellent. Yes. Now, slide your hips slow and sit into it right here. No, right here."
+  - path: AH_01
+    transcript: "Amanda: Oh yeah. Haha. I could totally get used to this. Haha."
+  - path: AI_01
+    transcript: "Coach: Yeah. Me too."
+  - path: AJ_01
+    transcript: "Amanda: You're a great student. Now loosen up those hips."
+  - path: AK_01
+    transcript: "Amanda: Ok. Like this?"
+  - path: AL_01
+    transcript: "Coach: Ok... Amanda. Now just follow through."
+  - path: AM_01
+    transcript: "Coach: Wow. You've got great hips, you know that? Follow through."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AE
+  files:
+  - path: AA_01
+    transcript: "Michael: That's a 9-mm automatic pushed against your skull."
+  - path: AB_01
+    transcript: "Michael: Ah. Don't look around. You just keep driving where you're going."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AF
+  files:
+  - path: AA_01
+    transcript: "Tracy: gasp."
+  - path: AB_01
+    transcript: "Tracy: Who the * are you? Daaaaaad!"
+    replace:
+    - kind: fuck
+      range: 00.675-00.957
+  - path: AC_01
+    transcript: "Tracy: Daaaaaad!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AG
+  files:
+  - path: AA_01
+    transcript: "Gardener: Hola."
+  - path: AA_02
+    transcript: "Gardener: Quien es?"
+  - path: AA_03
+    transcript: "Gardener: Excuse me?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AI
+  files:
+  - path: AA_01
+    transcript: "Gardener: Huh?"
+  - path: AA_02
+    transcript: "Gardener: No. Es nada."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AJ
+  files:
+  - path: AA_01
+    transcript: "Gardener: You don't belong here."
+  - path: AA_02
+    transcript: "Gardener: Who are you?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AL
+  files:
+  - path: AA_01
+    transcript: "Jimmy: Oh ouch. *"
+    replace:
+    - kind: rapearino
+      range: 01.669-02.785
+  - path: AA_02
+    transcript: "Jimmy: Get off my face you *"
+    replace:
+    - kind: fucking-homo
+      range: 01.170-02.147
+  - path: AA_03
+    transcript: "Jimmy: Haha. L-O-L. You suck fat mans *."
+    replace:
+    - kind: dick
+      range: 02.369-02.817
+  - path: AA_04
+    transcript: "Jimmy: I don't care if you're twelve. I'll still * you."
+    replace:
+    - kind: rape
+      range: 01.887-02.122
+  - path: AA_05
+    transcript: "Jimmy: I'll cut your * off if you call the administrator. Hey, you know what? I am the administrator."
+    replace:
+    - kind: dick
+      range: 00.563-00.687
+  - path: AA_06
+    transcript: "Jimmy: Oh. Slaughtertime."
+  - path: AA_07
+    transcript: "Jimmy: Dead you *."
+    replace:
+    - kind: fucking-idiot
+      range: 00.609-01.199
+  - path: AA_08
+    transcript: "Jimmy: You're a waste of * *"
+    replace:
+    - kind: semen
+      range: 00.928-01.494
+    - kind: bitch
+      range: 01.494-02.139
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AM
+  files:
+  - path: AA_01
+    transcript: "Gardener: Mr. Desanta! Mr. Desanta!"
+  - path: AA_02
+    transcript: "Gardener: Mr. Desanta! There is someone here!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AP
+  files:
+  - path: AA_01
+    transcript: "Franklin: Hey come on man. This was a repo job. Guy was behind on his * note."
+    replace:
+    - kind: fucking
+      range: 03.290-03.749
+  - path: AB_01
+    transcript: "Michael: Unlikely, considering my son just got the car."
+  - path: AC_01
+    transcript: "Franklin: Credit fraud, be serious dude. I just work the * repo."
+    replace:
+    - kind: fucking
+      range: 03.190-03.635
+  - path: AD_01
+    transcript: "Michael: Who gives you the slip?"
+  - path: AE_01
+    transcript: "Franklin: A car dealer dawg. By the name of Simeon Yetarian."
+  - path: AF_01
+    transcript: "Michael: Yetarian. What, that nice Irish guy huh?"
+  - path: AG_01
+    transcript: "Franklin: I think *, I think he Armenian."
+    replace:
+    - kind: shit
+      range: 00.509-00.836
+  - path: AH_01
+    transcript: "Michael: So this businessman. He look legit to you?"
+  - path: AI_01
+    transcript: "Franklin: Yeah, yeah. Like I said man."
+  - path: AJ_01
+    transcript: "Michael: Yeah, yeah, yeah. You don't know the wiser where forest."
+  - path: AK_01
+    transcript: "Franklin: Look man. It's just between him and your * son."
+    replace:
+    - kind: fucking
+      range: 02.109-02.504
+  - path: AL_01
+    transcript: "Michael: And looking at the way you're going about this. My guess, you're working a credit fraud."
+  - path: AM_01
+    transcript: "Michael: I appreciate a kid who follows orders without taking responsibility."
+  - path: AN_01
+    transcript: "Michael: Don't worry. Me and mister Yetarian, we'll work this out."
+  - path: AO_01
+    transcript: "Michael: And me and you, we can laugh about it over a drink some time. I'll teach you the ways of the world."
+  - path: AP_01
+    transcript: "Michael: So old Simeon. He's on to something with you?"
+  - path: AQ_01
+    transcript: "Franklin: I don't know anything about the how, why's, or what's of this *. They give me a * slip man. I get the car."
+    replace:
+    - kind: shit
+      range: 02.579-02.977
+    - kind: fucking
+      range: 03.711-04.094
+  - path: AT_01
+    transcript: "Michael: Yeah maybe one day we'll have a beer. I'll explain how the world really works."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AR
+  files:
+  - path: AA_01
+    transcript: "Jimmy: Holy * * bro. Dad!"
+    replace:
+    - kind: fucking
+      range: 00.620-00.943
+    - kind: shit
+      range: 00.943-01.341
+  - path: AB_01
+    transcript: "Jimmy: Dad there's a dude! Dad help! Dad!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AT
+  files:
+  - path: AA_01
+    transcript: "Michael: And who might you be?"
+  - path: AA_02
+    transcript: "Michael: Hey, I told Tracy boys could come in the front door."
+  - path: AA_03
+    transcript: "Michael: What are you doing back here? Serenading my daughter?"
+  - path: AA_04
+    transcript: "Michael: No pool party in this yard kid."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AU
+  files:
+  - path: AA_01
+    transcript: "Simeon: If I don't get this * money it's your fault."
+    replace:
+    - kind: idiots
+      range: 00.889-01.244
+  - path: AA_02
+    transcript: "Simeon: Can't you see I'm doing business?"
+  - path: AA_03
+    transcript: "Simeon: You just lost me a sale."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AW
+  files:
+  - path: AA_01
+    transcript: "Michael: Don't look around. Take me where you're going."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AX
+  files:
+  - path: AA_01
+    transcript: "Simeon: I've got this covered. Go and get the car."
+  - path: AA_02
+    transcript: "Simeon: Rockford hills. The yellow 4x4."
+  - path: AA_03
+    transcript: "Simeon: This is under control. Get the car OK?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AY
+  files:
+  - path: AA_01
+    transcript: "Simeon: You're wasting my time."
+  - path: AA_02
+    transcript: "Simeon: Buy the car or get off the floor."
+  - path: AA_03
+    transcript: "Simeon: All this time I could be mentoring the disadvantaged."
+  - path: AA_04
+    transcript: "Simeon: Perhaps a rich * like you can waste the day. But I have children to feed. Decide."
+    replace:
+    - kind: idiot
+      range: 00.848-01.171
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AZ
+  files:
+  - path: AA_01
+    transcript: "Customer: Give me a minute."
+  - path: AA_02
+    transcript: "Customer: Look. I'm thinking."
+  - path: AA_03
+    transcript: "Customer: I've gotta be sure this is the right decision."
+  - path: AA_04
+    transcript: "Customer: Can you speak to another customer and come back to me?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BC
+  files:
+  - path: AA_01
+    transcript: "Simeon: A suddenly you aren't so tough."
+  - path: AA_02
+    transcript: "Simeon: Where are you going? Coward."
+  - path: AA_03
+    transcript: "Simeon: I thought we were having a conversation."
+  - path: AA_04
+    transcript: "Simeon: Are you not man enough to finish this?"
+  - path: AA_05
+    transcript: "Simeon: Look at him. Running away from the fight."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BF
+  files:
+  - path: AA_01
+    transcript: "Franklin: Hey come one man. It's kinda hard to concentrate on the road with this * gun to my head."
+    replace:
+    - kind: fucking
+      range: 03.422-03.878
+  - path: AB_01
+    transcript: "Michael: Yeah, then you gonna have to try and focus a little harder."
+  - path: AC_01
+    transcript: "Franklin: Dude. I got the slip man. This * is legit."
+    replace:
+    - kind: shit
+      range: 02.401-02.671
+  - path: AD_01
+    transcript: "Michael: There's nothing legit about creeping into a man's house kid."
+  - path: AE_01
+    transcript: "Michael: I don't think the tax man will find much legitimacy in your books either."
+  - path: AF_01
+    transcript: "Franklin: Oh, but this piece that you've got to the back of my skull. Is that legit?"
+  - path: AG_01
+    transcript: "Michael: Who put you up to this?"
+  - path: AH_01
+    transcript: "Franklin: * man. My employer. Dude named Simeon Yetarian."
+    replace:
+    - kind: fuck
+      range: 00.123-00.527
+  - path: AI_01
+    transcript: "Michael: Sounds like a fraudster."
+  - path: AJ_01
+    transcript: "Franklin: Why cause he Armenian? Man you sound like a racist."
+  - path: AK_01
+    transcript: "Michael: Yeah I bet he taught you to pull that * card huh?"
+    replace:
+    - kind: bullshit
+      range: 01.693-02.153
+  - path: AL_01
+    transcript: "Franklin: Man look, this * between y'all two. Ok, leave me out of this. All right?"
+    replace:
+    - kind: shit
+      range: 00.596-00.838
+  - path: AM_01
+    transcript: "Michael: How about I buy you a bear and make up the inconvenience? Teach you the ways of the world."
+  - path: AN_01
+    transcript: "Franklin: Man I prefer to get the * out of this vehicle."
+    replace:
+    - kind: fuck
+      range: 01.036-01.339
+  - path: AO_01
+    transcript: "Michael: All in good time."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_DC
+  files:
+  - path: AA_01
+    transcript: "Jimmy: That's just cause you have a massive * *."
+    replace:
+    - kind: gaper
+      range: 01.521-02.028
+    - kind: bitch
+      range: 02.028-02.687
+  - path: AB_01
+    transcript: "Stacy: * * you're dead. Dad! He said I have a massive..."
+    replace:
+    - kind: fucking
+      range: 00.346-00.739
+    - kind: homo
+      range: 00.739-01.066
+  - path: AC_01
+    transcript: "Stacy: Jimmy called me a *!"
+    replace:
+    - kind: bitch
+      range: 01.357-02.282
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_DD
+  files:
+  - path: AA_01
+    transcript: "Coach: You're a real pro Mrs. Desanta. A real pro."
+  - path: AB_01
+    transcript: "Amanda: Thank you coach."
