@@ -1,0 +1,9 @@
+# Mission: The Merryweather Heist
+
+file_extension: wav
+
+dirs:
+- path: SS_DE/dhf
+- path: SS_DE/dh2a
+- path: SS_DE/dh2b
+- path: SS_DE/dp2b
