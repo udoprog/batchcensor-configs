@@ -1,0 +1,8 @@
+# Mission: Blitz Play
+
+file_extension: wav
+
+dirs:
+# Set up.
+- path: SS_FF/fbipr
+- path: SS_GM/heat

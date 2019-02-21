@@ -1,0 +1,9 @@
+# Mission: The Big Score
+
+file_extension: wav
+
+dirs:
+- path: SS_AC/bs2b
+- path: SS_AC/bs2b_2
+- path: SS_AC/bspra
+- path: SS_AC/bsprp

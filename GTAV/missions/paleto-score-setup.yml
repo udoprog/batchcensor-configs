@@ -1,0 +1,8 @@
+# Mission: Paleto Score Setup
+
+file_extension: wav
+
+dirs:
+- path: SS_QR/rhf
+- path: SS_QR/rhp
+- path: SS_QR/rurs1

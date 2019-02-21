@@ -1,0 +1,8 @@
+# Mission: Caida Libre
+
+file_extension: wav
+
+dirs:
+- path: SS_ST/slmn1
+# not sure
+- path: SS_ST/slmn3

@@ -1,0 +1,9 @@
+# Mission: By The Book
+
+file_extension: wav
+
+dirs:
+- path: SS_FF/fbi3
+- path: SS_FF/fbi3a
+- path: SS_FF/fbi3b
+- path: SS_FF/fbi3c

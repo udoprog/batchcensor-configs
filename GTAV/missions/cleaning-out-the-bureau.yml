@@ -1,0 +1,7 @@
+# Mission: Cleaning Out The Bureau
+
+file_extension: wav
+
+dirs:
+- path: SS_FF/fbipr
+- path: SS_FF/fbis1
