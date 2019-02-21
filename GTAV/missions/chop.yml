@@ -1,4 +1,524 @@
 # Mission: Chop
 
+file_extension: wav
+
 dirs:
 - path: SS_FF/fkn0
+  file_prefix: FKN0_AA
+  files:
+  - path: AA_01
+    transcript: "Franklin: Who would've guess it boy? Lamar trained your ass good huh?"
+    replace:
+    - kind: ass
+      range: 02.240-02.693
+  - path: AA_02
+    transcript: "Franklin: * dude, you obedient and all that * huh? All right homie."
+    replace:
+    - kind: damn
+      range: 00.000-00.367
+    - kind: shit
+      range: 01.737-02.042
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AB
+  files:
+  - path: AA_01
+    transcript: "Franklin: Man what a long way we've come huh?"
+  - path: AB_01
+    transcript: "Lamar: * you wanna go a long way for. We right here right now loco."
+    replace:
+    - kind: fuck
+      range: 00.000-00.342
+  - path: AC_01
+    transcript: "Franklin: That's cool if you wanna be bending corners on coke and cough surup all your days."
+  - path: AD_01
+    transcript: "Lamar: I've seen you on that * before."
+    replace:
+    - kind: shit
+      range: 00.773-01.033
+  - path: AE_01
+    transcript: "Franklin: There you go. Maybe you have. But * has got to get serious man. Forum gansters are about real *."
+    replace:
+    - kind: shit
+      range: 02.081-02.301
+    - kind: shit
+      range: 05.463-05.929
+  - path: AF_01
+    transcript: "Lamar: You think running repos for the Armenian ? was serious. Please."
+  - path: AG_01
+    transcript: "Franklin: Nah, that why I didn't come at your * for * * up."
+    replace:
+    - kind: ass
+      range: 01.523-01.753
+    - kind: fucking
+      range: 01.805-02.193
+    - kind: shit
+      range: 02.193-02.468
+  - path: AH_01
+    transcript: "Lamar: I * it up? Man you the genious who crashed through the door window."
+    replace:
+    - kind: fucked
+      range: 00.215-00.498
+  - path: AI_01
+    transcript: "Franklin: Man one: I had a gun to my * head. Two: you the one * with them eses man."
+    replace:
+    - kind: fucking
+      range: 01.891-02.241
+    - kind: fuck
+      range: 04.537-04.762
+  - path: AJ_01
+    transcript: "Lamar: When you met a man who could tell you what to do?"
+  - path: AK_01
+    transcript: "Franklin: Like I said man. This dude is serious. Creeped on me like some stealth *."
+    replace:
+    - kind: shit
+      range: 04.107-04.514
+  - path: AL_01
+    transcript: "Lamar: Fool you slippin'."
+  - path: AM_01
+    transcript: "Franklin: You don't wanna * with this man dawg. Even you."
+    replace:
+    - kind: fuck
+      range: 00.436-00.667
+  - path: AN_01
+    transcript: "Lamar: Man I don't give a *."
+    replace:
+    - kind: fuck
+      range: 00.960-01.446
+  - path: AO_01
+    transcript: "Franklin: Yeah your * saying it."
+    replace:
+    - kind: ass
+      range: 00.545-00.774
+  - path: AP_01
+    transcript: "Lamar: Man I don't even know what you're tripping on."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AC
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AD
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AE
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AF
+  files:
+  - path: AA_01
+    transcript: "Lamar: Foot down *. It's heavy enough already."
+    replace:
+    - kind: mother-fuckers
+      range: 00.548-01.168
+  - path: AB_01
+    transcript: "Franklin: Shut the *. I know what I'm doing."
+    replace:
+    - kind: fuck-up
+      range: 00.000-00.860
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AG
+  files:
+  - path: AA_01
+    transcript: "Lamar: Get on him!"
+  - path: AB_01
+    transcript: "Franklin: We in a van *. This * slow as *."
+    replace:
+    - kind: n-word
+      range: 00.653-00.967
+    - kind: mother-fuckers
+      range: 01.097-01.799
+    - kind: hell
+      range: 02.103-02.548
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AH
+  files:
+  - path: AA_01
+    transcript: "Lamar: I should have took the wheel."
+  - path: AB_01
+    transcript: "Franklin: Like you could have done better. This piece of * aint going no faster."
+    replace:
+    - kind: shit
+      range: 01.589-01.849
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AI
+  files:
+  - path: AA_01
+    transcript: "Franklin: What the * you say something for. We could have creeped up on this *."
+    replace:
+    - kind: fuck
+      range: 00.226-00.547
+    - kind: n-word
+      range: 03.158-03.721
+  - path: AB_01
+    transcript: "Lamar: You seeing yoursel Franklin? You is a big black *, * your creeping days is over."
+    replace:
+    - kind: mother-fucker
+      range: 02.514-03.022
+    - kind: n-word
+      range: 03.022-03.295
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AJ
+  files:
+  - path: AA_01
+    transcript: "Lamar: You seeing that * back there. She a don. I'm all over that. And she probably the same. Like I said, they flock."
+    replace:
+    - kind: bitch
+      range: 00.519-00.763
+  - path: AB_01
+    transcript: "Franklin: Flock your mind on this * right here for a minute. You worse than Chop."
+    replace:
+    - kind: shit
+      range: 00.931-01.278
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AK
+  files:
+  - path: AA_01
+    transcript: "Franklin: Lamar sure aint been training your * has he boy?"
+    replace:
+    - kind: ass
+      range: 01.531-01.781
+  - path: AA_02
+    transcript: "Franklin: Come on you horny little *. You need bootcamp or some *."
+    replace:
+    - kind: mother-fucker
+      range: 00.943-01.725
+    - kind: shit
+      range: 03.364-03.780
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AL
+  files:
+  - path: AA_01
+    transcript: "D: * you and your stupid dog."
+    replace:
+    - kind: fuck
+      range: 00.000-00.249
+  - path: AA_02
+    transcript: "D: * that dog, man."
+    replace:
+    - kind: screw
+      range: 00.000-00.291
+  - path: AB_01
+    transcript: "Franklin: *."
+    replace:
+    - kind: fuck
+      range: 00.000-00.736
+  - path: AC_01
+    transcript: "Lamar: Go after him homie. Go go go. * take Chop."
+    replace:
+    - kind: n-word
+      range: 01.461-01.677
+  - path: AD_01
+    transcript: "Franklin: Ah you just gonna sit there you lazy *."
+    replace:
+    - kind: mother-fucker
+      range: 01.594-02.350
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AM
+  files:
+  - path: AA_01
+    transcript: "D: Ah!"
+  - path: AA_02
+    transcript: "D: Ah *!"
+    replace:
+    - kind: shit
+      range: 00.346-00.950
+  - path: AA_03
+    transcript: "D: Nah man!"
+  - path: AA_04
+    transcript: "D: Get off me!"
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AN
+  files:
+  - path: AA_01
+    transcript: "Franklin: Ah *."
+    replace:
+    - kind: fuck
+      range: 00.371-01.219
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AO
+  files:
+  - path: AA_01
+    transcript: "Franklin: Come on boy. Find that fool."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AP
+  files:
+  - path: AA_01
+    transcript: "D: Call your dog, dog!"
+  - path: AA_02
+    transcript: "D: I'm coming. I'm coming aight!"
+  - path: AA_03
+    transcript: "D: I'll come. I'm snatched!"
+  - path: AA_04
+    transcript: "D: He got some stinky. * breath man. Come on."
+    replace:
+    - kind: ass
+      range: 00.927-01.339
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AQ
+  files:
+  - path: AA_01
+    transcript: "Franklin: You scared of dogs *?"
+    replace:
+    - kind: n-word
+      range: 01.053-01.468
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AR
+  files:
+  - path: AA_01
+    transcript: "Franklin: Don't kill him this time boy."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AS
+  files:
+  - path: AA_01
+    transcript: "Franklin: Man I told you to book *."
+    replace:
+    - kind: mother-fucker
+      range: 01.088-01.837
+  - path: AA_02
+    transcript: "Franklin: Man you better start walking D."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AT
+  files:
+  - path: AA_01
+    transcript: "D: The OGs gonna hear about this."
+  - path: AA_02
+    transcript: "D: Dumb *."
+    replace:
+    - kind: bitches
+      range: 00.374-00.983
+  - path: AA_03
+    transcript: "D: Ah, you owe me a bike too *."
+    replace:
+    - kind: mother-fuckers
+      range: 01.524-02.536
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AU
+  files:
+  - path: AA_01
+    transcript: "Lamar: We gonna stash this dude at my spot."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AV
+  files:
+  - path: AA_01
+    transcript: "D: We going back to your crib? I've been there when you was in dipers."
+  - path: AB_01
+    transcript: "Lamar: * man. You aint recognize me."
+    replace:
+    - kind: shut-up
+      range: 00.000-00.635
+  - path: AC_01
+    transcript: "D: I knew it was you before you took that flag off. You always been dumb Lamar."
+  - path: AD_01
+    transcript: "Lamar: Really? I guess that means we gonna have to shoot your * when we pick up our 40 stash."
+    replace:
+    - kind: ass
+      range: 02.410-02.678
+  - path: AE_01
+    transcript: "D: You aint gonna pick up *. Feds gonna be one you before you can move *."
+    replace:
+    - kind: shit
+      range: 00.927-01.365
+    - kind: n-word
+      range: 03.353-04.016
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AW
+  files:
+  - path: AA_01
+    transcript: "Lamar: Be quiet, I gotta make a call."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AX
+  files:
+  - path: AA_01
+    transcript: "Lamar: We got your boy."
+  - path: AB_01
+    transcript: "Franklin: You calling them on a cell phone you dumb *. They gonna trace this * in a second."
+    replace:
+    - kind: mother-fucker
+      range: 01.826-02.538
+    - kind: shit
+      range: 03.537-03.808
+  - path: AC_01
+    transcript: "Lamar: We want 40 thousand. This pay me or pay the funeral director *."
+    replace:
+    - kind: mother-fucker
+      range: 02.955-03.597
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AY
+  files:
+  - path: AA_01
+    transcript: "Franklin: What the * you done done? You just gave them our location. Now we gonna let this * out of here."
+    replace:
+    - kind: fuck
+      range: 00.444-00.722
+    - kind: mother-fucker
+      range: 04.408-04.977
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_AZ
+  files:
+  - path: AA_01
+    transcript: "Franklin: Get the * outta here. And * give me that * phone."
+    replace:
+    - kind: fuck
+      range: 00.444-00.722
+    - kind: n-word
+      range: 01.617-01.828
+    - kind: damn
+      range: 02.319-02.600
+  - path: AB_01
+    transcript: "Lamar: What the *."
+    replace:
+    - kind: fuck
+      range: 00.254-00.660
+  - path: AC_01
+    transcript: "D: * you all. I'll be seeing y'all soon."
+    replace:
+    - kind: fuck
+      range: 00.000-00.298
+  - path: AD_01
+    transcript: "Franklin: The only reason you'll be seeing * is because we went easy on your *. Remember that dawg."
+    replace:
+    - kind: shit
+      range: 01.164-01.451
+    - kind: ass
+      range: 02.604-02.991
+
+# Franklin opening empty carts.
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FA
+
+# Franklin encouraging Chop to search.
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FB
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FC
+  files:
+  - path: AA_01
+    transcript: "Franklin: Put em up."
+  - path: AA_02
+    transcript: "Franklin: Give it up."
+  - path: AA_03
+    transcript: "Franklin: You in here?"
+  - path: AA_04
+    transcript: "Franklin: Stop running dawg."
+  - path: AA_05
+    transcript: "Franklin: I got your *."
+    replace:
+    - kind: ass
+      range: 00.761-01.175
+  - path: AA_06
+    transcript: "Franklin: Your * caught."
+    replace:
+    - kind: ass
+      range: 00.223-00.484
+  - path: AA_07
+    transcript: "Franklin: Lay down *."
+    replace:
+    - kind: bitch
+      range: 00.544-01.005
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FD
+  files:
+  - path: AA_01
+    transcript: "Franklin: If we snatching this dude. We snatching his * right. Remember the homies around the block?"
+    replace:
+    - kind: ass
+      range: 02.029-02.372
+  - path: AB_01
+    transcript: "Lamar: Man, the homies is lame."
+  - path: AC_01
+    transcript: "Franklin: Yeah so we not. Cops on that cell phone soon as they make them ransom call."
+  - path: AD_01
+    transcript: "Franklin: Triangulated the signal. Ghetto birds all over the place. Surveillance my *."
+    replace:
+    - kind: n-word
+      range: 04.256-04.694
+  - path: AE_01
+    transcript: "Lamar: Man you paranoid."
+  - path: AF_01
+    transcript: "Franklin: Nah I'm careful my *. That's what I am."
+    replace:
+    - kind: n-word
+      range: 01.099-01.416
+
+# Talk about how to get ransom.
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FE
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FF
+  files:
+  - path: AA_01
+    transcript: "Franklin: Hey get him. Get him."
+  - path: AA_02
+    transcript: "Franklin: Get him boy."
+  - path: AA_03
+    transcript: "Franklin: Sack that *."
+    replace:
+    - kind: bitch
+      range: 00.679-01.143
+  - path: AA_04
+    transcript: "Franklin: Take him down homie."
+  - path: AA_05
+    transcript: "Franklin: You got this homie."
+  - path: AA_06
+    transcript: "Franklin: Bite his * Chop."
+    replace:
+    - kind: ass
+      range: 00.462-00.780
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FV
+  files:
+  - path: AA_01
+    transcript: "Lamar: * you."
+    replace:
+    - kind: fuck
+      range: 00.000-00.509
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FW
+  files:
+  - path: AA_01
+    transcript: "Franklin: Man Chop's all right dawg. He got a little training on him. A little."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FX
+  files:
+  - path: AA_01
+    transcript: "Franklin: Hey if you don't train Chop he's gonna be a lost cause like you dawg."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_FY
+  files:
+  - path: AA_01
+    transcript: "Franklin: Hey I like your dog homie. Me and Chop got a lot in common: your annoying *."
+    replace:
+    - kind: ass
+      range: 04.759-05.290
+  - path: AB_01
+    transcript: "Lamar: Man I'm carrying both of your * homie. Look what I set up."
+    replace:
+    - kind: asses
+      range: 01.405-01.770

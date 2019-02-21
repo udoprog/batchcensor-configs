@@ -2,271 +2,477 @@
 
 file_extension: wav
 
+# Tonya asking you to leave.
 dirs:
 - path: SS_ST/tow
-  file_prefix: TOW_
+  file_prefix: TOW_AA
   files:
-# Tonya asking you to leave.
-  - path: AAAA_01
+  - path: AA_01
     transcript: "Tonya: I though you said you was busy man."
-  - path: AAAA_02
+  - path: AA_02
     transcript: "Tonya: You hate saying goodbye, don't you Franklin Clinton?"
-  - path: AAAA_03
+  - path: AA_03
     transcript: "Tonya: You can't keep your eyes off me can't you?"
-  - path: AAAA_04
+  - path: AA_04
     transcript: "Tonya: Control yourself boy, you've got the Tonya fever."
-  - path: AAAA_05
+  - path: AA_05
     transcript: "Tonya: You still sniffing around? You like a dog in heat."
 
-  - path: ABAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AB
+  files:
+  - path: AA_01
     transcript: "Tonya: Please Franklin. For old times sake."
-  - path: ABAA_02
+  - path: AA_02
     transcript: "Tonya: Go on, you don't need me. I trained you up good."
-  - path: ABAA_03
+  - path: AA_03
     transcript: "Tonya: Car ain't gonna tow itself sugar."
-  - path: ABAA_04
+  - path: AA_04
     transcript: "Tonya: JB's shift started. You don't get there soon he gonna be cut."
-  - path: ABAA_05
+  - path: AA_05
     transcript: "Tonya: You gonna help your cousin out or not?"
 
-  - path: ACAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AC
+  files:
+  - path: AA_01
     transcript: "Tonya: Now. Where is that fool?"
 
-  - path: ADAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AD
+  files:
+  - path: AA_01
     transcript: "Tonya: Giiirl. Don't even get me started."
-  - path: ADAB_01
+  - path: AB_01
     transcript: "Tonya: JB again, can't get his shit together. I don't know why I don't kick that man to the curb."
     replace:
     - kind: shit
       range: 02.041-02.286
-  - path: ADAC_01
+  - path: AC_01
     transcript: "Tonya: Useless don't even do it justice. Hm."
-  - path: ADAD_01
+  - path: AD_01
     transcript: "Tonya: A whisker with you anyways. You still with that fly guy from Carson Avenue?"
-  - path: ADAE_01
+  - path: AE_01
     transcript: "Tonya: Dandrea? Are you for real? You mean Lahandra's ex-sister?"
-  - path: ADAF_01
+  - path: AF_01
     transcript: "Tonya: That girl is beat up from the feet up. *, what is it with these homies?"
     replace:
     - kind: damn
       range: 02.364-03.203
-  - path: ADAG_01
-    transcript: "Tonya: You give them stack. And all they want is burger shack."
-  - path: ADAH_01
+  - path: AG_01
+    transcript: "Tonya: You give them stack. And all they want is Burger Shack."
+  - path: AH_01
     transcript: "Tonya: You said it. Never know when they've got a good thing going until it's too late."
-  - path: ADAI_01
+  - path: AI_01
     transcript: "Tonya: It's all good. I'll holler at you later."
 
-  - path: AEAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AE
+  files:
+  - path: AA_01
     transcript: "Tonya: It's all good. I'll holler at you later."
-  - path: AEAA_02
+  - path: AA_02
     transcript: "Tonya: Last time baby. I swear it."
-  - path: AEAA_03
+  - path: AA_03
     transcript: "Tonya: Go on Franklin. It will take you no time now you've got the skills."
-  - path: AEAA_04
-  - path: AEAA_05
+  - path: AA_04
+  - path: AA_05
 
-  - path: AFAA_01
-  - path: AFAA_02
+- path: SS_ST/tow
+  file_prefix: TOW_AF
+  files:
+  - path: AA_01
+  - path: AA_02
 
-  - path: AGAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AG
+  files:
+  - path: AA_01
     transcript: "You son of a *."
     replace:
     - kind: bitch
       range: 00.616-01.240
-  - path: AGAA_02
+  - path: AA_02
     transcript: "What's your problem?"
-  - path: AGAA_03
+  - path: AA_03
     transcript: "Are you out of your mind?"
 
-  - path: AJAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AJ
+  files:
+  - path: AA_01
     transcript: "You haven't seen that last of me. I will hunt you down."
 
-  - path: AXAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_AX
+  files:
+  - path: AA_01
     transcript: "10-4. We've got an SUV in a handicap spot without a sticker at the Lucky Plucker in Little Seoul."
-  - path: AXAB_01
+  - path: AB_01
     transcript: "Tonya: You know I don't copy. I'm an original. Heh. Yeah we've got you. JB's still sick."
-  - path: AXAC_01
+  - path: AC_01
     transcript: "Tonya: Dispatch. What you got?"
-  - path: AXAD_01
+  - path: AD_01
     transcript: "Franklin: Man you sure you need me? Cause you look like you know what you're doing."
-  - path: AXAE_01
+  - path: AE_01
     transcript: "Tonya: One: I can't drive. And two: This aint work for a lady."
-  - path: AXAF_01
+  - path: AF_01
     transcript: "Franklin: Ah, you really fighting the feminist cause there aint you Tonya."
-  - path: AXAG_01
+  - path: AG_01
     transcript: "Tonya: Like your aunt you mean? I saw her fake jogging the other day."
-  - path: AXAH_01
+  - path: AH_01
     transcript: "Tonya: She into some wacked out nonsense. That * is crazy."
     replace:
     - kind: bitch
       range: 02.289-02.721
-  - path: AXAI_01
+  - path: AI_01
     transcript: "Franklin: Yeah, that we can agree on."
-  - path: AXAJ_01
+  - path: AJ_01
     transcript: "Tonya: And I got qualifications honey."
-  - path: AXAK_01
+  - path: AK_01
     transcript: "Franklin: Like * you do."
     replace:
     - kind: hell
       range: 00.203-00.582
-  - path: AXAL_01
+  - path: AL_01
     transcript: "Tonya: I've got a certificate in cosmology. You've never seen my nails."
-  - path: AXAM_01
+  - path: AM_01
     transcript: "Franklin: What, you're going into space now?"
-  - path: AXAN_01
+  - path: AN_01
     transcript: "Tonya: You've always did think you were so clever. Remember Davis High?"
-  - path: AXAO_01
+  - path: AO_01
     transcript: "Franklin: Hehe, and you got your meth on the corner in Davis."
-  - path: AXAP_01
+  - path: AP_01
     transcript: "Tonya: You didn't learn * at that school."
     replace:
     - kind: shit
       range: 00.520-00.930
-  - path: AXAQ_01
+  - path: AQ_01
     transcript: "Dispatch: Do you copy?"
 
-  - path: CFAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_CF
+  files:
+  - path: AA_01
     transcript: "Dispatch: This is dispatch, come in. We have an accident on Vespucci Boulevard, over."
-  - path: CFAB_01
+  - path: AB_01
     transcript: "Franklin: We got it."
-  - path: CFAC_01
+  - path: AC_01
     transcript: "Dispatch: Copy that vehicle 29. Driver's badly injured. Bombox on the scene."
-  - path: CFAD_01
+  - path: AD_01
     transcript: "Tonya: 10-7. 10-4. Tonya don't talk numbers baby."
-  - path: CFAE_01
+  - path: AE_01
     transcript: "Dispatch: Uh... 10-1. You're breaking up. Over and out."
-  - path: CFAF_01
+  - path: AF_01
     transcript: "Franklin: Main aint this like the fifth time? Aint there any other fools out there you can guilt trip into working for no pay?"
-  - path: CFAG_01
+  - path: AG_01
     transcript: "Tonya: You in the groove now Franklin. And you and JB was homies before you had hair on your *."
     replace:
     - kind: balls
       range: 05.312-05.869
-  - path: CFAH_01
+  - path: AH_01
     transcript: "Franklin: Yeah, so you keep telling me."
-  - path: CFAI_01
+  - path: AI_01
     transcript: "Tonya: I still remember that time your grandpa caught you and JB slinging cigarettes."
-  - path: CFAJ_01
+  - path: AJ_01
     transcript: "Franklin: Yeah man, *. That was a good hussle while it lasted."
     replace:
     - kind: shit
       range: 01.568-01.905
-  - path: CFAK_01
+  - path: AK_01
     transcript: "Tonya: You still kicking it with that * talker Lamar?"
     replace:
     - kind: shit
       range: 01.120-01.431
-  - path: CFAL_01
+  - path: AL_01
     transcript: "Franklin: Oh yeah *, I'm stuck with that fool forever."
     replace:
     - kind: shit
       range: 00.542-00.814
-  - path: CFAM_01
+  - path: AM_01
     transcript: "Tonya: We didn't have much. But we did it right on Forum Drive."
-  - path: CFAN_01
+  - path: AN_01
     transcript: "Tonya: Unless you're talking 420 then we have a date."
-  - path: CFAO_01
+  - path: AO_01
     transcript: "Tonya: Chased you all over south LS."
-  - path: CFAP_01
+  - path: AP_01
     transcript: "Dispatch: Car needs moving to the nearest auto shop. 10-7."
 
-  - path: CQAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_CQ
+  files:
+  - path: AA_01
     transcript: "Tonya: Hey Frankling. Why don't you come over here and let me take care of that lonely *."
     replace:
     - kind: ass
       range: 03.358-04.306
 
-  - path: EAAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EA
+  files:
+  - path: AA_01
     transcript: "Franklin: Hey look. Let's make this quick. I've got * to do."
     replace:
     - kind: shit
       range: 01.671-01.953
-  - path: EAAB_01
+  - path: AB_01
     transcript: "Tonya: * you need to slow it down. Tanisha was right."
     replace:
     - kind: n-word
       range: 00.000-00.298
 
 # Conversation en-route to impound on first mission.
-  - path: EEAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EE
+  files:
+  - path: AA_01
     transcript: "Franklin: All right, *. Where are we going?"
     replace:
     - kind: shit
       range: 00.417-00.779
-  - path: EEAB_01
+  - path: AB_01
     transcript: "Tonya: Trucks at the David's Sheriff Impound."
-  - path: EEAC_01
+  - path: AC_01
     transcript: "Franklin: Aww man. How did I get dragged into this?"
-  - path: EEAD_01
+  - path: AD_01
     transcript: "Tonya: We both know you've always been sweet on me. Hm, *. Franklin Clinton."
     replace:
     - kind: shit
       range: 02.715-03.143
-  - path: EEAE_01
+  - path: AE_01
     transcript: "Franklin: *, your * must be high or something."
     replace:
     - kind: shit
       range: 00.000-00.521
     - kind: ass
       range: 00.773-00.953
-  - path: EEAF_01
+  - path: AF_01
     transcript: "Tonya: I told you. I don't do that * no more."
     replace:
     - kind: shit
       range: 01.615-01.881
-  - path: EEAG_01
+  - path: AG_01
     transcript: "Tonya: I mean I baby dose now and again just for the taste. But I'm doing good boo. Your eyes don't lie."
-  - path: EEAH_01
+  - path: AH_01
     transcript: "Franklin: Whatever you say girl. Come on."
 
-  - path: EFAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EF
+  files:
+  - path: AA_01
     transcript: "Tonya: This is it."
 
-  - path: EGAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EG
+  files:
+  - path: AA_01
     transcript: "Tonya: There's JB's truck. Let's go bring the cha-ching homie."
 
 # Tonya impatient to go.
-  - path: EHAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EH
+  files:
+  - path: AA_01
     transcript: "Tonya: Driver seat got your name on it Franklin."
-  - path: EHAA_02
+  - path: AA_02
     transcript: "Tonya: Are we getting this party started or not?"
-  - path: EHAA_03
+  - path: AA_03
     transcript: "Tonya: What are you waiting for? Get in there."
-  - path: EHAA_04
+  - path: AA_04
     transcript: "Tonya: Just a truck sugar. Aint nothing to be scared of."
 
 # First mission dialog
-  - path: EIAA_01
+- path: SS_ST/tow
+  file_prefix: TOW_EI
+  files:
+  - path: AA_01
     transcript: "Dispatch: Vehicle 29 come in, this is Dispatch. We've got an abandoned car at San Andreas Avenue."
-  - path: EIAB_01
+  - path: AB_01
     transcript: "Tonya: Yo we on that like ugly on ya mama."
-  - path: EIAC_01
+  - path: AC_01
     transcript: "Dispatch: 10-9, come again. I didn't catch that."
-  - path: EIAD_01
+  - path: AD_01
     transcript: "Tonya: It's Tonya fool. And my boy Franklin. We're filling in for JB."
-  - path: EIAE_01
+  - path: AE_01
     transcript: "Dispatch: Eh. Hi Tonya. Car's a junker. Been there for days. 10-7. I'm gone."
-  - path: EIAF_01
+  - path: AF_01
     transcript: "Tonya: A bucket. This one should be easy."
-  - path: EIAG_01
+  - path: AG_01
     transcript: "Franklin: *, not easy enough for JB to drag himself out of whatever crack house he laying in."
     replace:
     - kind: shit
       range: 00.000-00.379
-  - path: EIAH_01
+  - path: AH_01
     transcript: "Tonya: His loss. Your gain sugar."
-  - path: EIAI_01
+  - path: AI_01
     transcript: "Franklin: Except I aint gaining *, sugar."
     replace:
     - kind: shit
       range: 01.143-01.635
-  - path: EIAJ_01
+  - path: AJ_01
     transcript: "Tonya: Move that seat back and you know I'll make it right for you."
-  - path: EIAK_01
+  - path: AK_01
     transcript: "Franklin: That aint what I'm saying. * Tonya. What the * happened to you?"
     replace:
     - kind: damn
       range: 01.329-01.797
     - kind: fuck
       range: 03.012-03.337
+
+- path: SS_ST/tow
+  file_prefix: TOW_EJ
+  files:
+  - path: AA_01
+    transcript: "Tonya: That looks like our hoopty right there."
+
+- path: SS_ST/tow
+  file_prefix: TOW_EK
+  files:
+  - path: AA_01
+    transcript: "Tonya: Ok. I've seen JB do this a hundred times."
+  - path: AB_01
+    transcript: "Tonya: Back up close. Make sure the hook is down."
+  - path: AC_01
+    transcript: "Tonya: And it should slide right in."
+
+- path: SS_ST/tow
+  file_prefix: TOW_EL
+  files:
+  - path: AA_01
+    transcript: "Tonya: Aight baby. Back it up nice and steady."
+
+# Tonya prompting you to "pick up the car".
+- path: SS_ST/tow
+  file_prefix: TOW_EM
+  files:
+  - path: AA_01
+    transcript: "Tonya: Take it slow."
+  - path: AA_02
+    transcript: "Tonya: It's all good. You got this."
+  - path: AA_03
+    transcript: "Tonya: Yeah. That's it."
+  - path: AA_04
+    transcript: "Tonya: Back that * up."
+    replace:
+    - kind: shit
+      range: 00.489-00.753
+  - path: AA_05
+    transcript: "Tonya: Yeah. You a real man now."
+  - path: AA_06
+    transcript: "Tonya: Make it happen baby."
+  - path: AA_07
+    transcript: "Tonya: I want a good tight fit."
+  - path: AA_08
+    transcript: "Tonya: You just teasing me now."
+
+- path: SS_ST/tow
+  file_prefix: TOW_EN
+  files:
+  - path: AA_01
+    transcript: "Tonya: OK. We are in baby. Let's get this back to the lot."
+  - path: AB_01
+    transcript: "Franklin: Man. This was not how I saw my day going."
+
+# Conversation between Tonya and Franklin going back to the lot.
+# NB: this is a bit out of order in the Audio files.
+- path: SS_ST/tow
+  file_prefix: TOW_EO
+  files:
+  - path: AA_01
+    transcript: "Tonya: So I aint seen you around the hood much."
+  - path: AB_01
+    transcript: "Franklin: I've been trying to branch out. Can't stay in chamberly hills forever."
+  - path: AC_01
+    transcript: "Tonya: Oh. * got heirs now."
+    replace:
+    - kind: n-word
+      range: 00.869-01.114
+  - path: AD_01
+    transcript: "Franklin: And I remember you and JB before y'all was dope heads. * changes."
+    replace:
+    - kind: shit
+      range: 03.233-03.587
+  - path: AE_01
+    transcript: "Tonya: You're the one all terfed up. JB's smoking be he aint smoking homies."
+  - path: AF_01
+    transcript: "Franklin: For real? Cause I could have sworn it was me out here towing cars for him."
+  - path: AG_01
+    transcript: "Tonya: And looking * fine doing it too baby."
+    replace:
+    - kind: damn
+      range: 00.900-01.248
+  - path: AH_01
+    transcript: "Tonya: I remember you before you was a wannabe when you just 'was'."
+  - path: AI_01
+    transcript: "Tonya: He out here grinding. Towing cars. Paying bills."
+
+- path: SS_ST/tow
+  file_prefix: TOW_EP
+  files:
+  - path: AA_01
+    transcript: "Tonya: Ok we make the drop where they got the areas marked."
+  - path: AB_01
+    transcript: "Tonya: They get real finnicky when we don't leave it in the right place."
+
+- path: SS_ST/tow
+  file_prefix: TOW_FD
+  files:
+  - path: AA_01
+    transcript: "Tonya: You never could say no to me Franklin Clinton."
+  - path: AB_01
+    transcript: "Tonya: I aint so cracked out I don't remember that night behind the Burger Shack."
+  - path: AC_01
+    transcript: "Franklin: Not this again. What we was like 13?"
+  - path: AD_01
+    transcript: "Tonya: But you was a man after that night."
+  - path: AE_01
+    transcript: "Tonya: Damn every time with this *. And nothing even happened."
+    replace:
+    - kind: shit
+      range: 01.324-01.756
+  - path: AF_01
+    transcript: "Tonya: It's all good baby. I know that wound aint healed."
+
+- path: SS_ST/tow
+  file_prefix: TOW_FT
+  files:
+  - path: AA_01
+    transcript: "Tonya: Focus on your back. Not mine sugar."
+  - path: AA_02
+    transcript: "Tonya: Poor baby is all nervous."
+  - path: AA_03
+    transcript: "Tonya: Aint you learn nothing last time?"
+  - path: AA_04
+    transcript: "Tonya: Am i distracting you? I'd get ugly if I could."
+  - path: AA_05
+    transcript: "Tonya: You sure you aint been smoking?"
+
+- path: SS_ST/tow
+  file_prefix: TOW_FV
+  files:
+  - path: AA_01
+    transcript: "Tonya: Now you know leaving it there aint gonna fly."
+  - path: AA_02
+    transcript: "Tonya: They dock us if it aint parked right Franklin."
+
+- path: SS_ST/tow
+  file_prefix: TOW_FX
+  files:
+  - path: AA_01
+    transcript: "Tonya: I'll catch you later boo. Momma's got other needs now."
+  - path: AA_02
+    transcript: "Tonya: You've never heard of giving a girl space?"
+  - path: AA_03
+    transcript: "Tonya: No wonder Tanisha ran out on your * with these kinda moves."
+    replace:
+    - kind: ass
+      range: 02.381-02.751
+  - path: AA_04
+    transcript: "Tonya: Everything in moderation Frankling. Even me."
+  - path: AA_05
+    transcript: "Tonya: You gonna creep around me the whole * day?"
+    replace:
+    - kind: ass
+      range: 01.767-02.119
+
+# TODO: find the Tonya voice line when you are leaving.
