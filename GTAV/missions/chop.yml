@@ -6,7 +6,7 @@ dirs:
 - path: CUTSCENE_MASTERED_ONLY/fra_0_mcs_5_p1_mastered_only
   files:
   - path: "0x08D2ECD0"
-    replace: &dropping_lamar
+    replace: &fra_0_mcs_5_p1_mastered_only
     - kind: motherfucker
       range: 14.694-15.672
     - kind: motherfucker
@@ -18,9 +18,9 @@ dirs:
     - kind: fuck
       range: 28.363-28.544
   - path: "0x156708FE"
-    replace: *dropping_lamar
+    replace: *fra_0_mcs_5_p1_mastered_only
   - path: "0x0903714C"
-    replace: *dropping_lamar
+    replace: *fra_0_mcs_5_p1_mastered_only
 
 - path: SS_FF/fkn0
   file_prefix: FKN0_AA
@@ -304,19 +304,9 @@ dirs:
   - path: AD_01
     transcript: "Lamar: I could have swallowed my card. Try to triangulate that."
   - path: AE_01
-    transcript: "Franklin: It's too late * done. At least I saved you the indignity of pulling apart your *."
-    replace:
-    - kind: shits
-      range: 00.651-01.044
-    - kind: shit
-      range: 04.038-$
+    transcript: "Franklin: It's too late, [shits]{00.651-01.044} done. At least I saved you the indignity of pulling apart your [shit]{04.038-$}."
   - path: AF_01
-    transcript: "Lamar: * I ain't afraid to get my hands dirty old precious *."
-    replace:
-    - kind: n-word
-      range: ^-00.265
-    - kind: mother-fucker
-      range: 02.689-$
+    transcript: "Lamar: [Nigga]{^-00.265}, I ain't afraid to get my hands dirty old precious [motherfucker]{02.689-$}."
   - path: AG_01
     transcript: "Franklin: This is what I mean homie. We need to get serious. Get paid. This * ain't working."
     replace:
@@ -621,13 +611,381 @@ dirs:
   - path: AA_07
     transcript: "Lamar: Lose that heat."
 
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CHAA_
+  files:
+  - $$: "Go up Vinewood Boulevard."
+  - $$: "We going up Vinewood Boulevard."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CI
+  suffix: _01
+  files:
+  - AA: "Franklin: Man, [fuck] this, man - you seen Tanisha?"
+  - AB: "Lamar: Yeah [sucker] I've seen her. With some lawyer or some [shit]. You should move on homie. She ain't even trippin' off you."
+  - AC: "Franklin: What? Move on? I've been moved on fool, I was just wondering how she was doing homie."
+  - AD: "Lamar: She straight."
+  - AE: "Franklin: All right, [damn], cool."
+  - AF: "Lamar: It's me and you that ain't straight though, homie."
+  - AG: "Franklin: Dog, I know, homie. But look, I met this contact, this white dude. Real serious dude, man."
+  - AH: "Franklin: This [motherfucker] know the streets, homie. I know he'd be a good hookup for us."
+  - AI: "Lamar: We don't need no hookup, fool. I know these streets."
+  - AJ: "Franklin: You? Know these streets? Man, all you know is dime bag hustling, credit card stealing."
+  - AK: "Franklin: Boosting gas tankers, homie? Come on, man. You trying to be some [fucking] commodity trader or something?"
+  - AL: "Lamar: Fool, that [shit] went up, man."
+  - AM1: "Franklin: Look homie, I don't mind dying. You feel me?"
+  - AM2: "Franklin: But I just want to die with something that matters, homie."
+  - AM3: "Franklin: That's what Forum Gangsters should really be about."
+  - AN: "Lamar: And I know this much, the [motherfucking] OGs ain't even giving a [fuck] about us, though."
+  - AO: "Franklin: Man, [fuck] the OGs then. You know what I'm saying? This ain't no [motherfucking] pyramid scheme."
+  - AP1: "Franklin: I payed my [fucking] dues."
+  - AP2: "Franklin: The CG are for life for me homie."
+  - AP3: "Franklin: I gotta make some real [fucking] paper."
+  - AQ: "Lamar: Wait, hold on. Listen to your boy one time. Listen to your boy. You want some paper, my [nigga]?"
+  - AR: "Lamar: This is what it's about. Check it out. I'm talking about forty thousand."
+  - AS: "Lamar: No problem. Cash in hand. Two days time, no killing. Nothing."
+  - AT: "Franklin: Nah, just starting another beef with the [fucking] Ballas, [nigga], that's class-A felony bullshit."
+  - AU: "Lamar: We gonna keep our disguise on. Ain't nobody gotta know it was us."
+  - AV: "Franklin: Yeah, whatever, homie. We'll see about that."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CJ
+  suffix: _01
+  files:
+  - $@: "Lamar: Come on, homie, we ain't got all day, let's go."
+  - $@: "Franklin: Fo' sho, but what you got up?"
+  - $@: "Lamar: Kidnapping, fool. That clown D, that OG fool from Ballas."
+  - $@: "Franklin: Dog, I told you; no more gangbanging, retro-vengeance [bullshit]. I'm trying to make some [fucking] paper."
+  - $@: "Lamar: You gonna make some paper, loc. And ain't nobody out here gangbanging, it just look like that. You gotta know the difference, man."
+  - $@: "Franklin: [Fuck], man, great. My aunt will be very happy, homie. She wants me dead anyway so she can get the [fucking] house."
+  - $@: "Lamar: I told you to quit talking [shit] about your auntie, loco. That's my get. I'm just [fucking] with ya..."
+  - $@: "Franklin: Man, fuck you."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CM
+  suffix: _01
+  files:
+  - $@: "Franklin: Man, what the [fuck] Chop do to deserve a fool like you?"
+  - $@: "Lamar: Chop lucky, homie. Ain't you, Chop? Ain't you, boy?"
+  - $@: "Franklin: Poor dog, man, he don't know what the [fuck] you sayin'."
+  - $@: "Lamar: Oh, you wouldn't understand that [shit]. Us Apache - we got a bond with the animal kingdom."
+  - $@: "Franklin: Yeah, you do got a bond, [nigga]. I seen you bonding with plenty of animal-type [bitches]."
+  - $@: "Franklin: I'm talking big-ass, hairy, scary bitches. It's true about you Apache motherfuckers, y'all do got a bond."
+  - $@: "Lamar: [Fuck] you, homie. A little mustache ain't shit. That's just a sign of virility."
+  - $@: "Franklin: Maybe in the dog world, [nigga]. What you think, Chop? Come on boy, what you think? You like a little hair on your lips, puppy?"
+  - $@: "Lamar: Least I know what I can get. You still after the same [bitch] from high school. Only she ain't interested in some of your... uh..."
+  - $@: "Lamar: Life choices."
+  - $@: "Franklin: You the life choices she don't like, [nigga]."
+  - $@: "Lamar: Nah, [nigga], we cool, man. She kick it with me more than you do."
+  - $@: "Lamar: Tells me about the lawyer, nuclear physicist, humanitarian, super [nigga] she fucking."
+  - $@: "Franklin: Shut the [fuck] up with that [shit]. I'm done, [nigga]. I moved on many a times, nigga."
+  - $@: "Lamar: Oh, whatever, that's cool. But on some other [shit] though, you heard the boy Stretch gettin' out, huh?"
+  - $@: "Franklin: He gettin' out? Then the State is in some real motherfucking trouble, [nigga]."
+  - $@: "Franklin: I didn't think no amount of over-crowding would put that [nigga] back on the streets, dog."
+  - $@: "Lamar: Budgetary realignment, homie. They aligning the homie right up outta Bolingbroke."
+  - $@: "Franklin: Damn! Well, let's just hope he don't fall back into that same downward spiral that put him in to begin with."
+  - $@: "Lamar: You [fucking] with me, right?"
+  - $@: "Franklin: Yeah, I'm [fuckin'] with you, dog."
+  - $@: "Lamar: Going to snatch a fool, acting all judgmental and [shit]. Look at you man, that shit is lame."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CQ
+  suffix: _01
+  files:
+  - $@: "Franklin: Eh, I know you drive that Emperor, so why we in this bucket - it's struggling on the incline."
+  - $@: "Lamar: I don't care 'bout no hills. I can get guns, dogs, snatched up fools - you name it - in the back of this [motherfucker]."
+  - $@: "Franklin: Glad to see you got your priorities straight."
+  - $@: "Lamar: Snatched up fools - you name it - all in the back of this [motherfucker]."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CT
+  suffix: _01
+  files:
+  - $@: "Franklin: Ey you wanna book this [nigga] or snatch him?"
+  - $@: "Lamar: I wasn't aiming at no vitals [motherfucker]."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CU
+  suffix: _01
+  files:
+  - $@: "Franklin: Hey, [nigga], how Chop doing back there?"
+  - $@: "Lamar: He doing fine if we can give him a buster-[ass] Balla to snack on!"
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CV
+  suffix: _01
+  files:
+  - $@: "Franklin: Hey, why we choose this mark, homie?"
+  - $@: "Lamar: I don't know. It's an opportunity. Why not?"
+  - $@: "Franklin: Man, I don't know. We just chasing the [bitch]? I thought it might have been for a reason."
+  - $@: "Lamar: Forty thousand, [nigga], that's the reason."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CW
+  suffix: _01
+  files:
+  - $@: "Franklin: What the [fuck], homie? Half the city goin' be mobilized on this shit! We got to drop his ass!"
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CX
+  suffix: _01
+  files:
+  - $@: "Lamar: Yeah, we got your homeboy, and we ain't trippin'. We goin' smoke his [ass] if you don't come with that bread."
+  - $@: "Franklin: This [shit] dumb. They goin' be all over your [fuckin'] cellphone."
+  - $@: "Lamar: Forty thousand, [motherfuckers]. Or this [nigga] goin' be in forty little pieces."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CY
+  suffix: _01
+  files:
+  - $@: "Lamar: I'ma make some bills off this fool. Just [shut up] while I make the call."
+
+- path: SS_FF/fkn0
+  file_prefix: FKN0_CZ
+  suffix: _01
+  files:
+  - $@: "Franklin: Why the fuck you pull your flag down?"
+  - $@: "Lamar: Man, needed to breathe."
+  - $@: "D: Lamar [motherfucking] Davis. This just the kind of [lame-ass] [shit] marks like you try to pull."
+  - $@: "Lamar: Man, [fuck] you. And who the [fuck] is this [Lamar] nigga?"
+  - $@: "D: You lame, [sucker]."
+  - $@: "Lamar: We gonna see who lame when they got my two in the back of the head and little Chop Chop chewing on their [shit]."
+
+- path: SS_FF/fkn0
+  files:
+  - FKN0_DBAA_01: "[missing]"
+  - FKN0_DBAB_01: "[missing]"
+  - FKN0_DBAC_01: "[missing]"
+  - FKN0_DBAD_01: "[missing]"
+
+  - FKN0_DCAA_01: "[missing]"
+  - FKN0_DCAB_01: "[missing]"
+
+  - FKN0_DDAA_01: "[missing]"
+  - FKN0_DDAB_01: "[missing]"
+
+  - FKN0_DEAA_01: "[missing]"
+  - FKN0_DEAA_02: "[missing]"
+  - FKN0_DEAA_03: "[missing]"
+  - FKN0_DEAA_04: "[missing]"
+  - FKN0_DEAA_05: "[missing]"
+
+  - FKN0_DFAA_01: "[missing]"
+  - FKN0_DFAA_02: "[missing]"
+  - FKN0_DFAA_03: "[missing]"
+  - FKN0_DFAA_04: "[missing]"
+
+  - FKN0_DGAA_01: "[missing]"
+  - FKN0_DGAA_02: "[missing]"
+  - FKN0_DGAA_03: "[missing]"
+  - FKN0_DGAA_04: "[missing]"
+  - FKN0_DGAA_05: "[missing]"
+
+  - FKN0_DHAA_01: "[missing]"
+  - FKN0_DHAA_02: "[missing]"
+  - FKN0_DHAA_03: "[missing]"
+
+  - FKN0_DIAA_01: "[missing]"
+  - FKN0_DIAA_02: "[missing]"
+  - FKN0_DIAA_03: "[missing]"
+
+  - FKN0_DJAA_01: "[missing]"
+  - FKN0_DJAA_02: "[missing]"
+
+  - FKN0_DKAA_01: "[missing]"
+  - FKN0_DKAA_02: "[missing]"
+
+  - FKN0_DLAA_01: "[missing]"
+  - FKN0_DLAA_02: "[missing]"
+
+  - FKN0_DNAA_01: "[missing]"
+  - FKN0_DNAA_02: "[missing]"
+  - FKN0_DNAA_03: "[missing]"
+  - FKN0_DNAA_04: "[missing]"
+  - FKN0_DNAA_05: "[missing]"
+  - FKN0_DNAA_06: "[missing]"
+  - FKN0_DNAA_07: "[missing]"
+  - FKN0_DNAA_08: "[missing]"
+  - FKN0_DNAA_09: "[missing]"
+  - FKN0_DNAA_10: "[missing]"
+  - FKN0_DNAA_11: "[missing]"
+  - FKN0_DNAA_12: "[missing]"
+  - FKN0_DNAA_13: "[missing]"
+
+  - FKN0_DOAA_01: "[missing]"
+  - FKN0_DOAA_02: "[missing]"
+  - FKN0_DOAA_03: "[missing]"
+  - FKN0_DOAA_04: "[missing]"
+  - FKN0_DOAA_05: "[missing]"
+  - FKN0_DOAA_06: "[missing]"
+  - FKN0_DOAA_07: "[missing]"
+  - FKN0_DOAA_08: "[missing]"
+  - FKN0_DOAA_09: "[missing]"
+  - FKN0_DOAA_10: "[missing]"
+  - FKN0_DOAA_11: "[missing]"
+
+  - FKN0_DPAA_01: "[missing]"
+  - FKN0_DPAA_02: "[missing]"
+  - FKN0_DPAA_03: "[missing]"
+  - FKN0_DPAA_04: "[missing]"
+  - FKN0_DPAA_05: "[missing]"
+  - FKN0_DPAA_06: "[missing]"
+  - FKN0_DPAA_07: "[missing]"
+  - FKN0_DPAA_08: "[missing]"
+  - FKN0_DPAA_09: "[missing]"
+  - FKN0_DPAA_10: "[missing]"
+  - FKN0_DPAA_11: "[missing]"
+
+  - FKN0_DQAA_01: "[missing]"
+  - FKN0_DQAA_02: "[missing]"
+  - FKN0_DQAA_03: "[missing]"
+  - FKN0_DQAA_04: "[missing]"
+  - FKN0_DQAA_05: "[missing]"
+
+  - FKN0_DRAA_01: "[missing]"
+  - FKN0_DRAA_02: "[missing]"
+  - FKN0_DRAA_03: "[missing]"
+  - FKN0_DRAA_04: "[missing]"
+  - FKN0_DRAA_05: "[missing]"
+
+  - FKN0_DSAA_01: "[missing]"
+  - FKN0_DSAA_02: "[missing]"
+
+  - FKN0_DTAA_01: "[missing]"
+  - FKN0_DTAA_02: "[missing]"
+  - FKN0_DTAA_03: "[missing]"
+
+  - FKN0_DUAA_01: "[missing]"
+  - FKN0_DUAA_02: "[missing]"
+  - FKN0_DUAA_03: "[missing]"
+
+  - FKN0_DXAA_01: "[missing]"
+  - FKN0_DXAB_01: "[missing]"
+  - FKN0_DXAC_01: "[missing]"
+
+  - FKN0_DYAA_01: "[missing]"
+  - FKN0_DYAB_01: "[missing]"
+  - FKN0_DYAC_01: "[missing]"
+
+  - FKN0_DZAA_01: "[missing]"
+  - FKN0_DZAB_01: "[missing]"
+
+  - FKN0_EAAA_01: "[missing]"
+  - FKN0_EAAB_01: "[missing]"
+  - FKN0_EAAC_01: "[missing]"
+
+  - FKN0_EBAA_01: "[missing]"
+  - FKN0_EBAB_01: "[missing]"
+  - FKN0_EBAC_01: "[missing]"
+
+  - FKN0_ECAA_01: "[missing]"
+  - FKN0_ECAB_01: "[missing]"
+  - FKN0_ECAC_01: "[missing]"
+  - FKN0_ECAD_01: "[missing]"
+
+  - FKN0_EDAA_01: "[missing]"
+  - FKN0_EDAB_01: "[missing]"
+  - FKN0_EDAC_01: "[missing]"
+
+  - FKN0_EEAA_01: "[missing]"
+  - FKN0_EEAB_01: "[missing]"
+  - FKN0_EEAC_01: "[missing]"
+  - FKN0_EEAD_01: "[missing]"
+
+  - FKN0_EFAA_01: "[missing]"
+  - FKN0_EFAB_01: "[missing]"
+  - FKN0_EFAC_01: "[missing]"
+  - FKN0_EFAD_01: "[missing]"
+
+  - FKN0_EGAA_01: "[missing]"
+  - FKN0_EGAB_01: "[missing]"
+
+  - FKN0_EHAA_01: "[missing]"
+
+  - FKN0_EIAA_01: "[missing]"
+  - FKN0_EIAB_01: "[missing]"
+
+  - FKN0_EJAA_01: "[missing]"
+
+  - FKN0_EKAA_01: "[missing]"
+
+  - FKN0_ELAA_01: "[missing]"
+  - FKN0_ELAB_01: "[missing]"
+
+  - FKN0_EMAA_01: "[missing]"
+
+  - FKN0_ENAA_01: "[missing]"
+
+  - FKN0_ERAA_01: "[missing]"
+
+  - FKN0_ETAA_01: "[missing]"
+  - FKN0_ETAA_02: "[missing]"
+
+  - FKN0_EUAA_01: "[missing]"
+  - FKN0_EUAA_02: "[missing]"
+
+  - FKN0_EVAA_01: "[missing]"
+  - FKN0_EVAA_02: "[missing]"
+  - FKN0_EVAA_03: "[missing]"
+  - FKN0_EVAA_04: "[missing]"
+  - FKN0_EVAA_05: "[missing]"
+  - FKN0_EVAA_06: "[missing]"
+
+  - FKN0_EWAA_01: "[missing]"
+  - FKN0_EWAA_02: "[missing]"
+  - FKN0_EWAA_03: "[missing]"
+  - FKN0_EWAA_04: "[missing]"
+  - FKN0_EXAA_01: "[missing]"
+  - FKN0_EXAA_02: "[missing]"
+
+  - FKN0_EYAA_01: "[missing]"
+  - FKN0_EYAB_01: "[missing]"
+  - FKN0_EYAC_01: "[missing]"
+  - FKN0_EYAD_01: "[missing]"
+  - FKN0_EYAE_01: "[missing]"
+  - FKN0_EYAF_01: "[missing]"
+  - FKN0_EYAG_01: "[missing]"
+  - FKN0_EYAH_01: "[missing]"
+  - FKN0_EYAI_01: "[missing]"
+  - FKN0_EYAJ_01: "[missing]"
+  - FKN0_EYAK_01: "[missing]"
+  - FKN0_EYAL_01: "[missing]"
+  - FKN0_EYAM_01: "[missing]"
+  - FKN0_EYAN_01: "[missing]"
+  - FKN0_EYAO_01: "[missing]"
+  - FKN0_EYAP_01: "[missing]"
+  - FKN0_EYAQ_01: "[missing]"
+  - FKN0_EYAR_01: "[missing]"
+
+  - FKN0_EZAA_01: "[missing]"
+  - FKN0_EZAA_02: "[missing]"
+
+  - FKN0_FGAA_01: "[missing]"
+  - FKN0_FGAA_02: "[missing]"
+  - FKN0_FGAA_03: "[missing]"
+  - FKN0_FGAA_04: "[missing]"
+
 # Franklin opening empty carts.
 - path: SS_FF/fkn0
   file_prefix: FKN0_FA
+  files:
+  - AA_01: "[missing]"
+  - AA_02: "[missing]"
+  - AA_03: "[missing]"
+  - AA_04: "[missing]"
+  - AA_05: "[missing]"
+  - AA_06: "[missing]"
+  - AA_07: "[missing]"
 
 # Franklin encouraging Chop to search.
 - path: SS_FF/fkn0
   file_prefix: FKN0_FB
+  files:
+  - AA_01: "[missing]"
+  - AA_02: "[missing]"
+  - AA_03: "[missing]"
+  - AA_04: "[missing]"
 
 - path: SS_FF/fkn0
   file_prefix: FKN0_FC
@@ -669,6 +1027,11 @@ dirs:
 # Talk about how to get ransom.
 - path: SS_FF/fkn0
   file_prefix: FKN0_FE
+  files:
+    - AA_01: "[missing]"
+    - AB_01: "[missing]"
+    - AC_01: "[missing]"
+    - AD_01: "[missing]"
 
 - path: SS_FF/fkn0
   file_prefix: FKN0_FF
