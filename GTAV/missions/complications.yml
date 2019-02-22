@@ -3,414 +3,535 @@
 file_extension: wav
 
 dirs:
-- path: SS_AC/arm3
-  file_prefix: ARM3_AA
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_int_seq_mastered_only
   files:
-  - path: AA_01
-    transcript: "Gardener: *spanish*."
-  - path: AA_02
-    transcript: "Gardener: *spanish*."
+  - path: "0x0CB86B72"
+  - path: "0x16B1DBF4"
+  - path: "0x1F2FFCA0"
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_3_mastered_only
+  files:
+  - path: "0x0340BA7E"
+    replace: &armenian_3_mcs_3_mastered_only
+    - kind: fucking
+      range: 11.309-11.643
+    - kind: shit
+      range: 11.643-12.006
+  - path: "0x12BDA956"
+    replace: *armenian_3_mcs_3_mastered_only
+  - path: "0x1EB0C4C6"
+    replace: *armenian_3_mcs_3_mastered_only
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_4_mastered_only
+  files:
+  - path: "0x053E4B81"
+    replace: &armenian_3_mcs_4_mastered_only
+    - kind: fuck
+      range: 14.049-14.361
+  - path: "0x053EF429"
+    replace: *armenian_3_mcs_4_mastered_only
+  - path: "0x1053A2CB"
+    replace: *armenian_3_mcs_4_mastered_only
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_5_mastered_only
+  files:
+  - path: "0x0AD69968"
+    replace: &armenian_3_mcs_5_mastered_only
+    - kind: fuck
+      range: 6.513-6.728
+  - path: "0x15802722"
+    replace: *armenian_3_mcs_5_mastered_only
+  - path: "0x1CD4E6BC"
+    replace: *armenian_3_mcs_5_mastered_only
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_6_mastered_only
+  files:
+  - path: "0x04384902"
+    replace: &armenian_3_mcs_6_mastered_only
+    - kind: fucking
+      range: 22.360-22.634
+    - kind: fucking
+      range: 31.459-31.900
+  - path: "0x0BA9D0E8"
+    replace: *armenian_3_mcs_6_mastered_only
+  - path: "0x0BAAF180"
+    replace: *armenian_3_mcs_6_mastered_only
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_7_mastered_only
+  files:
+  - path: "0x0BA691BA"
+    replace:
+    - kind: shit
+      range: 21.968-22.347
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_8_mastered_only
+  files:
+  - path: "0x1150378B"
+    replace: &armenian_3_mcs_8_mastered_only
+    - kind: fuck
+      range: 22.561-22.853
+    - kind: motherfucker
+      range: 32.580-33.969
+  - path: "0x1ADAF29C"
+    replace: *armenian_3_mcs_8_mastered_only
+  - path: "0x1B625599"
+    replace: *armenian_3_mcs_8_mastered_only
+
+- path: CUTSCENE_MASTERED_ONLY/armenian_3_mcs_9_seq_mastered_only
+  files:
+  - path: "0x17DB5554"
+    replace: &armenian_3_mcs_9_seq_mastered_only
+    - kind: fucking
+      range: 28.655-29.045
+    - kind: fucking
+      range: 48.045-48.365
+    - kind: fucking
+      range: 53.065-53.480
+    - kind: idiot
+      range: 53.480-54.126
+    - kind: shit
+      range: 56.846-57.663
+  - path: "0x1BA38927"
+    replace: *armenian_3_mcs_9_seq_mastered_only
+  - path: "0x1D35C75E"
+    replace: *armenian_3_mcs_9_seq_mastered_only
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_AAAA_
+  files:
+  - $$: "Gardener: *spanish*."
+  - $$: "Gardener: *spanish*."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AC
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Stacy: Oh my god. Seriously. My brother is such a *."
-    replace:
-    - kind: homo
-      range: 03.008-03.431
-  - path: AB_01
-    transcript: "Stacy: I think he has a medical problem. Like, more medical problems that the ones he's already been diagnosed with."
-  - path: AC_01
-    transcript: "Stacy: Mental ones. Seriously. Penises are not meant to be that small."
-  - path: AD_01
-    transcript: "Stacy: I * know right, I've seen enough of them. It's probably because he's so fat."
-    replace:
-    - kind: fucking
-      range: 00.288-00.626
-  - path: AE_01
-    transcript: "Stacy: I still love him though. Sort of."
-  - path: AF_01
-    transcript: "Stacy: Well, the other day I walked in on him. And he was * over pictures of my friends."
-    replace:
-    - kind: jerking-off
-      range: 02.936-04.051
-  - path: AG_01
-    transcript: "Stacy: Haha, no not you, haha. The hot ones. Lauren and Lisa."
-  - path: AH_01
-    transcript: "Stacy: No I didn't mean it like that. You're beautiful."
-  - path: AI_01
-    transcript: "Stacy: And interesting it's just that guys don't. They just don't get you."
-  - path: AJ_01
-    transcript: "Stacy: Hello? Hello? *"
-    replace:
-    - kind: fuck
-      range: 04.206-04.900
-  - path: AK_01
-    transcript: "Stacy: Whatever. *."
-    replace:
-    - kind: bitch
-      range: 01.456-01.993
-  - path: AL_01
-    transcript: "Stacy: hehe."
+  - $@: "Stacy: Oh my god. Seriously. My brother is such a [homo]{3.008-3.431}."
+  - $@: "Stacy: I think he has a medical problem. Like, more medical problems that the ones he's already been diagnosed with."
+  - $@: "Stacy: Mental ones. Seriously. Penises are not meant to be that small."
+  - $@: "Stacy: I [fucking]{.288-.626} know right, I've seen enough of them. It's probably because he's so fat."
+  - $@: "Stacy: I still love him though. Sort of."
+  - $@: "Stacy: Well, the other day I walked in on him. And he was [jerking off]{2.936-4.051} over pictures of my friends."
+  - $@: "Stacy: Haha, no not you, haha. The hot ones. Lauren and Lisa."
+  - $@: "Stacy: No I didn't mean it like that. You're beautiful."
+  - $@: "Stacy: And interesting it's just that guys don't. They just don't get you."
+  - $@: "Stacy: Hello? Hello? [Fuck]{4.206-4.900}."
+  - $@: "Stacy: Whatever. [Bitch]{1.456-1.993}."
+  - $@: "Stacy: hehe."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AD
+  suffix: _01
   files:
-  - path: AB_01
-    transcript: "Coach: Yeah loosen them up. There you go. And follow through. Perfect."
-  - path: AC_01
-    transcript: "Coach: You're a real pro Mrs. Desanta. A real pro."
-  - path: AD_01
-    transcript: "Amanda: I think I'm getting it."
-  - path: AE_01
-    transcript: "Amanda: U-huh. Ok."
-  - path: AF_01
-    transcript: "Amanda: Yeah I could get used to this."
-  - path: AG_01
-    transcript: "Coach: Excellent. Yes. Now, slide your hips slow and sit into it right here. No, right here."
-  - path: AH_01
-    transcript: "Amanda: Oh yeah. Haha. I could totally get used to this. Haha."
-  - path: AI_01
-    transcript: "Coach: Yeah. Me too."
-  - path: AJ_01
-    transcript: "Amanda: You're a great student. Now loosen up those hips."
-  - path: AK_01
-    transcript: "Amanda: Ok. Like this?"
-  - path: AL_01
-    transcript: "Coach: Ok... Amanda. Now just follow through."
-  - path: AM_01
-    transcript: "Coach: Wow. You've got great hips, you know that? Follow through."
+    AB: "Coach: Yeah loosen them up. There you go. And follow through. Perfect."
+    AC: "Coach: You're a real pro Mrs. Desanta. A real pro."
+    AD: "Amanda: I think I'm getting it."
+    AE: "Amanda: U-huh. Ok."
+    AF: "Amanda: Yeah I could get used to this."
+    AG: "Coach: Excellent. Yes. Now, slide your hips slow and sit into it right here. No, right here."
+    AH: "Amanda: Oh yeah. Haha. I could totally get used to this. Haha."
+    AI: "Coach: Yeah. Me too."
+    AJ: "Amanda: You're a great student. Now loosen up those hips."
+    AK: "Amanda: Ok. Like this?"
+    AL: "Coach: Ok... Amanda. Now just follow through."
+    AM: "Coach: Wow. You've got great hips, you know that? Follow through."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AE
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Michael: That's a 9-mm automatic pushed against your skull."
-  - path: AB_01
-    transcript: "Michael: Ah. Don't look around. You just keep driving where you're going."
+    AA: "Michael: That's a 9-mm automatic pushed against your skull."
+    AB: "Michael: Ah. Don't look around. You just keep driving where you're going."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AF
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Tracy: gasp."
-  - path: AB_01
-    transcript: "Tracy: Who the * are you? Daaaaaad!"
-    replace:
-    - kind: fuck
-      range: 00.675-00.957
-  - path: AC_01
-    transcript: "Tracy: Daaaaaad!"
+  - $@: "Tracy: gasp."
+  - $@: "Tracy: Who the [fuck]{.675-.957} are you? Daaaaaad!"
+  - $@: "Tracy: Daaaaaad!"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AG
+  file_prefix: ARM3_AGAA_
   files:
-  - path: AA_01
-    transcript: "Gardener: Hola."
-  - path: AA_02
-    transcript: "Gardener: Quien es?"
-  - path: AA_03
-    transcript: "Gardener: Excuse me?"
+  - $$: "Gardener: Hola."
+  - $$: "Gardener: Quien es?"
+  - $$: "Gardener: Excuse me?"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AI
+  file_prefix: ARM3_AIAA_
   files:
-  - path: AA_01
-    transcript: "Gardener: Huh?"
-  - path: AA_02
-    transcript: "Gardener: No. Es nada."
+  - $$: "Gardener: Huh?"
+  - $$: "Gardener: No. Es nada."
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AJ
+  file_prefix: ARM3_AJAA_
   files:
-  - path: AA_01
-    transcript: "Gardener: You don't belong here."
-  - path: AA_02
-    transcript: "Gardener: Who are you?"
+  - $$: "Gardener: You don't belong here."
+  - $$: "Gardener: Who are you?"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AL
+  file_prefix: ARM3_ALAA_
   files:
-  - path: AA_01
-    transcript: "Jimmy: Oh ouch. *"
-    replace:
-    - kind: rapearino
-      range: 01.669-02.785
-  - path: AA_02
-    transcript: "Jimmy: Get off my face you *"
-    replace:
-    - kind: fucking-homo
-      range: 01.170-02.147
-  - path: AA_03
-    transcript: "Jimmy: Haha. L-O-L. You suck fat mans *."
-    replace:
-    - kind: dick
-      range: 02.369-02.817
-  - path: AA_04
-    transcript: "Jimmy: I don't care if you're twelve. I'll still * you."
-    replace:
-    - kind: rape
-      range: 01.887-02.122
-  - path: AA_05
-    transcript: "Jimmy: I'll cut your * off if you call the administrator. Hey, you know what? I am the administrator."
-    replace:
-    - kind: dick
-      range: 00.563-00.687
-  - path: AA_06
-    transcript: "Jimmy: Oh. Slaughtertime."
-  - path: AA_07
-    transcript: "Jimmy: Dead you *."
-    replace:
-    - kind: fucking-idiot
-      range: 00.609-01.199
-  - path: AA_08
-    transcript: "Jimmy: You're a waste of * *"
-    replace:
-    - kind: semen
-      range: 00.928-01.494
-    - kind: bitch
-      range: 01.494-02.139
+  - $$: "Jimmy: Oh ouch. [Rape-a-rino]{1.669-2.785}!"
+  - $$: "Jimmy: Get off my face you [fucking homo]{1.170-2.147}."
+  - $$: "Jimmy: Haha. L-O-L. You suck fat mans [dick]{2.369-2.817}."
+  - $$: "Jimmy: I don't care if you're twelve. I'll still [rape]{1.887-2.122} you."
+  - $$: "Jimmy: I'll cut your [dick]{.563-.687} off if you call the administrator. Hey, you know what? I am the administrator."
+  - $$: "Jimmy: Oh. Slaughtertime."
+  - $$: "Jimmy: Dead you [fucking idiot]{.609-1.199}."
+  - $$: "Jimmy: You're a waste of [semen]{.928-1.494} [bitch]{1.494-2.139}"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AM
+  file_prefix: ARM3_AMAA_
   files:
-  - path: AA_01
-    transcript: "Gardener: Mr. Desanta! Mr. Desanta!"
-  - path: AA_02
-    transcript: "Gardener: Mr. Desanta! There is someone here!"
+  - $$: "Gardener: Mr. Desanta! Mr. Desanta!"
+  - $$: "Gardener: Mr. Desanta! There is someone here!"
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AP
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Franklin: Hey come on man. This was a repo job. Guy was behind on his * note."
-    replace:
-    - kind: fucking
-      range: 03.290-03.749
-  - path: AB_01
-    transcript: "Michael: Unlikely, considering my son just got the car."
-  - path: AC_01
-    transcript: "Franklin: Credit fraud, be serious dude. I just work the * repo."
-    replace:
-    - kind: fucking
-      range: 03.190-03.635
-  - path: AD_01
-    transcript: "Michael: Who gives you the slip?"
-  - path: AE_01
-    transcript: "Franklin: A car dealer dawg. By the name of Simeon Yetarian."
-  - path: AF_01
-    transcript: "Michael: Yetarian. What, that nice Irish guy huh?"
-  - path: AG_01
-    transcript: "Franklin: I think *, I think he Armenian."
-    replace:
-    - kind: shit
-      range: 00.509-00.836
-  - path: AH_01
-    transcript: "Michael: So this businessman. He look legit to you?"
-  - path: AI_01
-    transcript: "Franklin: Yeah, yeah. Like I said man."
-  - path: AJ_01
-    transcript: "Michael: Yeah, yeah, yeah. You don't know the wiser where forest."
-  - path: AK_01
-    transcript: "Franklin: Look man. It's just between him and your * son."
-    replace:
-    - kind: fucking
-      range: 02.109-02.504
-  - path: AL_01
-    transcript: "Michael: And looking at the way you're going about this. My guess, you're working a credit fraud."
-  - path: AM_01
-    transcript: "Michael: I appreciate a kid who follows orders without taking responsibility."
-  - path: AN_01
-    transcript: "Michael: Don't worry. Me and mister Yetarian, we'll work this out."
-  - path: AO_01
-    transcript: "Michael: And me and you, we can laugh about it over a drink some time. I'll teach you the ways of the world."
-  - path: AP_01
-    transcript: "Michael: So old Simeon. He's on to something with you?"
-  - path: AQ_01
-    transcript: "Franklin: I don't know anything about the how, why's, or what's of this *. They give me a * slip man. I get the car."
-    replace:
-    - kind: shit
-      range: 02.579-02.977
-    - kind: fucking
-      range: 03.711-04.094
-  - path: AT_01
-    transcript: "Michael: Yeah maybe one day we'll have a beer. I'll explain how the world really works."
+  - $@: "Franklin: Hey come on man. This was a repo job. Guy was behind on his [fucking]{3.290-3.749} note."
+  - $@: "Michael: Unlikely, considering my son just got the car."
+  - $@: "Franklin: Credit fraud? Be serious dude. I just work the [fucking]{3.190-3.635} repo."
+  - $@: "Michael: Who gives you the slip?"
+  - $@: "Franklin: A car dealer dawg. By the name of Simeon Yetarian."
+  - $@: "Michael: Yetarian. What, that nice Irish guy huh?"
+  - $@: "Franklin: I think [shit]{.509-.836}, I think he Armenian."
+  - $@: "Michael: So this businessman. He look legit to you?"
+  - $@: "Franklin: Yeah, yeah. Like I said man."
+  - $@: "Michael: Yeah, yeah, yeah. You don't know the wiser where forest."
+  - $@: "Franklin: Look man. It's just between him and your [fucking]{2.109-2.504} son."
+  - $@: "Michael: And looking at the way you're going about this. My guess, you're working a credit fraud."
+  - $@: "Michael: I appreciate a kid who follows orders without taking responsibility."
+  - $@: "Michael: Don't worry. Me and mister Yetarian, we'll work this out."
+  - $@: "Michael: And me and you, we can laugh about it over a drink some time. I'll teach you the ways of the world."
+  - $@: "Michael: So old Simeon. He's on to something with you?"
+  - $@: "Franklin: I don't know anything about the how, why's, or what's of this [shit]{2.579-2.977}. They give me a [fucking]{3.711-4.094} slip man. I get the car."
+  - AT: "Michael: Yeah maybe one day we'll have a beer. I'll explain how the world really works."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AR
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Jimmy: Holy * * bro. Dad!"
-    replace:
-    - kind: fucking
-      range: 00.620-00.943
-    - kind: shit
-      range: 00.943-01.341
-  - path: AB_01
-    transcript: "Jimmy: Dad there's a dude! Dad help! Dad!"
+  - $@: "Jimmy: Holy [fucking]{.620-.943} [shit]{.943-1.341} bro. Dad!"
+  - $@: "Jimmy: Dad there's a dude! Dad help! Dad!"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AT
+  file_prefix: ARM3_ATAA_
   files:
-  - path: AA_01
-    transcript: "Michael: And who might you be?"
-  - path: AA_02
-    transcript: "Michael: Hey, I told Tracy boys could come in the front door."
-  - path: AA_03
-    transcript: "Michael: What are you doing back here? Serenading my daughter?"
-  - path: AA_04
-    transcript: "Michael: No pool party in this yard kid."
+  - $$: "Michael: And who might you be?"
+  - $$: "Michael: Hey, I told Tracy boys could come in the front door."
+  - $$: "Michael: What are you doing back here? Serenading my daughter?"
+  - $$: "Michael: No pool party in this yard kid."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AU
   files:
-  - path: AA_01
-    transcript: "Simeon: If I don't get this * money it's your fault."
-    replace:
-    - kind: idiots
-      range: 00.889-01.244
-  - path: AA_02
-    transcript: "Simeon: Can't you see I'm doing business?"
-  - path: AA_03
-    transcript: "Simeon: You just lost me a sale."
+    AA_01: "Simeon: If I don't get this [idiots]{.889-1.244} money it's your fault."
+    AA_02: "Simeon: Can't you see I'm doing business?"
+    AA_03: "Simeon: You just lost me a sale."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_AW
   files:
-  - path: AA_01
-    transcript: "Michael: Don't look around. Take me where you're going."
+    AA_01: "Michael: Don't look around. Take me where you're going."
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AX
+  file_prefix: ARM3_AXAA_
   files:
-  - path: AA_01
-    transcript: "Simeon: I've got this covered. Go and get the car."
-  - path: AA_02
-    transcript: "Simeon: Rockford hills. The yellow 4x4."
-  - path: AA_03
-    transcript: "Simeon: This is under control. Get the car OK?"
+  - $$: "Simeon: I've got this covered. Go and get the car."
+  - $$: "Simeon: Rockford hills. The yellow 4x4."
+  - $$: "Simeon: This is under control. Get the car OK?"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AY
+  file_prefix: ARM3_AYAA_
   files:
-  - path: AA_01
-    transcript: "Simeon: You're wasting my time."
-  - path: AA_02
-    transcript: "Simeon: Buy the car or get off the floor."
-  - path: AA_03
-    transcript: "Simeon: All this time I could be mentoring the disadvantaged."
-  - path: AA_04
-    transcript: "Simeon: Perhaps a rich * like you can waste the day. But I have children to feed. Decide."
-    replace:
-    - kind: idiot
-      range: 00.848-01.171
+  - $$: "Simeon: You're wasting my time."
+  - $$: "Simeon: Buy the car or get off the floor."
+  - $$: "Simeon: All this time I could be mentoring the disadvantaged."
+  - $$: "Simeon: Perhaps a rich [idiot]{.848-1.171} like you can waste the day. But I have children to feed. Decide."
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_AZ
+  file_prefix: ARM3_AZAA_
   files:
-  - path: AA_01
-    transcript: "Customer: Give me a minute."
-  - path: AA_02
-    transcript: "Customer: Look. I'm thinking."
-  - path: AA_03
-    transcript: "Customer: I've gotta be sure this is the right decision."
-  - path: AA_04
-    transcript: "Customer: Can you speak to another customer and come back to me?"
+  - $$: "Customer: Give me a minute."
+  - $$: "Customer: Look. I'm thinking."
+  - $$: "Customer: I've gotta be sure this is the right decision."
+  - $$: "Customer: Can you speak to another customer and come back to me?"
 
 - path: SS_AC/arm3
-  file_prefix: ARM3_BC
+  file_prefix: ARM3_BCAA_
   files:
-  - path: AA_01
-    transcript: "Simeon: A suddenly you aren't so tough."
-  - path: AA_02
-    transcript: "Simeon: Where are you going? Coward."
-  - path: AA_03
-    transcript: "Simeon: I thought we were having a conversation."
-  - path: AA_04
-    transcript: "Simeon: Are you not man enough to finish this?"
-  - path: AA_05
-    transcript: "Simeon: Look at him. Running away from the fight."
+  - $$: "Simeon: A suddenly you aren't so tough."
+  - $$: "Simeon: Where are you going? Coward."
+  - $$: "Simeon: I thought we were having a conversation."
+  - $$: "Simeon: Are you not man enough to finish this?"
+  - $$: "Simeon: Look at him. Running away from the fight."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_BF
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Franklin: Hey come one man. It's kinda hard to concentrate on the road with this * gun to my head."
-    replace:
-    - kind: fucking
-      range: 03.422-03.878
-  - path: AB_01
-    transcript: "Michael: Yeah, then you gonna have to try and focus a little harder."
-  - path: AC_01
-    transcript: "Franklin: Dude. I got the slip man. This * is legit."
-    replace:
-    - kind: shit
-      range: 02.401-02.671
-  - path: AD_01
-    transcript: "Michael: There's nothing legit about creeping into a man's house kid."
-  - path: AE_01
-    transcript: "Michael: I don't think the tax man will find much legitimacy in your books either."
-  - path: AF_01
-    transcript: "Franklin: Oh, but this piece that you've got to the back of my skull. Is that legit?"
-  - path: AG_01
-    transcript: "Michael: Who put you up to this?"
-  - path: AH_01
-    transcript: "Franklin: * man. My employer. Dude named Simeon Yetarian."
-    replace:
-    - kind: fuck
-      range: 00.123-00.527
-  - path: AI_01
-    transcript: "Michael: Sounds like a fraudster."
-  - path: AJ_01
-    transcript: "Franklin: Why cause he Armenian? Man you sound like a racist."
-  - path: AK_01
-    transcript: "Michael: Yeah I bet he taught you to pull that * card huh?"
-    replace:
-    - kind: bullshit
-      range: 01.693-02.153
-  - path: AL_01
-    transcript: "Franklin: Man look, this * between y'all two. Ok, leave me out of this. All right?"
-    replace:
-    - kind: shit
-      range: 00.596-00.838
-  - path: AM_01
-    transcript: "Michael: How about I buy you a bear and make up the inconvenience? Teach you the ways of the world."
-  - path: AN_01
-    transcript: "Franklin: Man I prefer to get the * out of this vehicle."
-    replace:
-    - kind: fuck
-      range: 01.036-01.339
-  - path: AO_01
-    transcript: "Michael: All in good time."
+  - $@: "Franklin: Hey come one man. It's kinda hard to concentrate on the road with this [fucking]{3.422-3.878} gun to my head."
+  - $@: "Michael: Yeah, then you gonna have to try and focus a little harder."
+  - $@: "Franklin: Dude. I got the slip man. This [shit]{2.401-2.671} is legit."
+  - $@: "Michael: There's nothing legit about creeping into a man's house kid."
+  - $@: "Michael: I don't think the tax man will find much legitimacy in your books either."
+  - $@: "Franklin: Oh, but this piece that you've got to the back of my skull. Is that legit?"
+  - $@: "Michael: Who put you up to this?"
+  - $@: "Franklin: [Fuck]{.123-.527} man. My employer. Dude named Simeon Yetarian."
+  - $@: "Michael: Sounds like a fraudster."
+  - $@: "Franklin: Why cause he Armenian? Man you sound like a racist."
+  - $@: "Michael: Yeah I bet he taught you to pull that [bullshit]{1.693-2.153} card huh?"
+  - $@: "Franklin: Man look, this [shit]{.596-.838} between y'all two. Ok, leave me out of this. All right?"
+  - $@: "Michael: How about I buy you a bear and make up the inconvenience? Teach you the ways of the world."
+  - $@: "Franklin: Man I prefer to get the [fuck]{1.036-1.339} out of this vehicle."
+  - $@: "Michael: All in good time."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BGAA_
+  files:
+  - $$: "Michael: Hey!"
+  - $$: "Michael: What are you a [fuckin']{.503-.767} idiot?"
+  - $$: "Michael: My finger's on the trigger, [dip shit]{1.367-2.154}!"
+  - $$: "Michael: Watch it!"
+  - $$: "Michael: Easy!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BHAA_
+  files:
+  - $$: "Michael: Don't draw attention."
+  - $$: "Michael: Smooth."
+  - $$: "Michael: Why the [fuck]{.466-.729} would you do that?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BIAA_
+  files:
+  - $$: "Michael: Don't do anything stupid."
+  - $$: "Michael: Take me where you're going. Nowhere else."
+  - $$: "Michael: This had better be the [fucking]{.812-1.068} way home."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BJAA_
+  files:
+    - $$: "Michael: I said drive."
+    - $$: "Michael: Take me where you were going."
+    - $$: "Michael: What you need some motivation? Drive."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BKAA_
+  files:
+    - $$: "Michael: Nu uh. Stay in the car."
+    - $$: "Michael: Don't even think about running."
+    - $$: "Michael: Kid. You ain't gonna outrun a bullet."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BLAA_
+  files:
+    - $$: "Michael: Put the phone away."
+    - $$: "Michael: Uh uh. This is a no call zone."
+    - $$: "Michael: Put that thing away."
+    - $$: "Michael: Your girlfriend can wait."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BNAA_
+  files:
+    - $$: "Coach: Okay, one more time."
+    - $$: "Coach: And follow through."
+    - $$: "Coach: There you go."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BQAA_
+  files:
+    - $$: "Franklin: Awww [shit]{.673-1.655}!"
+    - $$: "Franklin: [Shit]{^-1.096}!"
+    - $$: "Franklin: [Damn]{.019-$}!"
+    - $$: "Franklin: Man, [shit]{.485-1.247}, nooo!"
+    - $$: "Franklin: [Shitty]{^-.438} situations, dog."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BSAA_
+  files:
+    - $$: "Simeon: Argh!"
+    - $$: "Simeon: Crazy man!"
+    - $$: "Simeon: You've gone mad!"
+    - $$: "Simeon: I'm within the lines of the law."
+    - $$: "Simeon: I'll get my lawyer."
+    - $$: "Simeon: I know people, you know."
+    - $$: "Simeon: I'm within the lines of the law."
+    - $$: "Simeon: What is wrong with you."
+    - $$: "Simeon: You're [fucking]{.271-1.060} mental!"
+    - $$: "Simeon: You'll pay for that window."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BTAA_
+  files:
+    - $$: "Michael: Do it!"
+    - $$: "Michael: Come on, kid!"
+    - $$: "Michael: I still got this gun to your head!"
+    - $$: "Michael: Ram it already."
+    - $$: "Michael: Let's go!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BU
+  suffix: _01
+  files:
+    - $@: "Michael: You think you can take me for a ride?"
+    - $@: "Michael: You think you can take my family for a ride?"
+    - $@: "Michael: You're [scum]{.575-.943}!"
+    - $@: "Michael: I ain't a mark."
+    - $@: "Michael: You're the mark."
+    - $@: "Michael: I know where you work."
+    - $@: "Michael: I know your name."
+    - $@: "Michael: You got any problems with me."
+    - $@: "Michael: You know where to find me."
+    - $@: "Michael: Your dealership is payback."
+    - $@: "Michael: And your face is a bonus."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_BVAA_
+  files:
+    - $$: "Michael: [Fucking]{.012-.342} asshole."
+    - $$: "Michael: I spit on punks like you!"
+    - $$: "Michael: Be an honest criminal."
+    - $$: "Michael: Fraudster punk!"
+    - $$: "Michael: Bottom feeder!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CE
+  suffix: _01
+  files:
+    - $@: "Simeon: You don't like me because you think that I am an arab."
+    - $@: "Customer: What? No! What are you talking about? It's nothing like that!"
+    - $@: "Simeon: Excuse me."
+    - $@: "Customer: Wait!"
+    - $@: "Simeon: That boy. I am his mentor."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CF
+  suffix: _01
+  files:
+    - $@: "Simeon: It's so good to see you my boy!"
+    - $@: "Simeon: Good luck in... Law School."
+    - $@: "Simeon: So, Mr. Kenneth, were we at financing?"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CK
+  suffix: _01
+  files:
+    - $@: "Tracy: Get off your ass and help me, little [cock]{2.394-$}!"
+    - $@: "Jimmy: It's just 'cause you have a massive [gaper]{1.518-2.035}, [bitch]{2.035-$}."
+    - $@: "Tracy: You are really pathetic!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CL
+  suffix: _01
+  files:
+    - $@: "Tracy: You're such a complete loser!"
+    - $@: "Jimmy: You [suck]{.244-.891}."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CQ
+  suffix: _01
+  files:
+    - $@: "Franklin: Hey Simeon, I got the ride man. I'm coming back."
+    - $@: "Simeon: If you actually bring the reposession to me this time, I can have it back out on the street before the day is done."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CR
+  suffix: _01
+  files:
+    - $@: "Franklin: Hey Simeon, I got the ride man. I'm coming back."
+    - $@: "Simeon: If you actually bring the reposession to me this time, I can have it back out on the street before the day is done."
+    - $@: "Simeon: I'll get Sasha to go to the house and collect your car for you."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CS
+  suffix: _01
+  files:
+    - $@: "Franklin: Hey man, it's just up here."
+    - $@: "Michael: Okay. Stop the car. Pull up."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CT
+  suffix: _01
+  files:
+    - $@: "Franklin: Eh, did you change your mind?"
+    - $@: "Simeon: When I discover that you betray me, perhaps."
+    - $@: "Franklin: Listen, man, me and Lamar was gonna get that back to you, dog."
+    - $@: "Simeon: Oh, I am sure! You will get this car off the Daddy's boy, and then we talk."
+    - $@: "Simeon: Insurance papers say they have a locked garage, so you'll need to gain access from inside the house."
+    - $@: "Franklin: Man, it's never easy with you, is it, Simeon?"
+    - $@: "Simeon: Do not talk to me about easy, you thief!"
+    - $@: "Simeon: I hear you took the bike for yourself, my Employee of the Month!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CU
+  suffix: _01
+  files:
+    - $@: "Customer: The financing - it... it seems like a [shitty]{1.348-1.633} deal."
+    - $@: "Simeon: Because of the color of my skin, you think I am a scammer?"
+    - $@: "Customer: No... skin color's got nothing to do with it..."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CV
+  suffix: _01
+  files:
+    - $@: "Customer: My credit's okay, and this is all like high risk financing..."
+    - $@: "Simeon: Yes. You are a risk. I will not give my stock away just because you are a white man."
+    - $@: "Customer: No, I want a fair deal because I'm a responsible borrower in long term employment..."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CW
+  suffix: _01
+  files:
+    - $@: "Customer: Can you let me think about it?"
+    - $@: "Simeon: What's to think about? You're either a man or you're a [vagina]{3.351-$}."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CX
+  suffix: _01
+  files:
+    - $@: "Customer: It just doesn't feel right."
+    - $@: "Simeon: You do not feel right."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CY
+  suffix: _01
+  files:
+    - $@: "Jimmy: He tried to stealth attack me? No one creeps on the J-dog, my [niggas]{3.759-$}!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_CZ
+  suffix: _01
+  files:
+    - $@: "Jimmy: He tried to knife attack me? No one creeps on the J-dog, my [niggas]{3.852-$}!"
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_DA
+  suffix: _01
+  files:
+    - $@: "Jimmy: Come on, my [nigga]{.641-1.121}, lay down and take your tea bagging like a [biatch]{3.196-3.947}."
+
+- path: SS_AC/arm3
+  file_prefix: ARM3_DB
+  suffix: _01
+  files:
+    - $@: "Jimmy: Come on, [biatch]{.451-.943}, lay down and take your tea bagging like a man."
 
 - path: SS_AC/arm3
   file_prefix: ARM3_DC
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Jimmy: That's just cause you have a massive * *."
-    replace:
-    - kind: gaper
-      range: 01.521-02.028
-    - kind: bitch
-      range: 02.028-02.687
-  - path: AB_01
-    transcript: "Stacy: * * you're dead. Dad! He said I have a massive..."
-    replace:
-    - kind: fucking
-      range: 00.346-00.739
-    - kind: homo
-      range: 00.739-01.066
-  - path: AC_01
-    transcript: "Stacy: Jimmy called me a *!"
-    replace:
-    - kind: bitch
-      range: 01.357-02.282
+    - $@: "Jimmy: It's just cause you have a massive [gaper]{1.521-2.028}, [bitch]{2.028-2.687}."
+    - $@: "Stacy: [fucking]{.346-.739} [homo]{.739-1.066} you're dead. Dad! He said I have a massive..."
+    - $@: "Stacy: Jimmy called me a [bitch]{1.357-2.282}!"
 
 - path: SS_AC/arm3
   file_prefix: ARM3_DD
+  suffix: _01
   files:
-  - path: AA_01
-    transcript: "Coach: You're a real pro Mrs. Desanta. A real pro."
-  - path: AB_01
-    transcript: "Amanda: Thank you coach."
+    - $@: "Coach: You're a real pro Mrs. Desanta. A real pro."
+    - $@: "Amanda: Thank you coach."
