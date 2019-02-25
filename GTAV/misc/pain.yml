@@ -1,0 +1,15 @@
+# Pain Sounds
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/waveload_pain_female
+  whitelist: true
+- path: S_MISC/waveload_pain_franklin
+  whitelist: true
+- path: S_MISC/waveload_pain_male
+  whitelist: true
+- path: S_MISC/waveload_pain_michael
+  whitelist: true
+- path: S_MISC/waveload_pain_trevor
+  whitelist: true

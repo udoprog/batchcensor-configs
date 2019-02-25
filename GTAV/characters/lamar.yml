@@ -1,0 +1,8 @@
+# Lamar voice lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/lamar_1_normal
+- path: S_MISC/lamar_2_normal
+- path: S_MISC/lamar_drunk

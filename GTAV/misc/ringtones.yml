@@ -1,0 +1,9 @@
+# Other
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/npc_ringtones
+  whitelist: true
+- path: S_MISC/player_ringtones
+  whitelist: true

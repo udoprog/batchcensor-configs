@@ -1,0 +1,7 @@
+# Jimmy Voice Lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/jimmy_drunk
+- path: S_MISC/jimmy_normal

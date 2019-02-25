@@ -1,0 +1,7 @@
+# Amanda Voice Lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/amanda_drunk
+- path: S_MISC/amanda_normal

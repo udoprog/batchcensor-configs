@@ -40,54 +40,20 @@ dirs:
     replace:
     - kind: fuck
       range: 00.000-00.317
-  - path: BLIND_RAGE_02
-    transcript: "You're all * dead!"
-    replace:
-    - kind: fucking
-      range: 00.730-01.292
-  - path: BLIND_RAGE_03
-    transcript: "You have a * clue who you're * with?"
-    replace:
-    - kind: fucking
-      range: 00.539-00.932
-    - kind: fucking
-      range: 01.590-01.927
-  - path: BLIND_RAGE_04
-    transcript: "Yeah! Yeah!? * Yeah!"
-    replace:
-    - kind: fucking
-      range: 01.771-02.277
-  - path: BLIND_RAGE_05
-    transcript: "Come on! Come on *, come on!"
-    replace:
-    - kind: mother-fuckers
-      range: 01.682-02.403
-  - path: BLIND_RAGE_06
-    transcript: "* you!"
-    replace:
-    - kind: fuck
-      range: 00.000-00.949
-  - path: BLIND_RAGE_07
-    transcript: "Come on! Let's end this *!"
-    replace:
-    - kind: shit
-      range: 02.092-02.654
-  - path: BLIND_RAGE_08
-    transcript: "Kill me then!"
-  - path: BLIND_RAGE_09
-    transcript: "You *!"
-    replace:
-    - kind: mother-fuckers
-      range: 01.064-02.849
+  - BLIND_RAGE_02: "You're all [fucking]{.730-1.292} dead!"
+  - BLIND_RAGE_03: "You have a [fucking]{.539-.932} clue who you're [fucking]{1.590-1.927} with?"
+  - BLIND_RAGE_04: "Yeah! Yeah!? [fucking]{1.771-2.277} Yeah!"
+  - BLIND_RAGE_05: "Come on! Come on [motherfuckers]{1.682-2.403}, come on!"
+  - BLIND_RAGE_06: "[Fuck]{^-.949} you!"
+  - BLIND_RAGE_07: "Come on! Let's end this [shit]{2.092-2.654}!"
+  - BLIND_RAGE_08: "Kill me then!"
+  - BLIND_RAGE_09: "You [motherfuckers]{1.064-2.849}!"
   - path: BOOTY_FLIRT_RESP_01
   - path: BOOTY_FLIRT_RESP_02
   - path: BOOTY_FLIRT_RESP_03
   - path: BOOTY_FLIRT_RESP_04
   - path: BOOTY_FLIRT_RESP_05
-  - path: BUDDY_SEES_FRANKLIN_DEATH_01
-    replace:
-    - kind: shit
-      range: 00.000-00.448
+  - BUDDY_SEES_FRANKLIN_DEATH_01: "[Shit]{^-.448}! Franklin!"
   - path: BUDDY_SEES_FRANKLIN_DEATH_02
   - path: BUDDY_SEES_FRANKLIN_DEATH_03
     replace:
@@ -111,9 +77,7 @@ dirs:
   - path: BUMP_02
   - path: BUMP_03
   - path: BUMP_04
-    replace:
-    - kind: fucking
-      range: 00.294-00.622
+    transcript: "What are you [fucking]{.294-.622} drunk?"
   - path: CANT_LOSE_ENEMY_01
   - path: CANT_LOSE_ENEMY_02
   - path: CANT_LOSE_ENEMY_03
@@ -129,13 +93,9 @@ dirs:
   - path: CAR_HIT_PED_02
   - path: CAR_HIT_PED_03
   - path: CAR_HIT_PED_04
-    replace:
-    - kind: fucking
-      range: 01.179-01.729
+    transcript: "Get out the [fucking]{1.179-1.729} way!"
   - path: CAR_HIT_PED_05
-    replace:
-    - kind: shit
-      range: 00.175-00.598
+    transcript: "Ah [shit]{.175-.598}, sorry!"
   - path: CAR_HIT_PED_DRIVEN_01
   - path: CAR_HIT_PED_DRIVEN_02
   - path: CAR_HIT_PED_DRIVEN_03
@@ -151,56 +111,31 @@ dirs:
       range: 01.160-01.837
   - path: CHASED_BY_POLICE_06
   - path: CHASED_BY_POLICE_07
-    replace:
-    - kind: fucking
-      range: 00.560-00.904
+    transcript: "You're an eager [fucking]{.560-.904} beaver pal!"
   - path: CHASED_BY_POLICE_08
   - path: CRASH_CAR_01
-    transcript: "*!"
-    replace:
-    - kind: damn
-      range: 00.000-00.583
+    transcript: "[damn]{^-00.583}!"
   - path: CRASH_CAR_02
     transcript: "You fool!"
   - path: CRASH_CAR_03
-    transcript: "You * dick!"
-    replace:
-    - kind: fucking
-      range: 00.883-01.790
+    transcript: "You [fucking]{.883-1.790} [dick]{1.839-2.298}!"
   - path: CRASH_CAR_04
-    replace:
-    - kind: fucks-sake
-      range: 00.516-01.696
+    transcript: "Ah, for [fucks sake]{.516-1.696}!"
   - path: CRASH_CAR_05
   - path: CRASH_CAR_06
   - path: CRASH_CAR_07
-    replace:
-    - kind: prick
-      range: 01.325-01.787
+    transcript: "Hey you selfish [prick]{1.325-1.787}!"
   - path: CRASH_CAR_08
-    replace:
-    - kind: piece-of-shit
-      range: 01.190-02.107
+    transcript: "You entitled [piece of shit]{1.190-2.107}!"
   - path: CRASH_CAR_09
-  - path: CRASH_CAR_10
-    replace:
-    - kind: screwed
-      range: 01.209-01.429
+  - CRASH_CAR_10: "Oh you [screwed]{1.209-1.429} up my car!"
   - path: CRASH_CAR_11
   - path: CRASH_CAR_12
   - path: CRASH_CAR_13
   - path: CRASH_CAR_14
-  - path: CRASH_CAR_BASS_01
-    transcript: "*!"
-    replace:
-    - kind: damn
-      range: 00.000-00.583
+  - CRASH_CAR_BASS_01: "[damn]{^-.583}!"
   - path: CRASH_CAR_BASS_02
-  - path: CRASH_CAR_BASS_03
-    transcript: "You * dick!"
-    replace:
-    - kind: fucking
-      range: 00.914-01.854
+  - CRASH_CAR_BASS_03: "You [fucking]{.914-1.854} dick!"
   - path: CRASH_CAR_BASS_04
     replace:
     - kind: fucks-sake

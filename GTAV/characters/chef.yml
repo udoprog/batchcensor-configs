@@ -1,0 +1,6 @@
+# Chef voice lines
+
+file_extension: wav
+
+dirs:
+- path: S_MISC/chef
