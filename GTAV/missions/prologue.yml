@@ -26,13 +26,13 @@ dirs:
 - path: PROLOGUE/pro_mcs_5_seq_mastered_only
   files:
   - path: "0x0E2E26D9"
-  - path: "0x1AF6A7D9"
-  - path: "0x1F19C6C3"
-    replace:
+    replace: &pro_mcs_5_seq_mastered_only
     - kind: fuck
       range: 12.094-12.349
-    - kind: fuck
-      range: 16.014-16.133
+    - kind: shit
+      range: 15.140-15.474
+    - kind: fucking
+      range: 16.037-16.328
     - kind: bitches
       range: 16.658-16.967
     - kind: fuck
@@ -47,12 +47,18 @@ dirs:
       range: 44.381-44.673
     - kind: fuck
       range: 47.585-47.799
+  - path: "0x1AF6A7D9"
+    replace: *pro_mcs_5_seq_mastered_only
+  - path: "0x1F19C6C3"
+    replace: *pro_mcs_5_seq_mastered_only
   - path: "0x030F5BA4"
+    replace: *pro_mcs_5_seq_mastered_only
   - path: "0x059FA63E"
+    replace: *pro_mcs_5_seq_mastered_only
 - path: PROLOGUE/pro_mcs_6_seq_mastered_only
   files:
   - path: "0x0AB34148"
-    replace:
+    replace: &pro_mcs_6_seq_mastered_only
     - kind: fuck
       range: 17.502-17.944
     - kind: fucking
@@ -76,16 +82,22 @@ dirs:
     - kind: fucking
       range: 01:01.746-01:01.746
   - path: "0x1B966857"
+    replace: *pro_mcs_6_seq_mastered_only
   - path: "0x1ED21064"
+    replace: *pro_mcs_6_seq_mastered_only
   - path: "0x12D76E19"
+    replace: *pro_mcs_6_seq_mastered_only
   - path: "0x013AB1F3"
+    replace: *pro_mcs_6_seq_mastered_only
 - path: CUTSCENE_MASTERED_ONLY/pro_mcs_7_seq_mastered_only
   files:
   - path: "0x0B642CFF"
-    replace:
+    replace: &pro_mcs_7_seq_mastered_only
     - kind: fucking
       range: 15.790-16.143
     - kind: fucking
       range: 17.701-18.114
   - path: "0x1C0F5E05"
+    replace: *pro_mcs_7_seq_mastered_only
   - path: "0x1CA9349A"
+    replace: *pro_mcs_7_seq_mastered_only
