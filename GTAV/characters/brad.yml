@@ -4,3 +4,15 @@ file_extension: wav
 
 dirs:
 - path: S_MISC/brad
+  file_prefix: AIMED_AT_BY_PLAYER_
+  files:
+  - $$: "Brad: If I point my gun at you I'll pull the trigger."
+  - $$: "Brad: You want me to shove mine up your [ass]{1.754-2.192}."
+
+- path: S_MISC/brad
+  file_prefix: BLIND_RAGE_
+  files:
+  - $$: "Brad: Ice these [pricks]{.681-1.290}!"
+  - $$: "Brad: Shoot them in the gut!"
+  - $$: "Brad: End these [cocksuckers]{.658-1.805}!"
+  - $$: "Brad: Come on! Come on!"
